@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v3.0.0a3 (Iveland) [ http://www.phoronix-test-suite.com/ ]-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>http://softlayer.dl.sourceforge.net/sourceforge/minion/minion-0.9-src.tar.gz, http://freefr.dl.sourceforge.net/sourceforge/minion/minion-0.9-src.tar.gz</URL>
+      <MD5>649dc34ebb12ea424983577cb092a306</MD5>
+      <FileSize>6812159</FileSize>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>
