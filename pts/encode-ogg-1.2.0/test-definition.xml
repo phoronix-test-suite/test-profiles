@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v3.0.0a3 (Iveland) [ http://www.phoronix-test-suite.com/ ]-->
+<PhoronixTestSuite>
+  <TestInformation>
+    <Title>Ogg Encoding</Title>
+    <AppVersion>1.2.0</AppVersion>
+    <Description>This test times how long it takes to encode a sample WAV file to Ogg format.</Description>
+    <SubTitle>WAV To Ogg</SubTitle>
+    <Executable>oggenc</Executable>
+  </TestInformation>
+  <TestProfile>
+    <Version>1.2.0</Version>
+    <SupportedPlatforms>Linux, Solaris, BSD</SupportedPlatforms>
+    <SoftwareType>Utility</SoftwareType>
+    <Extends>pts/timed-audio-encode</Extends>
+    <EnvironmentSize>6</EnvironmentSize>
+    <ProjectURL>http://www.vorbis.com/</ProjectURL>
+    <Maintainer>Michael Larabel</Maintainer>
+  </TestProfile>
+</PhoronixTestSuite>
