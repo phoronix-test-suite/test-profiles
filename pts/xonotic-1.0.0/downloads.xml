@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v3.0.0a5 (Iveland)-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>http://dl.xonotic.org/xonotic-0.1.0preview.zip</URL>
+      <MD5>aafb43893aa66e01488c817e3a60d96d</MD5>
+      <FileSize>1386789859</FileSize>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>
