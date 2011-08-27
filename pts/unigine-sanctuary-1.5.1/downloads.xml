@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v3.4.0m2 (Lillesand)-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>http://mirror74.homelinux.org/Soft/Info-Test/Unigine_benchmarks/Unigine_Sanctuary-2.3.run, http://getfr2.no-ip.org/pub/dc/software/unigine/Unigine_Sanctuary-2.3.run</URL>
+      <MD5>1b09cc3ec2273a011b84dba390befb9c</MD5>
+      <FileName>Unigine_Sanctuary-2.3.run</FileName>
+      <FileSize>29468416</FileSize>
+      <PlatformSpecific>Linux</PlatformSpecific>
+    </Package>
+    <Package>
+      <URL>http://getfr2.no-ip.org/pub/dc/software/unigine/Unigine_Sanctuary-2.3.msi</URL>
+      <MD5>210ace2670a368b9ece78153ac435fb9</MD5>
+      <FileName>Unigine_Sanctuary-2.3.msi</FileName>
+      <FileSize>30514688</FileSize>
+      <PlatformSpecific>Windows</PlatformSpecific>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>
