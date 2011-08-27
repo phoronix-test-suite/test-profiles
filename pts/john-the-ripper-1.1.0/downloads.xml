@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v3.4.0m2 (Lillesand)-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>http://www.openwall.com/john/g/john-1.7.8.tar.gz, http://download.openwall.net/pub/projects/john/1.7.8/john-1.7.8.tar.gz, http://distro.ibiblio.org/pub/linux/distributions/openwall/projects/john/1.7.8/john-1.7.8.tar.gz, http://her.gr.distfiles.macports.org/mirrors/linux/openwall/projects/john/1.7.8/john-1.7.8.tar.gz</URL>
+      <MD5>0bd21b4c430b114f81db0bf952db4a71</MD5>
+      <FileName>john-1.7.8.tar.gz</FileName>
+      <FileSize>849810</FileSize>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>
