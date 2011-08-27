@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v3.4.0m2 (Lillesand)-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>http://brick.kernel.dk/snaps/fio-1.57.tar.bz2, http://pkgs.fedoraproject.org/repo/pkgs/fio/fio-1.57.tar.bz2/64ebead423af4758af8b69224f3df5ab/fio-1.57.tar.bz2, ftp://ftp7.freebsd.org/pub/FreeBSD/ports/distfiles/fio-1.57.tar.bz2, ftp://ftp5.freebsd.org/pub/FreeBSD/ports/distfiles/fio-1.57.tar.bz2</URL>
+      <MD5>64ebead423af4758af8b69224f3df5ab</MD5>
+      <FileName>fio-1.57.tar.bz2</FileName>
+      <FileSize>345038</FileSize>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>
