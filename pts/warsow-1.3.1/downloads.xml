@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v3.4.0m2 (Lillesand)-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>http://www.zcdn.org/dl/warsow_0.61_unified.zip, http://mirror.asmirnoff.ru/rodist/warsow_0.61_unified.zip, http://ftp.wireplay.co.uk/pub/warsow/fullgame/unified/warsow_0.61_unified.zip</URL>
+      <MD5>dd17ffccf51579e6b278624727190c01</MD5>
+      <FileName>warsow_0.61_unified.zip</FileName>
+      <FileSize>473053649</FileSize>
+      <PlatformSpecific>Linux, Windows</PlatformSpecific>
+    </Package>
+    <Package>
+      <URL>http://www.zcdn.org/dl/warsow_0.61_mac.zip</URL>
+      <MD5>6bd8a32522eb1d5175601d4cce4b87f7</MD5>
+      <FileName>warsow_0.61_mac.zip</FileName>
+      <FileSize>471368220</FileSize>
+      <PlatformSpecific>MacOSX</PlatformSpecific>
+    </Package>
+    <Package>
+      <URL>http://www.phoronix-test-suite.com/benchmark-files/pts-warsow-4.zip, http://www.phoronix.net/downloads/phoronix-test-suite/benchmark-files/pts-warsow-4.zip</URL>
+      <MD5>2f8c620367e7389b8d6ca12b7d1f1bef</MD5>
+      <FileName>pts-warsow-4.zip</FileName>
+      <FileSize>310386</FileSize>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>
