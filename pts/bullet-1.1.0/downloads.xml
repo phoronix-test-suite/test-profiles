@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v3.4.0m2 (Lillesand)-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>http://bullet.googlecode.com/files/bullet-2.78.zip</URL>
+      <MD5>99d4070864c9f73521481ba9cda25038</MD5>
+      <FileName>bullet-2.78.zip</FileName>
+      <FileSize>9180715</FileSize>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>
