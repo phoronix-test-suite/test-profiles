@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v3.4.0m2 (Lillesand)-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>http://ffmpeg.org/releases/ffmpeg-0.8.2.tar.bz2</URL>
+      <MD5>967d481c98161582d149aced6e3b2f31</MD5>
+      <FileName>ffmpeg-0.8.2.tar.bz2</FileName>
+      <FileSize>4509790</FileSize>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>
