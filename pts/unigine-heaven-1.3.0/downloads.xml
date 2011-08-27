@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v3.4.0m2 (Lillesand)-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>http://78.47.135.172/Unigine_Heaven-2.5.run, http://getfr2.no-ip.org/pub/dc/software/unigine/Unigine_Heaven-2.5.run</URL>
+      <MD5>4c0470b6f8e87ff442eccb6e31f41e6e</MD5>
+      <FileName>Unigine_Heaven-2.5.run</FileName>
+      <FileSize>246471569</FileSize>
+      <PlatformSpecific>Linux</PlatformSpecific>
+    </Package>
+    <Package>
+      <URL>http://www.unigine.com/download/files/Unigine_Heaven-2.5.msi</URL>
+      <MD5>16228f35edcf357c5a7d4442924d835d</MD5>
+      <FileName>Unigine_Heaven-2.5.msi</FileName>
+      <FileSize>241351168</FileSize>
+      <PlatformSpecific>Windows</PlatformSpecific>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>
