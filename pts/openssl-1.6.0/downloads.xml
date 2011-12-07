@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v3.6.0m3 (Arendal)-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>http://www.openssl.org/source/openssl-1.0.0e.tar.gz</URL>
+      <MD5>7040b89c4c58c7a1016c0dfa6e821c86</MD5>
+      <FileName>openssl-1.0.0e.tar.gz</FileName>
+      <FileSize>4040229</FileSize>
+    </Package>
+    <Package>
+      <URL>http://www.slproweb.com/download/Win32OpenSSL_Light-1_0_0a.exe</URL>
+      <MD5>336b42a54f08012c846c3387327f531a</MD5>
+      <FileName>Win32OpenSSL_Light-1_0_0a.exe</FileName>
+      <FileSize>1952444</FileSize>
+      <PlatformSpecific>Windows</PlatformSpecific>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>
