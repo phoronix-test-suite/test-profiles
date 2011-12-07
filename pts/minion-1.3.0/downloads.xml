@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v3.6.0m3 (Arendal)-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>http://softlayer.dl.sourceforge.net/sourceforge/minion/minion-0.12-src.tar.gz, http://freefr.dl.sourceforge.net/sourceforge/minion/minion-0.12-src.tar.gz</URL>
+      <MD5>575f9c1d97e66fcd9e29da2fc470f588</MD5>
+      <FileName>minion-0.12-src.tar.gz</FileName>
+      <FileSize>8288893</FileSize>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>
