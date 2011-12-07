@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v3.6.0m3 (Arendal)-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>http://www.kernel.org/pub/linux/kernel/v3.0/linux-3.1.tar.bz2, http://mir0.gentoo-fr.org/distfiles/linux-3.1.tar.bz2</URL>
+      <MD5>8d43453f8159b2332ad410b19d86a931</MD5>
+      <FileName>linux-3.1.tar.bz2</FileName>
+      <FileSize>77190238</FileSize>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>
