@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v3.6.0m3 (Arendal)-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>http://ffmpeg.org/releases/ffmpeg-0.8.7.tar.bz2</URL>
+      <MD5>31da4d5610d7138761e23fab8fe3a84d</MD5>
+      <FileName>ffmpeg-0.8.7.tar.bz2</FileName>
+      <FileSize>4527751</FileSize>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>
