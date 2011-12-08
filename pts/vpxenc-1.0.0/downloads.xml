@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v3.6.0m4 (Arendal)-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>http://webm.googlecode.com/files/libvpx-v0.9.7-p1.tar.bz2</URL>
+      <MD5>bd888cffde8d9c3061c7fd719b0cd4ce</MD5>
+      <FileName>libvpx-v0.9.7-p1.tar.bz2</FileName>
+      <FileSize>1244783</FileSize>
+    </Package>
+    <Package>
+      <URL>http://media.xiph.org/video/derf/y4m/soccer_4cif.y4m</URL>
+      <MD5>5cd52920caed848964844ee768871b6c</MD5>
+      <FileName>soccer_4cif.y4m</FileName>
+      <FileSize>364957238</FileSize>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>

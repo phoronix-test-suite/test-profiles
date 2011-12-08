@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v3.6.0m4 (Arendal)-->
+<PhoronixTestSuite>
+  <ResultsParser>
+    <OutputTemplate>Pass 1/1 frame  600/600   639417B    8525b/f  511533b/s   46363 ms (#_RESULT_# fps)</OutputTemplate>
+    <LineHint> fps</LineHint>
+    <ResultBeforeString>fps</ResultBeforeString>
+  </ResultsParser>
+</PhoronixTestSuite>
