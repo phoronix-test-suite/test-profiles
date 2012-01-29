@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v3.8.0m1 (Bygland)-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>http://www.craftychess.com/crafty-23.4.zip, http://fossies.org/unix/privat/crafty-23.4.zip, http://freebsd.ntu.edu.tw/FreeBSD/distfiles/crafty/crafty-23.4.zip</URL>
+      <MD5>7e0811dd2d801428d8da48a4e487885a</MD5>
+      <FileName>crafty-23.4.zip</FileName>
+      <FileSize>426295</FileSize>
+      <PlatformSpecific>Linux, Solaris, BSD, MacOSX</PlatformSpecific>
+    </Package>
+    <Package>
+      <URL>http://www.webkikr.com/files/crafty-23.4-win64.exe.zip</URL>
+      <MD5>081bb376050fba43e4df3d2ef3ae94a5</MD5>
+      <FileName>crafty-23.4-win64.exe.zip</FileName>
+      <FileSize>299923</FileSize>
+      <PlatformSpecific>Windows</PlatformSpecific>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>
