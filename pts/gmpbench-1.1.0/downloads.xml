@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v3.8.0m1 (Bygland)-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>ftp://ftp.gmplib.org/pub/gmp-5.0.3/gmp-5.0.3.tar.bz2, http://ftp.gnu.org/gnu/gmp/gmp-5.0.3.tar.bz2</URL>
+      <MD5>8061f765cc86b9765921a0c800615804</MD5>
+      <FileName>gmp-5.0.3.tar.bz2</FileName>
+      <FileSize>2010173</FileSize>
+    </Package>
+    <Package>
+      <URL>ftp://ftp.gmplib.org/pub/misc/gmpbench-0.2.tar.bz2</URL>
+      <MD5>5437655d34cc81663d080c3bbbb22139</MD5>
+      <FileName>gmpbench-0.2.tar.bz2</FileName>
+      <FileSize>19992</FileSize>
+    </Package>
+    <Package>
+      <URL>http://www.phoronix-test-suite.com/benchmark-files/gexpr.c.tar.gz, http://www.phoronix.net/downloads/phoronix-test-suite/benchmark-files/gexpr.c.tar.gz</URL>
+      <MD5>ee936a79be9f00de7e8ea2b55171167d</MD5>
+      <FileName>gexpr.c.tar.gz</FileName>
+      <FileSize>2367</FileSize>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>
