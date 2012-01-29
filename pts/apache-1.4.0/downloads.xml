@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v3.8.0m1 (Bygland)-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>http://mirrors.arsc.edu/apache/httpd/httpd-2.2.21.tar.gz, http://archive.apache.org/dist/httpd/httpd-2.2.21.tar.gz, http://ftp.belnet.be/mirrors/ftp.apache.org/httpd/httpd-2.2.21.tar.gz</URL>
+      <MD5>b24ca6db942a4f8e57c357e5e3058d31</MD5>
+      <FileName>httpd-2.2.21.tar.gz</FileName>
+      <FileSize>6597991</FileSize>
+    </Package>
+    <Package>
+      <URL>http://www.phoronix-test-suite.com/benchmark-files/apache-ab-test-files-1.tar.gz, http://www.phoronix.net/downloads/phoronix-test-suite/benchmark-files/apache-ab-test-files-1.tar.gz</URL>
+      <MD5>ca0c5bf0dd482a2847c68a52c0759942</MD5>
+      <FileName>apache-ab-test-files-1.tar.gz</FileName>
+      <FileSize>6008</FileSize>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>
