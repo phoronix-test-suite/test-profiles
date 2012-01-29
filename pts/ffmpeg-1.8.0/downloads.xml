@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v3.8.0m1 (Bygland)-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>http://ffmpeg.org/releases/ffmpeg-0.10.tar.bz2</URL>
+      <MD5>dc665cc599a739e3c5262ccdac13d129</MD5>
+      <FileName>ffmpeg-0.10.tar.bz2</FileName>
+      <FileSize>5778962</FileSize>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>
