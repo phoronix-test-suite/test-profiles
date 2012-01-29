@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v3.8.0m1 (Bygland)-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>http://www.phoronix-test-suite.com/benchmark-files/JXRenderMark-1.0.1.zip, http://www.phoronix.net/downloads/phoronix-test-suite/benchmark-files/JXRenderMark-1.0.1.zip</URL>
+      <MD5>5ef3c3fcf500030eb97273e618f67b5a</MD5>
+      <FileName>JXRenderMark-1.0.1.zip</FileName>
+      <FileSize>17729</FileSize>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>
