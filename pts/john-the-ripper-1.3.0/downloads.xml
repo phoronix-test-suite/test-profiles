@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v3.8.0m2 (Bygland)-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>http://www.openwall.com/john/g/john-1.7.9.tar.gz, http://download.openwall.net/pub/projects/john/1.7.9/john-1.7.9.tar.gz, http://distro.ibiblio.org/pub/linux/distributions/openwall/projects/john/1.7.9/john-1.7.9.tar.gz, http://her.gr.distfiles.macports.org/mirrors/linux/openwall/projects/john/1.7.9/john-1.7.9.tar.gz</URL>
+      <MD5>2b448547109db3777d8068145ea69ddf</MD5>
+      <FileName>john-1.7.9.tar.gz</FileName>
+      <FileSize>868290</FileSize>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>
