@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v3.8.0m2 (Bygland)-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>http://www.phoronix-test-suite.com/benchmark-files/Unigine_Heaven-3.0.run</URL>
+      <MD5>3c7159a52c32c8e488aa5d5f123fc86f</MD5>
+      <FileName>Unigine_Heaven-3.0.run</FileName>
+      <FileSize>272260400</FileSize>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>
