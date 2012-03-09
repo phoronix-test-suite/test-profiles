@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v3.8.0m2 (Bygland)-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>http://dl.xonotic.org/xonotic-0.6.0.zip</URL>
+      <MD5>2dac2c1ad4388255d3ad4d038dea3f77</MD5>
+      <FileName>xonotic-0.6.0.zip</FileName>
+      <FileSize>1010847148</FileSize>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>
