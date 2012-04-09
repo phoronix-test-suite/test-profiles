@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v4.0.0m0 (Suldal)-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>http://download.rq3.com/Reaction-1.0-Linux-x86_64.tar.gz</URL>
+      <MD5>ae5c7d80e8a56a29e08e95184bc9324a</MD5>
+      <FileName>Reaction-1.0-Linux-x86_64.tar.gz</FileName>
+      <FileSize>174821894</FileSize>
+      <ArchitectureSpecific>x86_64</ArchitectureSpecific>
+    </Package>
+    <Package>
+      <URL>http://download.rq3.com/Reaction-1.0-Linux-i386.tar.gz</URL>
+      <MD5>3480f7a07dd8962fc5fa615dbe2d678f</MD5>
+      <FileName>Reaction-1.0-Linux-i386.tar.gz</FileName>
+      <FileSize>174465719</FileSize>
+      <ArchitectureSpecific>x86</ArchitectureSpecific>
+    </Package>
+    <Package>
+      <URL>http://www.phoronix-test-suite.com/benchmark-files/reaction-pts-data-1.tar.bz2</URL>
+      <MD5>d1f0f64beb18daff548a6400af3b95f2</MD5>
+      <FileName>reaction-pts-data-1.tar.bz2</FileName>
+      <FileSize>204044</FileSize>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>

@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v4.0.0m0 (Suldal)-->
+<PhoronixTestSuite>
+  <TestInformation>
+    <Title>Reaction Quake 3</Title>
+    <AppVersion>1.0 Beta</AppVersion>
+    <Description>Reaction is an open-source game using the ioquake3 engine.</Description>
+    <ResultScale>Frames Per Second</ResultScale>
+    <Proportion>HIB</Proportion>
+    <TimesToRun>3</TimesToRun>
+  </TestInformation>
+  <TestProfile>
+    <Version>1.0.0</Version>
+    <SupportedPlatforms>Linux</SupportedPlatforms>
+    <SoftwareType>Game</SoftwareType>
+    <TestType>Graphics</TestType>
+    <License>Free</License>
+    <Status>Verified</Status>
+    <SupportedArchitectures>x86, x86_64</SupportedArchitectures>
+    <ExternalDependencies>sdl-development</ExternalDependencies>
+    <EnvironmentSize>180</EnvironmentSize>
+    <ProjectURL>http://www.rq3.com/</ProjectURL>
+    <Maintainer>Michael Larabel</Maintainer>
+  </TestProfile>
+  <TestSettings>
+    <Option>
+      <DisplayName>Resolution</DisplayName>
+      <Identifier>auto-resolution</Identifier>
+      <Menu>
+        <Entry>
+          <Name>$VIDEO_WIDTH x $VIDEO_HEIGHT</Name>
+          <Value>+set r_customwidth $VIDEO_WIDTH +set r_customheight $VIDEO_HEIGHT</Value>
+        </Entry>
+      </Menu>
+    </Option>
+  </TestSettings>
+</PhoronixTestSuite>
