@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v4.0.0m1 (Suldal)-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>http://iweb.dl.sourceforge.net/project/oarena/openarena-0.8.8.zip, http://softlayer.dl.sourceforge.net/project/oarena/openarena-0.8.8.zip, http://download.tuxfamily.org/openarena/rel/088/openarena-0.8.8.zip, ftp://mirror.loop8.net/openarena/openarena-0.8.8.zip</URL>
+      <MD5>9f353d96d7889c377349d692c3905e5b</MD5>
+      <FileName>openarena-0.8.8.zip</FileName>
+      <FileSize>425189255</FileSize>
+    </Package>
+    <Package>
+      <URL>http://www.phoronix-test-suite.com/benchmark-files/openarena-088-1.zip</URL>
+      <MD5>f61459cba7589520c1f49cfdaed88561</MD5>
+      <FileName>openarena-088-1.zip</FileName>
+      <FileSize>2738</FileSize>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>
