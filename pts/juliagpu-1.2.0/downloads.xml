@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v4.0.0m0 (Suldal)-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>http://www.phoronix-test-suite.com/benchmark-files/JuliaGPU-v1.2pts-1.tar.bz2</URL>
+      <MD5>759f0032661cf23fc74e2a403e3ffb10</MD5>
+      <FileName>JuliaGPU-v1.2pts-1.tar.bz2</FileName>
+      <FileSize>31700</FileSize>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>
