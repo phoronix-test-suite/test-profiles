@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v4.0.0m0 (Suldal)-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>http://ftp8.de.postgresql.org/pub/misc/pgsql/source/v8.4.11/postgresql-8.4.11.tar.bz2, http://her.gr.distfiles.macports.org/databases/PostgreSQL/source/v8.4.11/postgresql-8.4.11.tar.bz2, http://ftp.riken.go.jp/pub/FreeBSD/distfiles/postgresql/postgresql-8.4.11.tar.bz2, http://ftp.postgresql.org/pub/source/v8.4.11/postgresql-8.4.11.tar.bz2</URL>
+      <MD5>f9b731a1162b177a173640efab2275d0</MD5>
+      <FileName>postgresql-8.4.11.tar.bz2</FileName>
+      <FileSize>14502434</FileSize>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>

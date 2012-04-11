@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v4.0.0m0 (Suldal)-->
+<PhoronixTestSuite>
+  <TestInformation>
+    <Title>PostgreSQL pgbench</Title>
+    <AppVersion>8.4.11</AppVersion>
+    <Description>This is a simple TPC-B like benchmark of PostgreSQL.</Description>
+    <ResultScale>TPS</ResultScale>
+    <Proportion>HIB</Proportion>
+    <SubTitle>TPC-B Transactions Per Second</SubTitle>
+    <Executable>pgbench</Executable>
+    <TimesToRun>3</TimesToRun>
+  </TestInformation>
+  <TestProfile>
+    <Version>1.4.0</Version>
+    <SupportedPlatforms>Linux, MacOSX, Solaris</SupportedPlatforms>
+    <SoftwareType>Benchmark</SoftwareType>
+    <TestType>System</TestType>
+    <License>Free</License>
+    <Status>Verified</Status>
+    <ExternalDependencies>build-utilities</ExternalDependencies>
+    <EnvironmentSize>230</EnvironmentSize>
+    <ProjectURL>http://www.postgresql.org/</ProjectURL>
+    <InternalTags>SMP</InternalTags>
+    <Maintainer>Kim Bisgaard</Maintainer>
+  </TestProfile>
+</PhoronixTestSuite>

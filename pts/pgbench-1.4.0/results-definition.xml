@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v4.0.0m0 (Suldal)-->
+<PhoronixTestSuite>
+  <ResultsParser>
+    <OutputTemplate>tps = #_RESULT_# (excluding connections establishing) TPS</OutputTemplate>
+    <LineHint>excluding connections establishing</LineHint>
+  </ResultsParser>
+</PhoronixTestSuite>
