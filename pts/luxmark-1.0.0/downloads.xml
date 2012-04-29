@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v4.0.0m1 (Suldal)-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>http://www.luxrender.net/release/luxmark/luxmark-linux64-v2.1beta1.zip</URL>
+      <MD5>e356fc792b6fc0260e14f1798af68f92</MD5>
+      <FileName>luxmark-linux64-v2.1beta1.zip</FileName>
+      <FileSize>76331884</FileSize>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>
