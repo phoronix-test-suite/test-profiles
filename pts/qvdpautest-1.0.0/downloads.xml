@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v4.0.0m1 (Suldal)-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>http://hftom.free.fr/qvdpautest-0.5.1.tar.gz, http://www.phoronix-test-suite.com/benchmark-files/qvdpautest-0.5.1.tar.gz</URL>
+      <MD5>4835a39d4a363cf4e2d971f2f6912a29</MD5>
+      <FileName>qvdpautest-0.5.1.tar.gz</FileName>
+      <FileSize>8871566</FileSize>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>
