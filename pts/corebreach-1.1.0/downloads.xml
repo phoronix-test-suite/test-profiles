@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v4.0.0m4 (Suldal)-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>http://corebreach.corecode.at/CoreBreachPTS.zip</URL>
+      <MD5>28109f5a2d194790da0884fcf6723e3a</MD5>
+      <FileName>CoreBreachPTS.zip</FileName>
+      <FileSize>150159053</FileSize>
+      <PlatformSpecific>MacOSX, Linux, Windows</PlatformSpecific>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>
