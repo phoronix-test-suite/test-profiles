@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v4.0.0 (Suldal)-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>http://funpark.warsow-esport.net/~warsow/1.0/warsow_1.0_unified.tar.gz, http://zcdn.org/dl/1.0/warsow_1.0_unified.tar.gz, http://www.warsow.net:1337/~warsow/1.0/warsow_1.0_unified.tar.gz, http://wsw.null.so/warsow_1.0_unified.tar.gz</URL>
+      <MD5>92fd62c4bbd1324605bd004da9472b9f</MD5>
+      <FileName>warsow_1.0_unified.tar.gz</FileName>
+      <FileSize>518459004</FileSize>
+      <PlatformSpecific>Linux</PlatformSpecific>
+    </Package>
+    <Package>
+      <URL>http://funpark.warsow-esport.net/~warsow/1.0/warsow_1.0_mac.zip, http://www.warsow.net:1337/~warsow/1.0/warsow_1.0_mac.zip</URL>
+      <MD5>7bd57134d0f59dd2eb8b088525440ccb</MD5>
+      <FileName>warsow_1.0_mac.zip</FileName>
+      <FileSize>515514626</FileSize>
+      <PlatformSpecific>MacOSX</PlatformSpecific>
+    </Package>
+    <Package>
+      <URL>http://www.phoronix-test-suite.com/benchmark-files/pts-warsow-10-1.zip, http://www.phoronix.net/downloads/phoronix-test-suite/benchmark-files/pts-warsow-10-1.zip</URL>
+      <MD5>3e51984b4dba4037faf179155a7c90ac</MD5>
+      <FileName>pts-warsow-10-1.zip</FileName>
+      <FileSize>186271</FileSize>
+    </Package>
+    <Package>
+      <URL>http://ftp.sunet.se/pub/multimedia/graphics/ImageMagick/delegates/libpng-1.5.11.tar.gz, http://hivelocity.dl.sourceforge.net/project/libpng/libpng15/older-releases/1.5.11/libpng-1.5.11.tar.gz, http://iweb.dl.sourceforge.net/project/libpng/libpng15/older-releases/1.5.11/libpng-1.5.11.tar.gz</URL>
+      <MD5>7373f65ca1407ce9910d634e527e8959</MD5>
+      <FileName>libpng-1.5.11.tar.gz</FileName>
+      <FileSize>1061614</FileSize>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>
