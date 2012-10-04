@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v4.2.0m0 (Randaberg)-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>http://download.videolan.org/pub/videolan/x264/snapshots/x264-snapshot-20121003-2245.tar.bz2</URL>
+      <MD5>7a267718bf96b5db81452f3f7f2621ef</MD5>
+      <FileName>x264-snapshot-20121003-2245.tar.bz2</FileName>
+      <FileSize>555836</FileSize>
+    </Package>
+    <Package>
+      <URL>http://media.xiph.org/video/derf/y4m/soccer_4cif.y4m</URL>
+      <MD5>5cd52920caed848964844ee768871b6c</MD5>
+      <FileName>soccer_4cif.y4m</FileName>
+      <FileSize>364957238</FileSize>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>
