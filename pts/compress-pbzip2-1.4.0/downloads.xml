@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v4.2.0m0 (Randaberg)-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>http://www.bzip.org/1.0.6/bzip2-1.0.6.tar.gz, http://downloads.openwrt.org/sources/bzip2-1.0.6.tar.gz</URL>
+      <MD5>00b516f4704d4a7cb50a1d97e6e8e15b</MD5>
+      <FileName>bzip2-1.0.6.tar.gz</FileName>
+      <FileSize>782025</FileSize>
+    </Package>
+    <Package>
+      <URL>http://compression.ca/pbzip2/pbzip2-1.1.6.tar.gz, http://ftp.freebsd.org/pub/FreeBSD/distfiles/pbzip2-1.1.6/pbzip2-1.1.6.tar.gz, http://mirror.symnds.com/FreeBSD/distfiles/pbzip2-1.1.6/pbzip2-1.1.6.tar.gz, http://mirrors.geeks.org/pub/FreeBSD/distfiles/pbzip2-1.1.6/pbzip2-1.1.6.tar.gz</URL>
+      <MD5>26cc5a0d882198f106e75101ff0544a3</MD5>
+      <FileName>pbzip2-1.1.6.tar.gz</FileName>
+      <FileSize>54982</FileSize>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>

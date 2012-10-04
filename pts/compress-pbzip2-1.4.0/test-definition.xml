@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v4.2.0m0 (Randaberg)-->
+<PhoronixTestSuite>
+  <TestInformation>
+    <Title>Parallel BZIP2 Compression</Title>
+    <AppVersion>1.1.6</AppVersion>
+    <Description>This test measures the time needed to compress a file using BZIP2 compression.</Description>
+    <ResultScale>Seconds</ResultScale>
+    <Proportion>LIB</Proportion>
+    <SubTitle>256MB File Compression</SubTitle>
+    <TimesToRun>3</TimesToRun>
+  </TestInformation>
+  <TestProfile>
+    <Version>1.4.0</Version>
+    <SupportedPlatforms>Linux, Solaris</SupportedPlatforms>
+    <SoftwareType>Utility</SoftwareType>
+    <TestType>Processor</TestType>
+    <License>Free</License>
+    <Status>Verified</Status>
+    <ExternalDependencies>build-utilities</ExternalDependencies>
+    <EnvironmentSize>5.0</EnvironmentSize>
+    <EnvironmentTestingSize>256</EnvironmentTestingSize>
+    <ProjectURL>http://compression.ca/pbzip2/</ProjectURL>
+    <InternalTags>SMP</InternalTags>
+    <Maintainer>Michael Larabel</Maintainer>
+  </TestProfile>
+</PhoronixTestSuite>
