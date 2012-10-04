@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v4.2.0m0 (Randaberg)-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>http://ffmpeg.org/releases/ffmpeg-1.0.tar.bz2</URL>
+      <MD5>3ed526cea20c1bffb5a37f7730f710bd</MD5>
+      <FileName>ffmpeg-1.0.tar.bz2</FileName>
+      <FileSize>6443851</FileSize>
+    </Package>
+    <Package>
+      <URL>http://samples.mplayerhq.hu.nyud.net/V-codecs/h264/HD2-h264.ts</URL>
+      <MD5>69dc5d10fdf92bdb7ea6097857508134</MD5>
+      <FileName>HD2-h264.ts</FileName>
+      <FileSize>303528820</FileSize>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>
