@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v4.2.0m0 (Randaberg)-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>http://downloads.xiph.org/releases/opus/opus-1.0.1.tar.gz, http://ftp.mozilla.org/pub/mozilla.org/opus/opus-1.0.1.tar.gz, http://files.freeswitch.org/downloads/libs/opus-1.0.1.tar.gz</URL>
+      <MD5>bbac19996957b404a1139816e2f357f5</MD5>
+      <FileName>opus-1.0.1.tar.gz</FileName>
+      <FileSize>767241</FileSize>
+    </Package>
+    <Package>
+      <URL>http://downloads.xiph.org/releases/opus/opus-tools-0.1.5.tar.gz, http://ftp.mozilla.org/pub/mozilla.org/opus/opus-tools-0.1.5.tar.gz</URL>
+      <MD5>244de849382267726bf6d1c0d1ef5e9f</MD5>
+      <FileName>opus-tools-0.1.5.tar.gz</FileName>
+      <FileSize>288303</FileSize>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>
