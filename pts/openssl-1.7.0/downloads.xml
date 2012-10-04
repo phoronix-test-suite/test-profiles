@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v4.2.0m0 (Randaberg)-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>http://www.openssl.org/source/openssl-1.0.1c.tar.gz, http://mirrors.ibiblio.org/openssl/source/openssl-1.0.1c.tar.gz</URL>
+      <MD5>ae412727c8c15b67880aef7bd2999b2e</MD5>
+      <FileName>openssl-1.0.1c.tar.gz</FileName>
+      <FileSize>4457113</FileSize>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>
