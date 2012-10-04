@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v4.2.0m0 (Randaberg)-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>ftp://ftp.graphicsmagick.org/pub/GraphicsMagick/1.3/GraphicsMagick-1.3.16.tar.bz2, http://iweb.dl.sourceforge.net/project/graphicsmagick/graphicsmagick/1.3.16/GraphicsMagick-1.3.16.tar.bz2</URL>
+      <MD5>7f4395f47dc7be8b876eba7f19f92317</MD5>
+      <FileName>GraphicsMagick-1.3.16.tar.bz2</FileName>
+      <FileSize>7328861</FileSize>
+    </Package>
+    <Package>
+      <URL>http://image_magick.veidrodis.com/image_magick/delegates/libpng-1.2.39.tar.gz</URL>
+      <MD5>ddfeaf19b690985910c42e41974e8d65</MD5>
+      <FileName>libpng-1.2.39.tar.gz</FileName>
+      <FileSize>815679</FileSize>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>
