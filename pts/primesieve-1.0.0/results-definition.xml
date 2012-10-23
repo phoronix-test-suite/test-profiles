@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v4.2.0m2 (Randaberg)-->
+<PhoronixTestSuite>
+  <ResultsParser>
+    <OutputTemplate>Prime numbers : 4118054813
+Time elapsed  : #_RESULT_# sec</OutputTemplate>
+  </ResultsParser>
+</PhoronixTestSuite>

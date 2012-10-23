@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v4.2.0m2 (Randaberg)-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>http://primesieve.googlecode.com/files/primesieve-4.0-src.zip</URL>
+      <MD5>9905b2abd4e4094ce04f9b46a9b4ffef</MD5>
+      <FileName>primesieve-4.0-src.zip</FileName>
+      <FileSize>251345</FileSize>
+      <PlatformSpecific>Linux, Solaris, BSD, MacOSX</PlatformSpecific>
+    </Package>
+    <Package>
+      <URL>http://primesieve.googlecode.com/files/primesieve-4.0-console-win64.zip</URL>
+      <MD5>ff0f36ef50dc7835a39ab0ed7c07f3c1</MD5>
+      <FileName>primesieve-4.0-console-win64.zip</FileName>
+      <FileSize>606471</FileSize>
+      <PlatformSpecific>Windows</PlatformSpecific>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>
