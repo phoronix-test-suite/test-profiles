@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v4.2.0m1 (Randaberg)-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>http://www.phoronix-test-suite.com/benchmark-files/opm-20121026-src.tar.bz2</URL>
+      <MD5>eb60d6ff5fc301f0b650213d2ec44266</MD5>
+      <FileName>opm-20121026-src.tar.bz2</FileName>
+      <FileSize>15769600</FileSize>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>
