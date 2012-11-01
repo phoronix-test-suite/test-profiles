@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v4.2.0m2 (Randaberg)-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>http://botan.randombit.net/files/Botan-1.10.3.tbz</URL>
+      <MD5>dfb29b437440325a3a18e9ecaf4825c2</MD5>
+      <FileName>Botan-1.10.3.tbz</FileName>
+      <FileSize>2215991</FileSize>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>
