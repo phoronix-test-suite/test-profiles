@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v4.2.0m3 (Randaberg)-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>https://blake2.net/blake2_code_20121223.zip</URL>
+      <MD5>644d262f9cc6d6c7dd28a9e55253a0c4</MD5>
+      <FileName>blake2_code_20121223.zip</FileName>
+      <FileSize>539667</FileSize>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>
