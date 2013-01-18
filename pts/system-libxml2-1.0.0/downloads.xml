@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v4.2.0 (Randaberg)-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>http://www.phoronix-test-suite.com/benchmark-files/xmlgen_rnd.tar.bz2</URL>
+      <MD5>3e116eb72cc4ae8f25e29080cf483324</MD5>
+      <FileName>xmlgen_rnd.tar.bz2</FileName>
+      <FileSize>29113620</FileSize>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>

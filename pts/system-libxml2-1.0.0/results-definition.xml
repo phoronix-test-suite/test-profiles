@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v4.2.0 (Randaberg)-->
+<PhoronixTestSuite>
+  <ResultsParser>
+    <OutputTemplate>100 iterations tooks #_RESULT_# ms</OutputTemplate>
+  </ResultsParser>
+</PhoronixTestSuite>
