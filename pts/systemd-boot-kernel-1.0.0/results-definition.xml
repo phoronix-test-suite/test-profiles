@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v4.2.0 (Randaberg)-->
+<PhoronixTestSuite>
+  <ResultsParser>
+    <OutputTemplate>#_RESULT_#</OutputTemplate>
+    <StripFromResult>ms</StripFromResult>
+  </ResultsParser>
+</PhoronixTestSuite>
