@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v4.2.0 (Randaberg)-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>https://01.org/powertop/sites/default/files/downloads/powertop-2.2.tar.gz</URL>
+      <MD5>d620018e48a959c3ea41e63d3d9deffc</MD5>
+      <FileName>powertop-2.2.tar.gz</FileName>
+      <FileSize>617805</FileSize>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>
