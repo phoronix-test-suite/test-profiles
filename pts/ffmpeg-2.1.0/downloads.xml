@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v4.4.0m0 (Forsand)-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>http://www.ffmpeg.org/releases/ffmpeg-1.1.tar.bz2</URL>
+      <MD5>578c590a0e996c1fc71acb666c0ed858</MD5>
+      <FileSize>5808278</FileSize>
+    </Package>
+    <Package>
+      <URL>http://samples.mplayerhq.hu.nyud.net/V-codecs/h264/HD2-h264.ts</URL>
+      <MD5>69dc5d10fdf92bdb7ea6097857508134</MD5>
+      <FileSize>303528820</FileSize>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>
