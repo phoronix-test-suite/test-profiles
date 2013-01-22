@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v4.4.0m0 (Forsand)-->
+<PhoronixTestSuite>
+  <TestInformation>
+    <Title>Parboil</Title>
+    <AppVersion>2.5</AppVersion>
+    <Description>The Parboil Benchmarks from the IMPACT Research Group at University of Illinois are a set of throughput computing applications for looking at computing architecture and compilers. Parboil test-cases support OpenMP, OpenCL, and CUDA multi-processing environments. However, at this time the test profile is just making use of the OpenMP test profiles -- patches are welcome to expand the test coverage for OpenCL and NVIDIA CUDA.</Description>
+    <ResultScale>Seconds</ResultScale>
+    <Proportion>LIB</Proportion>
+    <TimesToRun>3</TimesToRun>
+  </TestInformation>
+  <TestProfile>
+    <Version>1.0.0</Version>
+    <SupportedPlatforms>Linux</SupportedPlatforms>
+    <SoftwareType>Benchmark</SoftwareType>
+    <TestType>Processor</TestType>
+    <License>Free</License>
+    <Status>Verified</Status>
+    <ExternalDependencies>build-utilities, perl, openmpi-development</ExternalDependencies>
+    <EnvironmentSize>985</EnvironmentSize>
+    <ProjectURL>http://impact.crhc.illinois.edu/parboil.aspx</ProjectURL>
+    <InternalTags>SMP, OpenMP, OpenCL, CUDA</InternalTags>
+    <Maintainer>Michael Larabel</Maintainer>
+  </TestProfile>
+  <TestSettings>
+    <Option>
+      <DisplayName>Test</DisplayName>
+      <Identifier>run-test</Identifier>
+      <Menu>
+        <Entry>
+          <Name>Cutoff Pair Potential</Name>
+          <Value>cutcp omp_base large</Value>
+        </Entry>
+        <Entry>
+          <Name>Matrix Q</Name>
+          <Value>mri-q omp_base large</Value>
+        </Entry>
+        <Entry>
+          <Name>MRI Gridding</Name>
+          <Value>mri-gridding omp_base small</Value>
+        </Entry>
+        <Entry>
+          <Name>Seven-Point Stencil</Name>
+          <Value>stencil omp_base default</Value>
+        </Entry>
+        <Entry>
+          <Name>Lid-Driven Cavity Fluid Dynamics</Name>
+          <Value>lbm omp_cpu long</Value>
+        </Entry>
+        <Entry>
+          <Name>Two-Point Angular Correlation</Name>
+          <Value>tpacf omp_base medium</Value>
+        </Entry>
+      </Menu>
+    </Option>
+  </TestSettings>
+</PhoronixTestSuite>
