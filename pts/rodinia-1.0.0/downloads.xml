@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v4.4.0m0 (Forsand)-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>http://www.cs.virginia.edu/~kw5na/lava/Rodinia/Packages/Current/rodinia_2.2.tar.bz2</URL>
+      <MD5>e24eb465a269e961e2c33a4abea72748</MD5>
+      <FileSize>301464810</FileSize>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>
