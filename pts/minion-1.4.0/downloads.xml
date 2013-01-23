@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v4.4.0m0 (Forsand)-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>http://freefr.dl.sourceforge.net/sourceforge/minion/minion-0.15-src.tar.gz, http://iweb.dl.sourceforge.net/project/minion/minion/0.15/minion-0.15-src.tar.gz, http://ftp.jaist.ac.jp/pub/sourceforge/m/project/mi/minion/minion/0.15/minion-0.15-src.tar.gz, http://internode.dl.sourceforge.net/project/minion/minion/0.15/minion-0.15-src.tar.gz</URL>
+      <MD5>019f504908f8a45bae4be90cea76a6c8</MD5>
+      <FileSize>6959750</FileSize>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>
