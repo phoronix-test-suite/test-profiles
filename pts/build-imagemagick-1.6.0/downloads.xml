@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v4.4.0m1 (Forsand)-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>http://ftp.vim.org/ImageMagick/ImageMagick-6.8.1-10.tar.bz2, http://www.imagemagick.org/download/ImageMagick-6.8.1-10.tar.bz2, http://www.magickwand.org/download/ImageMagick-6.8.1-10.tar.bz2, http://ring.u-toyama.ac.jp/archives/graphics/ImageMagick/ImageMagick-6.8.1-10.tar.bz2</URL>
+      <MD5>1cb5195482147625a2be3e860f3a0489</MD5>
+      <FileSize>11086286</FileSize>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>
