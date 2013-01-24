@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v4.4.0m1 (Forsand)-->
+<PhoronixTestSuite>
+  <ResultsParser>
+    <OutputTemplate>FPS: #_RESULT_#	RenderedFaces: 19151</OutputTemplate>
+    <LineHint>FPS</LineHint>
+  </ResultsParser>
+</PhoronixTestSuite>

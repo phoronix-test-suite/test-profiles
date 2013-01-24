@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v4.4.0m1 (Forsand)-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>https://dl.dropbox.com/u/7221986/CoreBreachPTS.zip</URL>
+      <MD5>28109f5a2d194790da0884fcf6723e3a</MD5>
+      <FileSize>150159053</FileSize>
+      <PlatformSpecific>MacOSX, Linux, Windows</PlatformSpecific>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>
