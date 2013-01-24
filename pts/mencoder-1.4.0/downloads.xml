@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v4.4.0m1 (Forsand)-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>http://www.mplayerhq.hu/MPlayer/releases/MPlayer-1.1.tar.gz</URL>
+      <MD5>4bf35ef2a802f23b9ad57ba7ef488587</MD5>
+      <FileSize>17018391</FileSize>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>
