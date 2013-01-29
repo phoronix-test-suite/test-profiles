@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v4.4.0m1 (Forsand)-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>http://www.apache.org/dist/httpd/httpd-2.4.3.tar.gz, http://archive.apache.org/dist/httpd/httpd-2.4.3.tar.gz, http://www.bizdirusa.com/mirrors/apache//httpd/httpd-2.4.3.tar.gz</URL>
+      <MD5>538dccd22dd18466fff3ec7948495417</MD5>
+      <FileSize>6137268</FileSize>
+    </Package>
+    <Package>
+      <URL>http://www.phoronix-test-suite.com/benchmark-files/apache-ab-test-files-1.tar.gz, http://www.phoronix.net/downloads/phoronix-test-suite/benchmark-files/apache-ab-test-files-1.tar.gz</URL>
+      <MD5>ca0c5bf0dd482a2847c68a52c0759942</MD5>
+      <FileSize>6008</FileSize>
+    </Package>
+    <Package>
+      <URL>http://mirror.cogentco.com/pub/apache//apr/apr-1.4.6.tar.gz</URL>
+      <MD5>76cc4457fbb71eefdafa27dba8f511fb</MD5>
+      <FileSize>982243</FileSize>
+    </Package>
+    <Package>
+      <URL>http://mirror.cogentco.com/pub/apache//apr/apr-util-1.4.1.tar.gz</URL>
+      <MD5>666a5d56098a9debf998510e304c8095</MD5>
+      <FileSize>774770</FileSize>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>
