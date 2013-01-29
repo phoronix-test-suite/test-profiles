@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v4.4.0m1 (Forsand)-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>http://www.phoronix-test-suite.com/benchmark-files/renderer-2.2w.tar.bz2, http://www.phoronix.net/downloads/phoronix-test-suite/benchmark-files/renderer-2.2w.tar.bz2</URL>
+      <MD5>aae108fcd4b8d18277d5b2805881f1c3</MD5>
+      <FileSize>2937906</FileSize>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>
