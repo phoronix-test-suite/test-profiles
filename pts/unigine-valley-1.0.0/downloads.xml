@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v4.4.0m2 (Forsand)-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL></URL>
+      <MD5>0d36fdf86ebccd3cc189487605285c04</MD5>
+      <FileName>Unigine_Valley-1.0.run</FileName>
+      <FileSize>410585233</FileSize>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>
