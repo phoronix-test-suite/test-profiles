@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v4.4.0m2 (Forsand)-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL></URL>
+      <MD5>a990caf5c8d4758ae2f67d09b714bddc</MD5>
+      <FileName>Unigine_Heaven-4.0.run</FileName>
+      <FileSize>283974559</FileSize>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>
