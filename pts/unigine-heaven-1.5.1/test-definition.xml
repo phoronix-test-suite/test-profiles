@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v4.4.0m2 (Forsand)-->
+<PhoronixTestSuite>
+  <TestInformation>
+    <Title>Unigine Heaven</Title>
+    <AppVersion>4.0</AppVersion>
+    <Description>This test calculates the average frame-rate within the Heaven demo for the Unigine engine. This engine is extremely demanding on the system's graphics card.</Description>
+    <ResultScale>Frames Per Second</ResultScale>
+    <Proportion>HIB</Proportion>
+    <TimesToRun>3</TimesToRun>
+  </TestInformation>
+  <TestProfile>
+    <Version>1.5.1</Version>
+    <SupportedPlatforms>Linux</SupportedPlatforms>
+    <SoftwareType>Game</SoftwareType>
+    <TestType>Graphics</TestType>
+    <License>Non-Free</License>
+    <Status>Verified</Status>
+    <SupportedArchitectures>x86, x86_64</SupportedArchitectures>
+    <EnvironmentSize>350</EnvironmentSize>
+    <ProjectURL>http://www.unigine.com/</ProjectURL>
+    <Maintainer>Michael Larabel</Maintainer>
+  </TestProfile>
+  <TestSettings>
+    <Option>
+      <DisplayName>Resolution</DisplayName>
+      <Identifier>auto-resolution</Identifier>
+      <Menu>
+        <Entry>
+          <Name>$VIDEO_WIDTH x $VIDEO_HEIGHT</Name>
+          <Value>-video_width $VIDEO_WIDTH -video_height $VIDEO_HEIGHT</Value>
+        </Entry>
+      </Menu>
+    </Option>
+  </TestSettings>
+</PhoronixTestSuite>
