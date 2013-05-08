@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v4.6.0m1 (Utsira)-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>http://www.enduroriders.sk/juro/gluxmark2/app/gluxMark2.2_src.zip</URL>
+      <MD5>0c890fd44d86cb62b16dfabb48aee1e5</MD5>
+      <FileSize>7384481</FileSize>
+      <PlatformSpecific>Linux</PlatformSpecific>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>
