@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v4.6.0m1 (Utsira)-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>http://www.phoronix-test-suite.com/benchmark-files/GpuTest_Linux_x64_0.4.0.zip</URL>
+      <MD5>641bea66c9e82b7f909e78d360881887</MD5>
+      <FileSize>1353804</FileSize>
+      <PlatformSpecific>Linux</PlatformSpecific>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>
