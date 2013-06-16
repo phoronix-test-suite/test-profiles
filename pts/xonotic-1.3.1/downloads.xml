@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v4.8.0m0 (Sokndal)-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>http://dl.xonotic.org/xonotic-0.7.0.zip</URL>
+      <MD5>eda7e8acadbefaf4b2efcfb70bbe98e2</MD5>
+      <FileSize>1040631083</FileSize>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>
