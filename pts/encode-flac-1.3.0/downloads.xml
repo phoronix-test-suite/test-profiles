@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v4.8.0m0 (Sokndal)-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>http://downloads.xiph.org/releases/flac/flac-1.3.0.tar.xz, http://ftp.osuosl.org/pub/blfs/svn/f/flac-1.3.0.tar.xz</URL>
+      <MD5>13b5c214cee8373464d3d65dee362cdd</MD5>
+      <FileSize>1084256</FileSize>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>
