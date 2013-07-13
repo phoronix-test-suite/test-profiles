@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v4.8.0m2 (Sokndal)-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>http://www.phoronix-test-suite.com/benchmark-files/GpuTest_Linux_x64_0.5.0.zip</URL>
+      <MD5>bf7a715a8e3f36a648896acbebf5b449</MD5>
+      <FileSize>1381987</FileSize>
+      <PlatformSpecific>Linux</PlatformSpecific>
+    </Package>
+    <Package>
+      <URL>http://www.phoronix-test-suite.com/benchmark-files/GpuTest_Windows_x64_0.5.0.zip</URL>
+      <MD5>5f2639c36f7232ef40906ddb0bfe4687</MD5>
+      <FileSize>1598500</FileSize>
+      <PlatformSpecific>Windows</PlatformSpecific>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>
