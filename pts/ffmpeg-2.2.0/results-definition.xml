@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v4.8.0m2 (Sokndal)-->
+<PhoronixTestSuite>
+  <SystemMonitor>
+    <Sensor>sys.time</Sensor>
+  </SystemMonitor>
+</PhoronixTestSuite>
