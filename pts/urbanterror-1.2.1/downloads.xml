@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v4.8.0m2 (Sokndal)-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>http://www.f1m.fr/uploads/urt/UrbanTerror42_full013.zip, http://cdn.urbanterror.info/urt/42/zips/UrbanTerror42_full013.zip</URL>
+      <MD5>b7d5b92f3ce5706eb000d295957f78c0</MD5>
+      <FileSize>1548316119</FileSize>
+    </Package>
+    <Package>
+      <URL>http://www.phoronix-test-suite.com/benchmark-files/urbanterror-42-1.zip</URL>
+      <MD5>204f11448a4ac39d4cdb168d968e800d</MD5>
+      <FileSize>719078</FileSize>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>
