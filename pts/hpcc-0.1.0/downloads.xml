@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v4.8.3 (Sokndal)-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>http://icl.cs.utk.edu/projectsfiles/hpcc/download/hpcc-1.4.3.tar.gz</URL>
+      <MD5>dd4c2b6b3ec766c469c59d8310778f49</MD5>
+      <SHA256>57cd4fd00065ebb63f5b298e54510be84aecba4b3c4788a0fb8b9fa79c752c79</SHA256>
+      <FileSize>654049</FileSize>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>
