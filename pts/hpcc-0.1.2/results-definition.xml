@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v4.8.3 (Sokndal)-->
+<PhoronixTestSuite>
+  <ResultsParser>
+    <OutputTemplate> TODO     =                  #_RESULT_#</OutputTemplate>
+    <LineHint>TODO</LineHint>
+  </ResultsParser>
+</PhoronixTestSuite>
