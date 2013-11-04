@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v4.8.3 (Sokndal)-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>http://superb-dca3.dl.sourceforge.net/project/unvanquished/Universal_Zip/unvanquished-0.21-universal.zip, http://iweb.dl.sourceforge.net/project/unvanquished/Universal_Zip/unvanquished-0.21-universal.zip, http://iweb.dl.sourceforge.net/project/unvanquished/Universal_Zip/unvanquished-0.21-universal.zip</URL>
+      <MD5>f73d2a5bc625e200ada8f711ff85ff0b</MD5>
+      <SHA256>bb37b4147c2aafa3a124462ea789ed6c32a58edb5f62da416a10986cdd6ecfc5</SHA256>
+      <FileSize>759350194</FileSize>
+    </Package>
+    <Package>
+      <URL>http://www.phoronix-test-suite.com/benchmark-files/unvanquished-17-1.zip</URL>
+      <MD5>25b64f547bc38b9066d88936dbfd4480</MD5>
+      <FileSize>240207</FileSize>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>
