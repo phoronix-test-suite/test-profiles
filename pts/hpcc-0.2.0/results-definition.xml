@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v4.8.3 (Sokndal)-->
+<PhoronixTestSuite>
+  <ResultsParser>
+    <OutputTemplate>HPL_Tflops=#_RESULT_#</OutputTemplate>
+    <MatchToTestArguments>HPL</MatchToTestArguments>
+    <LineHint>HPL_Tflops</LineHint>
+    <MultiplyResultBy>1000</MultiplyResultBy>
+    <ResultScale>GFLOPS</ResultScale>
+    <ResultPrecision>5</ResultPrecision>
+  </ResultsParser>
+  <ResultsParser>
+    <OutputTemplate>PTRANS_GBs=#_RESULT_#</OutputTemplate>
+    <MatchToTestArguments>PTRANS</MatchToTestArguments>
+    <LineHint>PTRANS_GBs</LineHint>
+    <ResultScale>GB/s</ResultScale>
+    <ResultPrecision>5</ResultPrecision>
+  </ResultsParser>
+  <ResultsParser>
+    <OutputTemplate>MPIRandomAccess_GUPs=#_RESULT_#</OutputTemplate>
+    <MatchToTestArguments>MPIRANDOMACCESS</MatchToTestArguments>
+    <LineHint>MPIRandomAccess_GUPs</LineHint>
+    <ResultScale>GUP/s</ResultScale>
+    <ResultPrecision>5</ResultPrecision>
+  </ResultsParser>
+  <ResultsParser>
+    <OutputTemplate>MPIFFT_Gflops=#_RESULT_#</OutputTemplate>
+    <MatchToTestArguments>MPIFFT</MatchToTestArguments>
+    <LineHint>MPIFFT_Gflops</LineHint>
+    <ResultScale>GFLOP/s</ResultScale>
+    <ResultPrecision>5</ResultPrecision>
+  </ResultsParser>
+</PhoronixTestSuite>
