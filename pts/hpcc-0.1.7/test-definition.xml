@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v4.8.3 (Sokndal)-->
+<PhoronixTestSuite>
+  <TestInformation>
+    <Title>HPC Challenge</Title>
+    <AppVersion>1.4.3</AppVersion>
+    <Description>HPC Challenge (HPCC) is a cluster-focused benchmark consisting of the HPL Linpack TPP benchmark, DGEMM, STREAm, PTRANS, RandomAccess, FFT, and communication bandwidth and latency. This HPC Challenge test profile attempts to ship with standard yet versatile configuration/input files though they can be modified. Most of this HPCC super-computing testing has been done on Ubuntu and Red Hat Enterprise Linux installations.</Description>
+    <Proportion>HIB</Proportion>
+    <TimesToRun>3</TimesToRun>
+  </TestInformation>
+  <TestProfile>
+    <Version>0.1.7</Version>
+    <SupportedPlatforms>Linux</SupportedPlatforms>
+    <SoftwareType>Benchmark</SoftwareType>
+    <TestType>Processor</TestType>
+    <License>Free</License>
+    <Status>Unverified</Status>
+    <ExternalDependencies>build-utilities, fortran-compiler, openmpi-development, blas-development, atlas-development</ExternalDependencies>
+    <EnvironmentSize>9</EnvironmentSize>
+    <ProjectURL>http://icl.cs.utk.edu/hpcc/index.html</ProjectURL>
+    <InternalTags>SMP, MPI</InternalTags>
+    <Maintainer>Michael Larabel</Maintainer>
+  </TestProfile>
+  <TestSettings>
+    <Default>
+      <AllowCacheShare>TRUE</AllowCacheShare>
+    </Default>
+    <Option>
+      <DisplayName>Test / Class</DisplayName>
+      <Identifier>run-test</Identifier>
+      <Menu>
+        <Entry>
+          <Name>HPL</Name>
+          <Value>HPL</Value>
+        </Entry>
+        <Entry>
+          <Name>PTRANS</Name>
+          <Value>PTRANS</Value>
+        </Entry>
+        <Entry>
+          <Name>MPIRandomAccess</Name>
+          <Value>MPIRANDOMACCESS</Value>
+        </Entry>
+        <Entry>
+          <Name>MPI FFT</Name>
+          <Value>MPIFFT</Value>
+        </Entry>
+      </Menu>
+    </Option>
+  </TestSettings>
+</PhoronixTestSuite>
