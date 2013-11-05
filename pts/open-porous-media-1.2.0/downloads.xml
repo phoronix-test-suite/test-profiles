@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v4.8.3 (Sokndal)-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>http://www.phoronix-test-suite.com/benchmark-files/opm-20131105.tar.bz2</URL>
+      <MD5>a5113f7441a668992bbcbcebdce46141</MD5>
+      <SHA256>640303e372d62eed2c641d21246b07e7181cb13e6312f837393c2f974336db94</SHA256>
+      <FileSize>8611069</FileSize>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>
