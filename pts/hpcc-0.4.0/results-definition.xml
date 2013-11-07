@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v4.8.3 (Sokndal)-->
+<PhoronixTestSuite>
+  <ResultsParser>
+    <OutputTemplate>HPL_Tflops=#_RESULT_#</OutputTemplate>
+    <MatchToTestArguments>HPL</MatchToTestArguments>
+    <LineHint>HPL_Tflops</LineHint>
+    <MultiplyResultBy>1000</MultiplyResultBy>
+    <ResultScale>GFLOPS</ResultScale>
+    <ResultPrecision>5</ResultPrecision>
+  </ResultsParser>
+  <ResultsParser>
+    <OutputTemplate>PTRANS_GBs=#_RESULT_#</OutputTemplate>
+    <MatchToTestArguments>PTRANS</MatchToTestArguments>
+    <LineHint>PTRANS_GBs</LineHint>
+    <ResultScale>GB/s</ResultScale>
+    <ResultPrecision>5</ResultPrecision>
+  </ResultsParser>
+  <ResultsParser>
+    <OutputTemplate>MPIRandomAccess_GUPs=#_RESULT_#</OutputTemplate>
+    <MatchToTestArguments>MPIRANDOMACCESS</MatchToTestArguments>
+    <LineHint>MPIRandomAccess_GUPs</LineHint>
+    <ResultScale>GUP/s</ResultScale>
+    <ResultPrecision>5</ResultPrecision>
+  </ResultsParser>
+  <ResultsParser>
+    <OutputTemplate>MPIFFT_Gflops=#_RESULT_#</OutputTemplate>
+    <MatchToTestArguments>MPIFFT</MatchToTestArguments>
+    <LineHint>MPIFFT_Gflops</LineHint>
+    <ResultScale>GFLOP/s</ResultScale>
+    <ResultPrecision>5</ResultPrecision>
+  </ResultsParser>
+  <ResultsParser>
+    <OutputTemplate>Randomly Ordered Ring Latency:         #_RESULT_# msecs</OutputTemplate>
+    <MatchToTestArguments>RRINGLATENCY</MatchToTestArguments>
+    <LineHint>Randomly Ordered Ring Latency</LineHint>
+    <ResultScale>msecs</ResultScale>
+    <ResultProportion>LIB</ResultProportion>
+    <ResultPrecision>5</ResultPrecision>
+  </ResultsParser>
+  <ResultsParser>
+    <OutputTemplate>Randomly  Ordered Ring Bandwidth:    #_RESULT_# MB/s</OutputTemplate>
+    <MatchToTestArguments>RRINGBANDWIDTH</MatchToTestArguments>
+    <LineHint>Randomly  Ordered Ring Bandwidth</LineHint>
+    <ResultScale>MB/s</ResultScale>
+    <ResultPrecision>5</ResultPrecision>
+  </ResultsParser>
+  <ResultsParser>
+    <OutputTemplate>Bandwidth min / avg / max:   9068.765 /  10192.595 /  #_RESULT_# MByte/s</OutputTemplate>
+    <MatchToTestArguments>MAXPPBANDWIDTH</MatchToTestArguments>
+    <LineHint>Bandwidth min / avg / max</LineHint>
+    <ResultScale>MB/s</ResultScale>
+    <ResultPrecision>3</ResultPrecision>
+  </ResultsParser>
+</PhoronixTestSuite>
