@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v4.8.4 (Sokndal)-->
+<PhoronixTestSuite>
+  <TestInformation>
+    <Title>POV-Ray</Title>
+    <AppVersion>3.7.0</AppVersion>
+    <Description>This is a test of POV-Ray, the Persistence of Vision Raytracer. POV-Ray is used to create 3D graphics using ray-tracing.</Description>
+    <ResultScale>Seconds</ResultScale>
+    <Proportion>LIB</Proportion>
+    <SubTitle>Total Time</SubTitle>
+  </TestInformation>
+  <TestProfile>
+    <Version>1.1.0</Version>
+    <SupportedPlatforms>Linux, Solaris, BSD</SupportedPlatforms>
+    <SoftwareType>Utility</SoftwareType>
+    <TestType>Processor</TestType>
+    <License>Free</License>
+    <Status>Verified</Status>
+    <ExternalDependencies>build-utilities, boost-development</ExternalDependencies>
+    <EnvironmentSize>172</EnvironmentSize>
+    <ProjectURL>http://www.povray.org/</ProjectURL>
+    <Maintainer>Michael Larabel</Maintainer>
+  </TestProfile>
+</PhoronixTestSuite>
