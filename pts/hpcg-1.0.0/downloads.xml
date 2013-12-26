@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v4.8.5 (Sokndal)-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>https://software.sandia.gov/hpcg/downloads/hpcg-1.1.tar.gz</URL>
+      <MD5>e82240700004c612bb57869984ba7079</MD5>
+      <SHA256>ddef264576ed68ac9bf643ad716e133b4e371cd63a4972198aaedb3976243134</SHA256>
+      <FileSize>62496</FileSize>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>
