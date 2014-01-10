@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v5.0.0m0 (Plavsk)-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>http://files.randombit.net/botan/v1.11/Botan-1.11.6.tbz</URL>
+      <MD5>616c9428e6aa44d85f3dd9f9fe01d0cf</MD5>
+      <SHA256>6990bd82bf4f620e6e1f0964830f3a881fd7fb4f22c5e94bd07ca7265e2e5ebd</SHA256>
+      <FileSize>2367949</FileSize>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>
