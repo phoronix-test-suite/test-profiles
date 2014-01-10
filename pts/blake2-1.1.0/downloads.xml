@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v5.0.0m0 (Plavsk)-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>https://blake2.net/blake2_code_20130131.zip</URL>
+      <MD5>613cd1ebe6e0bec589cb6580161b23ca</MD5>
+      <SHA256>a3cb02348195353741891ba55a9506312a8144bf33f4b382e8749e9e57ce843a</SHA256>
+      <FileSize>465360</FileSize>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>

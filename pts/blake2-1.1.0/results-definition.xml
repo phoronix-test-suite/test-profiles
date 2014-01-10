@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v5.0.0m0 (Plavsk)-->
+<PhoronixTestSuite>
+  <ResultsParser>
+    <OutputTemplate>#long     long      #_RESULT_#</OutputTemplate>
+    <LineHint>long</LineHint>
+  </ResultsParser>
+</PhoronixTestSuite>
