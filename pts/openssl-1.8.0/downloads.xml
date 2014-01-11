@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v5.0.0m0 (Plavsk)-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>http://www.openssl.org/source/openssl-1.0.1f.tar.gz, ftp://ftp.openssl.org/source/openssl-1.0.1f.tar.gz</URL>
+      <MD5>f26b09c028a0541cab33da697d522b25</MD5>
+      <SHA256>6cc2a80b17d64de6b7bac985745fdaba971d54ffd7d38d3556f998d7c0c9cb5a</SHA256>
+      <FileSize>4509212</FileSize>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>
