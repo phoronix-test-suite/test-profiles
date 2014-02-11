@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v5.0.0m0 (Plavsk)-->
+<PhoronixTestSuite>
+  <ResultsParser>
+    <OutputTemplate>1943 frames, 51.2s: #_RESULT_# fps</OutputTemplate>
+    <LineHint>fps</LineHint>
+    <ResultBeforeString>fps</ResultBeforeString>
+  </ResultsParser>
+  <ExtraData>
+    <Identifier>com-speeds-frame-latency-totals</Identifier>
+  </ExtraData>
+</PhoronixTestSuite>
