@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v5.0.0m1 (Plavsk)-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>http://www.imagemagick.org/download/legacy/ImageMagick-6.8.1-10.tar.bz2, http://ring.u-toyama.ac.jp/archives/graphics/ImageMagick/legacy/ImageMagick-6.8.1-10.tar.bz2</URL>
+      <MD5>1cb5195482147625a2be3e860f3a0489</MD5>
+      <SHA256>0944253dc7b9e5934f99a41fed2c52f19891f541e627614a7b0d44a182769084</SHA256>
+      <FileSize>11086286</FileSize>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>
