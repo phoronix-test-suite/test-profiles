@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v5.0.0m1 (Plavsk)-->
+<PhoronixTestSuite>
+  <TestInformation>
+    <Title>SuperTuxKart</Title>
+    <AppVersion>0.8.1</AppVersion>
+    <Description>This is a test of SuperTuxKart, which is an open-source racing game. This game uses Irrlicht, OpenAL, and other technologies.</Description>
+    <ResultScale>Frames Per Second</ResultScale>
+    <Proportion>HIB</Proportion>
+    <TimesToRun>3</TimesToRun>
+  </TestInformation>
+  <TestProfile>
+    <Version>1.2.1</Version>
+    <SupportedPlatforms>Linux</SupportedPlatforms>
+    <SoftwareType>Game</SoftwareType>
+    <TestType>Graphics</TestType>
+    <License>Free</License>
+    <Status>Verified</Status>
+    <SupportedArchitectures>x86, x86_64</SupportedArchitectures>
+    <ExternalDependencies>glut, glew, openal-development</ExternalDependencies>
+    <EnvironmentSize>225</EnvironmentSize>
+    <ProjectURL>http://supertuxkart.sourceforge.net/</ProjectURL>
+    <Maintainer>Michael Larabel</Maintainer>
+  </TestProfile>
+  <TestSettings>
+    <Default>
+      <Arguments>--profile-time=60 --kart tux --track farm --numkarts 8 --fullscreen --race-now --animations=2 --gfx=1 --weather=1</Arguments>
+    </Default>
+    <Option>
+      <DisplayName>Resolution</DisplayName>
+      <Identifier>auto-resolution</Identifier>
+      <DefaultEntry>0</DefaultEntry>
+      <Menu>
+        <Entry>
+          <Name>$VIDEO_WIDTH x $VIDEO_HEIGHT</Name>
+          <Value>--screensize $VIDEO_WIDTHx$VIDEO_HEIGHT</Value>
+        </Entry>
+      </Menu>
+    </Option>
+  </TestSettings>
+</PhoronixTestSuite>

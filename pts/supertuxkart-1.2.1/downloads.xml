@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v5.0.0m1 (Plavsk)-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>http://ftp.jaist.ac.jp/pub/sourceforge/s/project/su/supertuxkart/SuperTuxKart/0.8.1/supertuxkart-0.8.1-linux-glibc2.7-i386.tar.bz2, http://internode.dl.sourceforge.net/project/supertuxkart/SuperTuxKart/0.8.1/supertuxkart-0.8.1-linux-glibc2.7-i386.tar.bz2, http://netcologne.dl.sourceforge.net/project/supertuxkart/SuperTuxKart/0.8.1/supertuxkart-0.8.1-linux-glibc2.7-i386.tar.bz2</URL>
+      <MD5>7492ee2f1034c88772b15ff1447fbcfd</MD5>
+      <SHA256>7e335e20b788d786961da20504658eadfab59f5dab1017a3d61bdc9b69abce33</SHA256>
+      <FileSize>222765108</FileSize>
+      <ArchitectureSpecific>x86</ArchitectureSpecific>
+    </Package>
+    <Package>
+      <URL>http://softlayer-ams.dl.sourceforge.net/project/supertuxkart/SuperTuxKart/0.8.1/supertuxkart-0.8.1-2-linux-glibc2.11-x86-64.tar.bz2, http://softlayer-dal.dl.sourceforge.net/project/supertuxkart/SuperTuxKart/0.8.1/supertuxkart-0.8.1-2-linux-glibc2.11-x86-64.tar.bz2</URL>
+      <MD5>6094fb2e83a37df36b78b56cc4268718</MD5>
+      <SHA256>9ae563ae5acad1cf001b693913d8c115932530dfe3200729fff47dadf1fbd287</SHA256>
+      <FileSize>223596489</FileSize>
+      <ArchitectureSpecific>x86_64</ArchitectureSpecific>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>
