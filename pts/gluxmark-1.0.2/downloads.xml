@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v5.0.0m1 (Plavsk)-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>http://www.phoronix-test-suite.com/benchmark-files/gluxMark2.2_src.zip</URL>
+      <MD5>0c890fd44d86cb62b16dfabb48aee1e5</MD5>
+      <SHA256>c936b22fcae0b74c57e0dc135c768d7747055c038754705741ca3d167d7c4121</SHA256>
+      <FileSize>7384481</FileSize>
+      <PlatformSpecific>Linux</PlatformSpecific>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>
