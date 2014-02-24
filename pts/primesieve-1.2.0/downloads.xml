@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v5.0.0m2 (Plavsk)-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>http://dl.bintray.com/kimwalisch/primesieve/primesieve-5.0.tar.gz</URL>
+      <MD5>40eda697ddaf33945af6ce41a5dd00d8</MD5>
+      <SHA256>26d4acc46fa72204c0198242188456d5220014b960b19886d3aedc8b7cf54251</SHA256>
+      <FileSize>464343</FileSize>
+      <PlatformSpecific>Linux, Solaris, BSD, MacOSX</PlatformSpecific>
+    </Package>
+    <Package>
+      <URL>http://dl.bintray.com/kimwalisch/primesieve/primesieve-5.0-win64-console.zip</URL>
+      <MD5>bae587617735b85a8a153638be03d460</MD5>
+      <SHA256>b9c84a6ff8e4b7b732f8d509ffe2f0047f2020166fa6b9d98590075a7dd27bd3</SHA256>
+      <FileSize>643569</FileSize>
+      <PlatformSpecific>Windows</PlatformSpecific>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>
