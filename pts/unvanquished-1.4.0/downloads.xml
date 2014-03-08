@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v5.0.0m3 (Plavsk)-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>http://iweb.dl.sourceforge.net/project/unvanquished/Universal_Zip/unvanquished-0.25.0-universal.zip, http://softlayer-dal.dl.sourceforge.net/project/unvanquished/Universal_Zip/unvanquished-0.25.0-universal.zip</URL>
+      <MD5>9822ef8569f1ebb0469680d375aa883e</MD5>
+      <SHA256>7910becbf1a8e2a60ff4795491c0e70cff6b208acf307694206b87f6d1aea766</SHA256>
+      <FileSize>556496198</FileSize>
+    </Package>
+    <Package>
+      <URL>http://www.phoronix-test-suite.com/benchmark-files/unvanquished-25-2.zip</URL>
+      <MD5>4c8ca2cc2951222693a8f0ddfe506861</MD5>
+      <SHA256>783589be8aefb89ea82a235c7a0c929c7a572f693350d8628380a77742f006af</SHA256>
+      <FileSize>429823</FileSize>
+    </Package>
+    <Package>
+      <URL>http://unvanquished.net/~modi/Unvanquished_0.25.0.tar.xz</URL>
+      <MD5>aa9d92dcef506f8a5065bf8d6a66e444</MD5>
+      <SHA256>91ee0db377fae0e44f2bbdb59425f0614939dfd27d74bd0a0497a286e44b86dd</SHA256>
+      <FileSize>7977036</FileSize>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>
