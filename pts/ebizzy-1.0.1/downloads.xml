@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v5.0.1 (Khanino)-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>http://softlayer-dal.dl.sourceforge.net/project/ebizzy/ebizzy/0.3/ebizzy-0.3.tar.gz, http://iweb.dl.sourceforge.net/project/ebizzy/ebizzy/0.3/ebizzy-0.3.tar.gz, http://hivelocity.dl.sourceforge.net/project/ebizzy/ebizzy/0.3/ebizzy-0.3.tar.gz</URL>
+      <MD5>af038bc506066bb3d28db08aba62bc38</MD5>
+      <SHA256></SHA256>
+      <FileSize>12438</FileSize>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>
