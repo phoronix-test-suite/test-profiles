@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v5.2.0m2 (Khanino)-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>http://brick.kernel.dk/snaps/fio-2.1.9.tar.bz2</URL>
+      <MD5>feb36932b3db7a6f121548b7a128a148</MD5>
+      <SHA256>4ae877939a1a1460ad4d93f7891a15bad8ca7295f441204b12c723758a0d4493</SHA256>
+      <FileSize>429122</FileSize>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>
