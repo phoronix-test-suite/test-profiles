@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v5.2.0m2 (Khanino)-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>http://warsow.net:1337/~warsow/1.5/warsow_15_unified.tar.gz</URL>
+      <MD5>05dfc393f33725e8c40e7894fccd59e8</MD5>
+      <SHA256>4b4715d45339bdabfc94d4385df4defac0974743061f63e6a025460ab24668d7</SHA256>
+      <FileSize>584507931</FileSize>
+    </Package>
+    <Package>
+      <URL>http://www.phoronix-test-suite.com/benchmark-files/pts-warsow-15-1.zip</URL>
+      <MD5>d3a999f62e95d1f16f028f5b29a4ef16</MD5>
+      <SHA256>84fc676822a050db92d92fc40a1ddd647971d8aa76e0c35e51de25711d71fa7b</SHA256>
+      <FileSize>119957</FileSize>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>
