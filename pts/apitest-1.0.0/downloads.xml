@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v5.2.0m4 (Khanino)-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>http://phoronix-test-suite.com/benchmark-files/apitest-20140601.tar.bz2</URL>
+      <MD5>07c25d40f5e2855f80231f1bfad34692</MD5>
+      <SHA256>0adccd9c404dc4d60817530b2b2464ff648252a9ee5831841bd6f6d41335f20f</SHA256>
+      <FileSize>23801696</FileSize>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>
