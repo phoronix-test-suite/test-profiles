@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v5.2.0m4 (Khanino)-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>http://www.mplayerhq.hu/MPlayer/releases/MPlayer-1.1.1.tar.xz</URL>
+      <MD5>39dd55f30eb5403f219a606e79a6648a</MD5>
+      <FileSize>11202492</FileSize>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>
