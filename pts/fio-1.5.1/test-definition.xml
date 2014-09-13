@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v5.4.0m1 (Lipki)-->
+<PhoronixTestSuite>
+  <TestInformation>
+    <Title>Flexible IO Tester</Title>
+    <AppVersion>2.1.11</AppVersion>
+    <Description>Fio is an advanced disk benchmark that depends upon the kernel's AIO access library.</Description>
+    <Executable>fio-run</Executable>
+    <TimesToRun>3</TimesToRun>
+  </TestInformation>
+  <TestProfile>
+    <Version>1.5.1</Version>
+    <SupportedPlatforms>Linux</SupportedPlatforms>
+    <SoftwareType>Benchmark</SoftwareType>
+    <TestType>Disk</TestType>
+    <License>Free</License>
+    <Status>Verified</Status>
+    <ExternalDependencies>build-utilities, libaio-development</ExternalDependencies>
+    <EnvironmentSize>4</EnvironmentSize>
+    <ProjectURL>http://git.kernel.dk/?p=fio.git;a=summary</ProjectURL>
+    <RequiresCoreVersionMin>5310</RequiresCoreVersionMin>
+    <Maintainer>Michael Larabel</Maintainer>
+  </TestProfile>
+  <TestSettings>
+    <Option>
+      <DisplayName>Test</DisplayName>
+      <Identifier>test</Identifier>
+      <DefaultEntry>0</DefaultEntry>
+      <Menu>
+        <Entry>
+          <Name>Intel IOMeter File Server Access Pattern</Name>
+          <Value>examples/iometer-file-access-server.fio</Value>
+        </Entry>
+        <Entry>
+          <Name>Tiobench Example</Name>
+          <Value>examples/tiobench-example.fio</Value>
+        </Entry>
+        <Entry>
+          <Name>Example Network Job</Name>
+          <Value>examples/netio.fio</Value>
+        </Entry>
+      </Menu>
+    </Option>
+    <Option>
+      <DisplayName>Disk Target</DisplayName>
+      <Identifier>auto-disk-mount-points</Identifier>
+      <DefaultEntry>0</DefaultEntry>
+    </Option>
+    <Option>
+      <DisplayName>Result</DisplayName>
+      <Identifier>result</Identifier>
+      <DefaultEntry>0</DefaultEntry>
+      <Menu>
+        <Entry>
+          <Name>Read MB/s</Name>
+          <Value>READ_MBS</Value>
+        </Entry>
+        <Entry>
+          <Name>Read IOPS</Name>
+          <Value>READ_IOPS</Value>
+        </Entry>
+        <Entry>
+          <Name>Write MB/s</Name>
+          <Value>WRITE_MBS</Value>
+        </Entry>
+        <Entry>
+          <Name>Write IOPS</Name>
+          <Value>WRITE_IOPS</Value>
+        </Entry>
+      </Menu>
+    </Option>
+  </TestSettings>
+</PhoronixTestSuite>
