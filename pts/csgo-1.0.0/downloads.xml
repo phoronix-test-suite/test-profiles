@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v5.4.0m1 (Lipki)-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>http://www.phoronix-test-suite.com/benchmark-files/pts-csgo-1.zip</URL>
+      <MD5>68dcc3a6a61135ed79a0292d6d681b29</MD5>
+      <SHA256>5919e691df34ce789938abdc6d8ba1737bbcc2c13dd107317d54d31f44fa5048</SHA256>
+      <FileSize>1676852</FileSize>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>
