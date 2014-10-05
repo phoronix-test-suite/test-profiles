@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v5.4.0m1 (Lipki)-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>http://dl.bintray.com/kimwalisch/primesieve/primesieve-5.4.tar.gz</URL>
+      <MD5>bb07e09348dc15d4b000069ea59badb3</MD5>
+      <SHA256>6f8c5c1a86d49392c14452a6e7f127e21051f849884b70b884163b4c1aab63ce</SHA256>
+      <FileSize>465257</FileSize>
+      <PlatformSpecific>Linux, Solaris, BSD, MacOSX</PlatformSpecific>
+    </Package>
+    <Package>
+      <URL>http://dl.bintray.com/kimwalisch/primesieve/primesieve-5.4-win64-console.zip</URL>
+      <MD5>d7f92f377e7d1e0dbecfa33a9d6800d0</MD5>
+      <SHA256>88c9be1bc9e12a6cf28449eea4406bce720cb92f760ccaa016879399df0f2491</SHA256>
+      <FileSize>277982</FileSize>
+      <PlatformSpecific>Windows</PlatformSpecific>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>
