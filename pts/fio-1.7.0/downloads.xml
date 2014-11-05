@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v5.4.0m3 (Lipki)-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>http://brick.kernel.dk/snaps/fio-2.1.13.tar.bz2</URL>
+      <MD5>694a48e03debca30aa8f51d3ae6c7a38</MD5>
+      <SHA256>c2797f8c8ccc8e1af30b2263e79fb394cf46309b8dbb595f03accc421fde4678</SHA256>
+      <FileSize>457353</FileSize>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>
