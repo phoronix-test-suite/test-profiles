@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v5.4.0m4 (Lipki)-->
+<PhoronixTestSuite>
+  <ResultsParser>
+    <OutputTemplate>  read : io=3274.5MB, bw=#_RESULT_#, iops=11931, runt= 46109msec</OutputTemplate>
+    <MatchToTestArguments>MBS</MatchToTestArguments>
+    <LineHint>runt=</LineHint>
+    <ResultAfterString>bw</ResultAfterString>
+    <StripFromResult>KB/s,</StripFromResult>
+    <DivideResultBy>1000</DivideResultBy>
+    <ResultScale>MB/s</ResultScale>
+    <ResultProportion>HIB</ResultProportion>
+  </ResultsParser>
+  <ResultsParser>
+    <OutputTemplate>  read : io=3274.5MB, bw=72203KB/s, iops=#_RESULT_#, runt= 46109msec</OutputTemplate>
+    <MatchToTestArguments>IOPS</MatchToTestArguments>
+    <LineHint>runt=</LineHint>
+    <ResultAfterString>iops</ResultAfterString>
+    <StripFromResult>,</StripFromResult>
+    <ResultScale>IOPS</ResultScale>
+    <ResultProportion>HIB</ResultProportion>
+  </ResultsParser>
+</PhoronixTestSuite>
