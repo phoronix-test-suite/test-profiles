@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v5.4.0m4 (Lipki)-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>http://ftp.kernel.org/pub/linux/kernel/v3.x/testing/linux-3.18-rc3.tar.gz</URL>
+      <MD5>179cfd419a5388be52a3680df1f13c96</MD5>
+      <SHA256>03eaeec542f45e02c39afec4b6b9c9ef99071d2d3f37aa1a213c5be56be3e0a5</SHA256>
+      <FileSize>122241822</FileSize>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>
