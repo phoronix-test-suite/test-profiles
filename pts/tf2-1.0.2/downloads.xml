@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v5.4.0m5 (Lipki)-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>http://www.phoronix-test-suite.com/benchmark-files/tf2-demo-1.zip</URL>
+      <MD5>4313301ed01cf37f596d3785588042c1</MD5>
+      <FileSize>919810</FileSize>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>
