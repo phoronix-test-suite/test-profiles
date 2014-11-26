@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v5.4.0m6 (Lipki)-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>http://dl.xonotic.org/xonotic-0.7.0.zip</URL>
+      <MD5>eda7e8acadbefaf4b2efcfb70bbe98e2</MD5>
+      <SHA256>21a5fb5493c269cd3843789cb8598f952d4196e8bc71804b9bd5808b646542c6</SHA256>
+      <FileSize>1040631083</FileSize>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>
