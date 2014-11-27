@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v5.4.0m6 (Lipki)-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>http://www.phoronix-test-suite.com/benchmark-files/renderer-2.2z.tar.bz2</URL>
+      <MD5>510df5f57cffc70ab94c7043b24a017e</MD5>
+      <SHA256>9f27acd1ac8a9676d93e26311b26553d61c0057029dc62f62566575b548375ce</SHA256>
+      <FileSize>2930210</FileSize>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>
