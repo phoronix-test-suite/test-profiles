@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v5.8.0m1 (Belev)-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>http://dl.bintray.com/kimwalisch/primesieve/primesieve-5.4.2.tar.gz</URL>
+      <MD5>8b01a06cbe49ff6c3b668412278dc44c</MD5>
+      <SHA256>73abf4ff118e8d41ffaf687cf902b0b53a8bbc357bf4efa1798477d346f85cc8</SHA256>
+      <FileSize>465257</FileSize>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>
