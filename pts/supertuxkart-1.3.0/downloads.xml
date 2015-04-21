@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v5.8.0m1 (Belev)-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>http://internode.dl.sourceforge.net/project/supertuxkart/SuperTuxKart/0.9/supertuxkart-0.9-linux.tar.gz, http://netcologne.dl.sourceforge.net/project/supertuxkart/SuperTuxKart/0.9/supertuxkart-0.9-linux.tar.gz</URL>
+      <MD5>657762fac305f96f7747e40d3cb8b557</MD5>
+      <SHA256>8d564e55ad7158c83065b8c1041cb01b6c7681c9a6575481dc4def959f480283</SHA256>
+      <FileSize>430630274</FileSize>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>
