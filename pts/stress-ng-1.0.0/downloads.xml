@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v5.8.0 (Belev)-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>http://kernel.ubuntu.com/~cking/tarballs/stress-ng/stress-ng-0.04.05.tar.gz</URL>
+      <MD5>3612c504de45d224e3011b927a5a05f7</MD5>
+      <SHA256>6f06fc05a687bb98eb8e4113f86fb4bd333d735ba00a41f7d383cabb59ce43f6</SHA256>
+      <FileSize>209813</FileSize>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>
