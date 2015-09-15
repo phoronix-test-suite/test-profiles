@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v6.0.0m1-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>http://www.phoronix-test-suite.com/benchmark-files/pts3-csgo-aug2015.zip</URL>
+      <MD5>241eac79d888728b28573b20bd9084df</MD5>
+      <SHA256>92cca8754713db74c5929bd4619bb3562ddd6fe2a8628d5ad923b1039480838a</SHA256>
+      <FileSize>1261001</FileSize>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>
