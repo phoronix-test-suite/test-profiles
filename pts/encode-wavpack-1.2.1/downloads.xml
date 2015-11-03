@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v6.0.0m4-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>http://pkgs.fedoraproject.org/repo/pkgs/wavpack/wavpack-4.41.0.tar.bz2/6a13edeae437498db78fe528d9e95144/wavpack-4.41.0.tar.bz2, http://www.slackware.com/~alien/slackbuilds/wavpack/build/wavpack-4.41.0.tar.bz2, http://ftp.mirrorservice.org/sites/distfiles.macports.org/wavpack/wavpack-4.70.0.tar.bz2</URL>
+      <MD5>6a13edeae437498db78fe528d9e95144</MD5>
+      <FileSize>329241</FileSize>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>
