@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v6.0.0m5-->
+<PhoronixTestSuite>
+  <TestInformation>
+    <Title>CUDA Mini-Nbody</Title>
+    <AppVersion>2015-11-10</AppVersion>
+    <Description>The CUDA version of Harrism's mini-nbody tests.</Description>
+    <ResultScale>Seconds</ResultScale>
+    <Proportion>LIB</Proportion>
+    <TimesToRun>3</TimesToRun>
+  </TestInformation>
+  <TestProfile>
+    <Version>1.0.0</Version>
+    <SupportedPlatforms>Linux</SupportedPlatforms>
+    <SoftwareType>Benchmark</SoftwareType>
+    <TestType>Graphics</TestType>
+    <License>Free</License>
+    <Status>Verified</Status>
+    <ExternalDependencies>build-utilities, cuda</ExternalDependencies>
+    <EnvironmentSize>1</EnvironmentSize>
+    <ProjectURL>https://github.com/harrism/mini-nbody</ProjectURL>
+    <InternalTags>CUDA</InternalTags>
+    <Maintainer>Michael Larabel</Maintainer>
+  </TestProfile>
+  <TestSettings>
+    <Option>
+      <DisplayName>Test</DisplayName>
+      <Identifier>test</Identifier>
+      <ArgumentPrefix></ArgumentPrefix>
+      <ArgumentPostfix></ArgumentPostfix>
+      <DefaultEntry>0</DefaultEntry>
+      <Menu>
+        <Entry>
+          <Name>Original</Name>
+          <Value>shmoo-cuda-nbody-orig.sh</Value>
+          <Message></Message>
+        </Entry>
+        <Entry>
+          <Name>SOA Data Layout</Name>
+          <Value>shmoo-cuda-nbody-soa.sh</Value>
+          <Message></Message>
+        </Entry>
+        <Entry>
+          <Name>Flush Denormals To Zero</Name>
+          <Value>shmoo-cuda-nbody-ftz.sh</Value>
+          <Message></Message>
+        </Entry>
+        <Entry>
+          <Name>Cache Blocking</Name>
+          <Value>shmoo-cuda-nbody-block.sh</Value>
+          <Message></Message>
+        </Entry>
+        <Entry>
+          <Name>Loop Unrolling</Name>
+          <Value>shmoo-cuda-nbody-unroll.sh</Value>
+          <Message></Message>
+        </Entry>
+      </Menu>
+    </Option>
+  </TestSettings>
+</PhoronixTestSuite>
