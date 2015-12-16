@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v6.2.0m1-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>http://www.phoronix-test-suite.com/benchmark-files/pts4-csgo-dec2015.zip</URL>
+      <MD5>b6c13044547189830dfdd3cd76b4eea5</MD5>
+      <SHA256>99e84c55f02daf8a480a3cbe43710e8813dc85b07a041b3633eb3820988ba9e1</SHA256>
+      <FileSize>716025</FileSize>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>
