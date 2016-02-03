@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v6.2.0m4-->
+<PhoronixTestSuite>
+  <ResultsParser>
+    <OutputTemplate> GOPERF-METRIC:time=#_RESULT_#</OutputTemplate>
+    <StripFromResult>ns</StripFromResult>
+  </ResultsParser>
+</PhoronixTestSuite>
