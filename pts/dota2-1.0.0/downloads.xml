@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v6.2.0m5-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>http://www.phoronix-test-suite.com/benchmark-files/pts-dota2-2.zip</URL>
+      <MD5>c89fe879ff4ca05ff4f3a526d4985b20</MD5>
+      <SHA256>f16b18223de1de7b3883804057555ae834baab7078673acc8e8f8259bdc5016a</SHA256>
+      <FileSize>1046183</FileSize>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>
