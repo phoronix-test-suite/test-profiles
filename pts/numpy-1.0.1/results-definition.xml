@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v6.2.1-->
+<PhoronixTestSuite>
+  <ResultsParser>
+    <OutputTemplate>Total avg time (nanoseconds): #_RESULT_#</OutputTemplate>
+    <ResultPrecision>4</ResultPrecision>
+  </ResultsParser>
+</PhoronixTestSuite>
