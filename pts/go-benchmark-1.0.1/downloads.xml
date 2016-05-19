@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v6.4.0m2-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>http://www.phoronix-test-suite.com/benchmark-files/golang-benchmarks-e7f1879.tar.gz</URL>
+      <MD5>09b0519a36a67d01e1bc3aa4f5fcedf6</MD5>
+      <SHA256>f9d245adb865db10e5be52c041024c2a8ef53bb45e1da89b5380e48392aae304</SHA256>
+      <FileSize>163611</FileSize>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>
