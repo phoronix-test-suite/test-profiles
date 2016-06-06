@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v6.4.0-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>http://render.otoy.com/downloads/OctaneBench_2_17_linux.zip</URL>
+      <MD5>32038e048c0a67da0bc53221ac7e4f22</MD5>
+      <SHA256>c41019f6dede3705cecb706e5c77d93b6b9472112e6cb03646c6dc424c1f599b</SHA256>
+      <FileSize>53714363</FileSize>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>
