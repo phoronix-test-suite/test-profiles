@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v6.4.0-->
+<PhoronixTestSuite>
+  <TestInformation>
+    <Title>Caffe AlexNet</Title>
+    <AppVersion>2016-06-11</AppVersion>
+    <Description>This is a benchmark of the Caffe deep learning framework and currently uses the AlexNet model.</Description>
+    <ResultScale>Milli-Seconds</ResultScale>
+    <Proportion>LIB</Proportion>
+    <TimesToRun>3</TimesToRun>
+  </TestInformation>
+  <TestProfile>
+    <Version>1.1.0</Version>
+    <SupportedPlatforms>Linux</SupportedPlatforms>
+    <SoftwareType>Benchmark</SoftwareType>
+    <TestType>System</TestType>
+    <License>Free</License>
+    <Status>Verified</Status>
+    <ExternalDependencies>build-utilities, cuda, python, blas-development, boost-development, atlas-development</ExternalDependencies>
+    <EnvironmentSize>100</EnvironmentSize>
+    <ProjectURL>http://caffe.berkeleyvision.org/</ProjectURL>
+    <InternalTags>CUDA, SMP</InternalTags>
+    <Maintainer>Michael Larabel</Maintainer>
+  </TestProfile>
+  <TestSettings>
+    <Option>
+      <DisplayName>Build</DisplayName>
+      <Identifier>build</Identifier>
+      <ArgumentPrefix></ArgumentPrefix>
+      <ArgumentPostfix></ArgumentPostfix>
+      <DefaultEntry>0</DefaultEntry>
+      <Menu>
+        <Entry>
+          <Name>CUDA</Name>
+          <Value>./build-nvidia/tools/caffe time --model=models/bvlc_alexnet/deploy.prototxt  -gpu 0 -iterations 1000</Value>
+          <Message></Message>
+        </Entry>
+        <Entry>
+          <Name>CPU Only</Name>
+          <Value>./build-cpu/tools/caffe time --model=models/bvlc_alexnet/deploy.prototxt -iterations 1000</Value>
+          <Message></Message>
+        </Entry>
+      </Menu>
+    </Option>
+  </TestSettings>
+</PhoronixTestSuite>
