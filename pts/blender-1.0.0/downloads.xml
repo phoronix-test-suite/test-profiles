@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v6.6.0m1-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>http://mirror.cs.umn.edu/blender.org/release/Blender2.77/blender-2.77a-linux-glibc211-x86_64.tar.bz2, http://ftp.halifax.rwth-aachen.de/blender/release/Blender2.77/blender-2.77a-linux-glibc211-x86_64.tar.bz2</URL>
+      <MD5>64229426b9f41253a33ca6001f644d93</MD5>
+      <SHA256>c8214c1d3e459ee1612d7a55979828e8e694138f19c080b246a3210b25dc3a54</SHA256>
+      <FileSize>117388777</FileSize>
+    </Package>
+    <Package>
+      <URL>http://download.blender.org/demo/test/cycles_benchmark_20160228.zip</URL>
+      <MD5>61dabc9cc92dec9549f73f7453d9a875</MD5>
+      <SHA256>026e7499a7bd9e0d41fe4d43e611a145a62d8d5df4fe347a6a08c6f0e98cf0c6</SHA256>
+      <FileSize>530883683</FileSize>
+    </Package>
+    <Package>
+      <URL>http://dev-files.blender.org/file/data/r4iv4gdd3fbhxpmdws46/PHID-FILE-hrzox73wovivxnhqyxlb/kernel_sm_61.zip</URL>
+      <MD5>ee1bb20fcab15f2567ada78b67310940</MD5>
+      <SHA256>2ef702660589f652e77a516e3975bb3696be43912b52a8175b0a0f56379f9d88</SHA256>
+      <FileSize>854888</FileSize>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>
