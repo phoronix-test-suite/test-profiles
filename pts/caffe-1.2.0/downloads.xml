@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v6.6.0m2-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>http://www.phoronix-test-suite.com/benchmark-files/caffe-20160611.tar.bz2</URL>
+      <MD5>ac931ca323463e05f8d9b4ff1bf64fd4</MD5>
+      <SHA256>8eb2be73eac8142a045a982425c878392e6fb35e0d9da1f5310b13cbfd6e6be4</SHA256>
+      <FileSize>8438901</FileSize>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>
