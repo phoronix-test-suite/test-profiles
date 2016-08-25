@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v6.6.0m2-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>http://www.craftychess.com/crafty-23.4.zip, http://www.phoronix-test-suite.com/benchmark-files/crafty-23.4.zip</URL>
+      <MD5>7e0811dd2d801428d8da48a4e487885a</MD5>
+      <SHA256>f49e119b9e843bd1f99b895919b4361ba0d6ae4349e2751a864872d6dd250e66</SHA256>
+      <FileSize>426295</FileSize>
+      <PlatformSpecific>Linux, Solaris, BSD, MacOSX</PlatformSpecific>
+    </Package>
+    <Package>
+      <URL>http://www.webkikr.com/files/crafty-23.4-win64.exe.zip</URL>
+      <MD5>081bb376050fba43e4df3d2ef3ae94a5</MD5>
+      <FileSize>299923</FileSize>
+      <PlatformSpecific>Windows</PlatformSpecific>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>
