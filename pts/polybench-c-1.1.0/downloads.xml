@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v6.6.0m2-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>http://www.cse.ohio-state.edu/~pouchet/software/polybench/download/polybench-c-3.2.tar.gz</URL>
+      <MD5>8ec677fe62752696ad9965d27c2710f0</MD5>
+      <SHA256>1caddda5806dbe5556e0bbb4e367846a2470e6c677e5d872bdb16ace36a571f7</SHA256>
+      <FileSize>22993</FileSize>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>
