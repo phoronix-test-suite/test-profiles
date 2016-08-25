@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v6.6.0m2-->
+<PhoronixTestSuite>
+  <ResultsParser>
+    <OutputTemplate>AES-256 [core] #_RESULT_#</OutputTemplate>
+    <MatchToTestArguments>AES-256</MatchToTestArguments>
+  </ResultsParser>
+  <ResultsParser>
+    <OutputTemplate>CAST-256 [core] #_RESULT_#</OutputTemplate>
+    <MatchToTestArguments>CAST-256</MatchToTestArguments>
+  </ResultsParser>
+  <ResultsParser>
+    <OutputTemplate>KASUMI [core] #_RESULT_#</OutputTemplate>
+    <MatchToTestArguments>KASUMI</MatchToTestArguments>
+  </ResultsParser>
+  <ResultsParser>
+    <OutputTemplate>Twofish [core] #_RESULT_#</OutputTemplate>
+    <MatchToTestArguments>Twofish</MatchToTestArguments>
+  </ResultsParser>
+  <ResultsParser>
+    <OutputTemplate>Tiger [core] #_RESULT_#</OutputTemplate>
+    <MatchToTestArguments>Tiger</MatchToTestArguments>
+  </ResultsParser>
+  <ResultsParser>
+    <OutputTemplate>X9.19-MAC [core] #_RESULT_#</OutputTemplate>
+    <MatchToTestArguments>X9.19-MAC</MatchToTestArguments>
+  </ResultsParser>
+</PhoronixTestSuite>
