@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v6.6.0-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>ftp://ftp.gnupg.org/gcrypt/gnupg/gnupg-1.4.10.tar.gz, https://ftp.heanet.ie/disk1/gnupg/gnupg/gnupg-1.4.10.tar.gz</URL>
+      <MD5>991faf66d3352ac1452acc393c430b23</MD5>
+      <SHA256>055e92b6735fb82a6c9f7d506cdd01ae7a733a1f3793d3694083e1f283f5e914</SHA256>
+      <FileSize>4747259</FileSize>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>
