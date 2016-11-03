@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v6.8.0m1-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>http://www.phoronix-test-suite.com/benchmark-files/deusex-preferences-1.zip</URL>
+      <MD5>316e99980984442883f70143797d553b</MD5>
+      <SHA256>5c9108d7d1b4c33cfde95ff68409b6943afef679059f0ba7be15e3105d2fc4a4</SHA256>
+      <FileSize>14117</FileSize>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>
