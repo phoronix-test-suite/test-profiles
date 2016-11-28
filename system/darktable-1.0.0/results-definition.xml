@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v6.8.0m2-->
+<PhoronixTestSuite>
+  <ResultsParser>
+    <OutputTemplate>[dev_process_export] pixel pipeline processing took #_RESULT_# secs (72.368 CPU)
+</OutputTemplate>
+    <LineHint>pixel pipeline processing took</LineHint>
+  </ResultsParser>
+</PhoronixTestSuite>

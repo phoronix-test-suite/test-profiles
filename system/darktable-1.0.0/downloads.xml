@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v6.8.0m2-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>http://www.phoronix-test-suite.com/benchmark-files/darktable-bench-assets-1.tar.bz2</URL>
+      <MD5>2092203e4399e2d11bbcde837983ef67</MD5>
+      <SHA256>33599937c2d38954c0c83934835fa077498b364a037f3d3303779baf6d9db1e7</SHA256>
+      <FileSize>62408974</FileSize>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>
