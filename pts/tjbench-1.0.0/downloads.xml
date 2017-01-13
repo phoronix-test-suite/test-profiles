@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v7.0.0m1-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>http://phoronix-test-suite.com/benchmark-files/jpeg-test-1.zip</URL>
+      <MD5>33cf1ff89be71a7eb7b1c2958f1b7d89</MD5>
+      <SHA256>adb76e4ee2e8ee815693b0898d79be70cecf9508ac3fdcb79baa43bcfcdc2646</SHA256>
+      <FileSize>11321295</FileSize>
+    </Package>
+    <Package>
+      <URL>http://ftp.osuosl.org/pub/blfs/conglomeration/libjpeg-turbo/libjpeg-turbo-1.5.1.tar.gz</URL>
+      <MD5>55deb139b0cac3c8200b75d485fc13f3</MD5>
+      <SHA256>41429d3d253017433f66e3d472b8c7d998491d2f41caa7306b8d9a6f2a2c666c</SHA256>
+      <FileSize>1650647</FileSize>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>
