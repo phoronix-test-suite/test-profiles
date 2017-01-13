@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v7.0.0m1-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>http://www.phoronix-test-suite.com/benchmark-files/povray-3.7.0.tar.bz2</URL>
+      <MD5>28ea25904f1731aeab190ad72f638a69</MD5>
+      <SHA256>0ba2e1c52a4b03650a9f5b867be385a162e4eb9dd08a211ae7856770022967b5</SHA256>
+      <FileSize>36078065</FileSize>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>
