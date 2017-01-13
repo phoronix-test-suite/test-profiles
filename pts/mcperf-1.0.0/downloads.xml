@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v7.0.0m1-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/twemperf/mcperf-0.1.1.tar.gz</URL>
+      <MD5>97f4aa323861c51d729e6800fc317639</MD5>
+      <SHA256>7e60d0e83c158584e8f625d2af6adbe4430031f8f1b0513c63a03a700420c3ee</SHA256>
+      <FileSize>230264</FileSize>
+    </Package>
+    <Package>
+      <URL>http://www.memcached.org/files/memcached-1.4.34.tar.gz</URL>
+      <MD5>040887d52dfcc88b2e8918b4bfd91bf5</MD5>
+      <SHA256>5064c87f91a37d822dfeab8768490c55fe686a742f07f67c7121101e48d87c79</SHA256>
+      <FileSize>391131</FileSize>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>
