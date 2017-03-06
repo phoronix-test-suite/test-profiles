@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v7.0.0m5-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>http://www.phoronix-test-suite.com/benchmark-files/tomb-raider-prefs-1.tar.gz</URL>
+      <MD5>f74cee751911566321b1ec0c25b306af</MD5>
+      <SHA256>edb29a7fad1d896ccc29a3c9cdc16e77e1f487f61e2f28bdb94afb2c2a92731f</SHA256>
+      <FileSize>2151</FileSize>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>
