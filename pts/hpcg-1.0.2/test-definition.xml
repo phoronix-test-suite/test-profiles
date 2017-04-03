@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v7.0.1-->
+<PhoronixTestSuite>
+  <TestInformation>
+    <Title>High Performance Conjugate Gradient</Title>
+    <AppVersion>1.1</AppVersion>
+    <Description>HPCG is the High Performance Conjugate Gradient and is a new scientific benchmark from Sandia National Lans focused for super-computer testing with modern real-world workloads compared to HPCC.</Description>
+    <Proportion>HIB</Proportion>
+    <TimesToRun>3</TimesToRun>
+    <PreInstallMessage>Supported install-time optional variables include $MPI_PATH, $MPI_INCLUDE, $MPI_CC, $MPI_LIBS, $CFLAGS, $LD_FLAGS, and $MPI_LD</PreInstallMessage>
+    <PostInstallMessage>Supported run-time optional environment variables include $MPI_NUM_THREADS, $HOSTFILE</PostInstallMessage>
+  </TestInformation>
+  <TestProfile>
+    <Version>1.0.2</Version>
+    <SupportedPlatforms>Linux</SupportedPlatforms>
+    <SoftwareType>Benchmark</SoftwareType>
+    <TestType>Processor</TestType>
+    <License>Free</License>
+    <Status>Verified</Status>
+    <ExternalDependencies>build-utilities, fortran-compiler, openmpi-development</ExternalDependencies>
+    <EnvironmentSize>2.4</EnvironmentSize>
+    <ProjectURL>http://software.sandia.gov/hpcg/default.php</ProjectURL>
+    <InternalTags>SMP, MPI</InternalTags>
+    <Maintainer>Michael Larabel</Maintainer>
+  </TestProfile>
+</PhoronixTestSuite>
