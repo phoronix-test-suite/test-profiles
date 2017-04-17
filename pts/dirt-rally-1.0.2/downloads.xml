@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v7.2.0m1-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>http://www.phoronix-test-suite.com/benchmark-files/dirt-rally-prefs-1.tar.gz</URL>
+      <MD5>b404a6beb6366719c7e02777ff238319</MD5>
+      <SHA256>55a937d47020f11f0033c91f49c305c1811442869b5a42752006a197e0f510f2</SHA256>
+      <FileSize>2207</FileSize>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>
