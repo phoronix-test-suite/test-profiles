@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v7.2.0m1-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>http://mirror.cs.umn.edu/blender.org/release/Blender2.78/blender-2.78c-linux-glibc219-x86_64.tar.bz2, http://ftp.halifax.rwth-aachen.de/blender/release/Blender2.78/blender-2.78c-linux-glibc219-x86_64.tar.bz2, https://www.blend4web.com/blender/release/Blender2.78/blender-2.78c-linux-glibc219-x86_64.tar.bz2</URL>
+      <MD5>6aec4319f0a0cd632f48e07e2866d2ab</MD5>
+      <SHA256>282f5ef2ae7a342ef20b9892a903bd18225c10c77335cdb58b4e88e3f0e71837</SHA256>
+      <FileSize>133974164</FileSize>
+    </Package>
+    <Package>
+      <URL>http://download.blender.org/demo/test/cycles_benchmark_20160228.zip</URL>
+      <MD5>61dabc9cc92dec9549f73f7453d9a875</MD5>
+      <SHA256>026e7499a7bd9e0d41fe4d43e611a145a62d8d5df4fe347a6a08c6f0e98cf0c6</SHA256>
+      <FileSize>530883683</FileSize>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>
