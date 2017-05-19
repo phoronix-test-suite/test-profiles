@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v7.2.0m2-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>http://ftp.postgresql.org/pub/source/v9.6.3/postgresql-9.6.3.tar.bz2, http://ftp.iij.ad.jp/pub/db/postgresql/source/v9.6.3/postgresql-9.6.3.tar.bz2</URL>
+      <MD5>ce1d0a57ace0a5b7a994b56796fdba35</MD5>
+      <SHA256>1645b3736901f6d854e695a937389e68ff2066ce0cde9d73919d6ab7c995b9c6</SHA256>
+      <FileSize>19534323</FileSize>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>
