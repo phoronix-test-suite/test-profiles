@@ -2,6 +2,8 @@
 
 This Git repository serves as an auto-converted repository of all [OpenBenchmarking.org](http://www.openbenchmarking.org/) test profiles used by the [Phoronix Test Suite](http://www.phoronix-test-suite.com/) available in the form of a Git repository. OpenBenchmarking.org test profiles themselves are not stored in any Git repository but rather has relied upon its own custom version management system integrated into the Phoronix Test Suite. (This Git copy is auto-generated via `phoronix-test-suite dump-tests-to-git`.) This Git repository is here primarily for _convenience_.
 
+These test profiles are not usable without the [Phoronix Test Suite](http://www.phoronix-test-suite.com/) or from [its Git repository](https://github.com/phoronix-test-suite/phoronix-test-suite). Since Phoronix Test Suite 3.0, test profiles have been versioned separately from the Phoronix Test Suite and served by OpenBenchmarking.org when needed by the client, rather than being bundled with the phoronix-test-suite package itself. This allows for test profiles to be updated independent of the Phoronix Test Suite client, new tests to be added past a Phoronix Test Suite release, and other benefits.
+
 ## Purpose
 
 **The purpose of this Git repository is to satisfy those wanting a Git-based workflow around test profile development and updating. As well, for making use of GitHub's infrastructure if desired for reporting any test profile issues/bugs or submitting pull requests.** Pull requests won't directly be used but any accepted changes will be applied to the OpenBenchmarking.org test profiles appropriately and will then appear back into this Git repository when updated by the PTS administrator.
@@ -17,6 +19,8 @@ Among the reasons for not using Git as the primary form of test profile hosting 
 * With the OpenBenchmarking.org infrastructure, Phoronix Test Suite / [Phoromatic](http://www.phoromatic.com/) clients can simply request from the server a packaged archive of the desired test profiles/suites without needing Git present on the client systems. The Phoronix Test Suite seeks to have minimal system dependencies itself, rarely requiring anything outside core PHP, and thus avoid the dependency on `git`.
 
 * Simplicity and many test profiles seeing updates only a few times per year or less while being maintained by a small number of individuals.
+
+* Each test profile would need its own Git repository with each test being independently versioned, separate from other tests or the Phoronix Test Suite itself.
 
 * The majority of the OpenBenchmarking.org infrastructure was written in 2010 and has served its purpose fine without any problems, thus not any need to re-engineer something that has been working effectively for its purpose.
 
