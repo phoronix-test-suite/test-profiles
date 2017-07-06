@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v7.2.1-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>https://github.com/fahbench/fahbench/releases/download/2.3.1/FAHBench-2.3.2-Linux.tar.gz</URL>
+      <MD5>3e885b9fcd68bebab9928a866109aa02</MD5>
+      <SHA256>1a5b81f57e25af557ebb25d2e8bfbeb1d2888384170e18871b7df930ac98c384</SHA256>
+      <FileSize>25859180</FileSize>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>
