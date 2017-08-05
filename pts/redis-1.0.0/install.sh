@@ -6,7 +6,7 @@ cd ~/redis-3.0.1/deps
 make hiredis jemalloc linenoise lua
 
 cd ~/redis-3.0.1
-make -j $NUM_CPU_JOBS
+make MALLOC=libc -j $NUM_CPU_JOBS
 echo $? > ~/install-exit-status
 
 cd ~
