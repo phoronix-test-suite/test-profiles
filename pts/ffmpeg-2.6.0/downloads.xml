@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v7.4.0m1-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>http://ffmpeg.org/releases/ffmpeg-3.3.3.tar.bz2</URL>
+      <MD5>b3f4a71445171b2a2bb71fb6df5ced0f</MD5>
+      <SHA256>1069ac8fc7f52e566bea28b41b9c437246aeb5096f82fb26fa96dc7d5a10a473</SHA256>
+      <FileSize>9940959</FileSize>
+    </Package>
+    <Package>
+      <URL>http://samples.ffmpeg.org/V-codecs/h264/HD2-h264.ts, http://samples.libav.org/V-codecs/h264/HD2-h264.ts</URL>
+      <MD5>69dc5d10fdf92bdb7ea6097857508134</MD5>
+      <FileSize>303528820</FileSize>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>
