@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v7.4.0m1-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>http://phoronix-test-suite.com/benchmark-files/S-20170810.zip</URL>
+      <MD5>128a94555a590f23cc24d0e8fa2fe9de</MD5>
+      <SHA256>67f045b248fe9d5f31d72bc0a93ef529bc591251d35b74ca10935d524e1371c0</SHA256>
+      <FileSize>24610426</FileSize>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>

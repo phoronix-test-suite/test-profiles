@@ -1,0 +1,90 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v7.4.0m1-->
+<PhoronixTestSuite>
+  <TestInformation>
+    <Title>Application Start-up Time</Title>
+    <AppVersion>0.1.0</AppVersion>
+    <Description>This benchmark measures the start-up time of applications when there is some I/O in the background.</Description>
+    <Executable>startuptime-run</Executable>
+    <TimesToRun>3</TimesToRun>
+  </TestInformation>
+  <TestProfile>
+    <Version>1.0.0</Version>
+    <SupportedPlatforms>Linux</SupportedPlatforms>
+    <SoftwareType>Benchmark</SoftwareType>
+    <TestType>Disk</TestType>
+    <License>Free</License>
+    <Status>Verified</Status>
+    <RequiresRoot>TRUE</RequiresRoot>
+    <EnvironmentSize>4</EnvironmentSize>
+    <ProjectURL>https://github.com/Algodev-github/S</ProjectURL>
+    <RequiresCoreVersionMin>6921</RequiresCoreVersionMin>
+    <InternalTags>Responsiveness</InternalTags>
+    <Maintainer>Paolo Valente</Maintainer>
+    <SystemDependencies>awk, dd, fio, time, iostat, egrep</SystemDependencies>
+  </TestProfile>
+  <TestSettings>
+    <Option>
+      <DisplayName>Background I/O Type</DisplayName>
+      <Identifier>type</Identifier>
+      <ArgumentPrefix></ArgumentPrefix>
+      <ArgumentPostfix></ArgumentPostfix>
+      <DefaultEntry>0</DefaultEntry>
+      <Menu>
+        <Entry>
+          <Name>Sequential</Name>
+          <Value>seq</Value>
+          <Message></Message>
+        </Entry>
+        <Entry>
+          <Name>Random</Name>
+          <Value>rand</Value>
+          <Message></Message>
+        </Entry>
+      </Menu>
+    </Option>
+    <Option>
+      <DisplayName>Background I/O mix</DisplayName>
+      <Identifier>iomix</Identifier>
+      <ArgumentPrefix></ArgumentPrefix>
+      <ArgumentPostfix></ArgumentPostfix>
+      <DefaultEntry>0</DefaultEntry>
+      <Menu>
+        <Entry>
+          <Name>Only reads</Name>
+          <Value>r</Value>
+          <Message></Message>
+        </Entry>
+        <Entry>
+          <Name>Reads and writes</Name>
+          <Value>rw</Value>
+          <Message></Message>
+        </Entry>
+      </Menu>
+    </Option>
+    <Option>
+      <DisplayName>Application to start</DisplayName>
+      <Identifier>command</Identifier>
+      <ArgumentPrefix></ArgumentPrefix>
+      <ArgumentPostfix></ArgumentPostfix>
+      <DefaultEntry>0</DefaultEntry>
+      <Menu>
+        <Entry>
+          <Name>Gnome terminal</Name>
+          <Value>gnome-terminal</Value>
+          <Message></Message>
+        </Entry>
+        <Entry>
+          <Name>xterm</Name>
+          <Value>xterm</Value>
+          <Message></Message>
+        </Entry>
+        <Entry>
+          <Name>LibreOffice Writer</Name>
+          <Value>lowriter</Value>
+          <Message></Message>
+        </Entry>
+      </Menu>
+    </Option>
+  </TestSettings>
+</PhoronixTestSuite>
