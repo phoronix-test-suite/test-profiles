@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v7.4.0m2-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>ftp://ftp.fu-berlin.de/unix/languages/gcc/releases/gcc-7.2.0/gcc-7.2.0.tar.gz, ftp://ftp.gwdg.de/pub/misc/gcc/releases/gcc-7.2.0/gcc-7.2.0.tar.gz</URL>
+      <MD5>2e4be17c604ea555e0dff4a8f81ffe44</MD5>
+      <SHA256>0153a003d3b433459336a91610cca2995ee0fb3d71131bd72555f2231a6efcfc</SHA256>
+      <FileSize>111997123</FileSize>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>
