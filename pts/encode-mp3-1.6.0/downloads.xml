@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v7.4.0m3-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>https://fossies.org/linux/misc/lame-3.99.5.tar.gz, http://ftp.ntua.gr/mirror/lame/lame/3.99/lame-3.99.5.tar.gz, http://phoronix-test-suite.com/benchmark-files/lame-3.99.5.tar.gz, https://download.videolan.org/pub/contrib/lame/lame-3.99.5.tar.gz</URL>
+      <MD5>84835b313d4a8b68f5349816d33e07ce</MD5>
+      <SHA256>24346b4158e4af3bd9f2e194bb23eb473c75fb7377011523353196b19b9a23ff</SHA256>
+      <FileSize>1445348</FileSize>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>
