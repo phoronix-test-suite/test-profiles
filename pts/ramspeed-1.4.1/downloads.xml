@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v7.4.0m3-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>http://www.alasir.com/software/ramspeed/ramsmp-3.5.0.tar.gz</URL>
+      <MD5>c26b32c752c603e17c28a1cab4348682</MD5>
+      <FileSize>79481</FileSize>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>
