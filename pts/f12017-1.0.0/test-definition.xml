@@ -83,13 +83,13 @@
           <Message></Message>
         </Entry>
         <Entry>
-          <Name>TAA</Name>
-          <Value>taa</Value>
+          <Name>TAA Checkerboard</Name>
+          <Value>taa+checkerboard</Value>
           <Message></Message>
         </Entry>
         <Entry>
-          <Name>TAA Checkerboard</Name>
-          <Value>taa+checkerboard</Value>
+          <Name>TAA</Name>
+          <Value>taa</Value>
           <Message></Message>
         </Entry>
       </Menu>
