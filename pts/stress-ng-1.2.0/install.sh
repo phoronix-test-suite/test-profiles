@@ -7,7 +7,9 @@ make
 echo $? > ~/install-exit-status
 
 cd ~
-echo "#!/bin/sh
+cat << EOF > stress-ng
+#!/bin/sh
 cd ~/stress-ng-0.07.26
-./stress-ng \$@ > \$LOG_FILE" > stress-ng
+./stress-ng \$@ > \$LOG_FILE 2>&1 
+EOF
 chmod +x stress-ng
