@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v7.6.0m3-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>https://iweb.dl.sourceforge.net/project/supertuxkart/SuperTuxKart/0.9.3/supertuxkart-0.9.3-linux.tar.xz, https://svwh.dl.sourceforge.net/project/supertuxkart/SuperTuxKart/0.9.3/supertuxkart-0.9.3-linux.tar.xz, https://pilotfiber.dl.sourceforge.net/project/supertuxkart/SuperTuxKart/0.9.3/supertuxkart-0.9.3-linux.tar.xz</URL>
+      <SHA256>df86c9c82af283beafde1f71d5c279ce574eca6bc9cda1c6f8377beb94739e38</SHA256>
+      <FileSize>527738740</FileSize>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>
