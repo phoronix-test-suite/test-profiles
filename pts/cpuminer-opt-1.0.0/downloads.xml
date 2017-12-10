@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v7.6.0-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>https://www.phoronix-test-suite.com/benchmark-files/cpuminer-opt-3.7.5.zip</URL>
+      <MD5>6e0b62ff9524200f7e5a84fa29c70044</MD5>
+      <SHA256>7308a8504a2be4c8f7c78342bf64d58e7d3874471727fb1c9a5933af5e456671</SHA256>
+      <FileSize>1851263</FileSize>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>
