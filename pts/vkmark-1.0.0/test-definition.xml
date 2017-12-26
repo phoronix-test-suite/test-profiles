@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v7.6.0-->
+<PhoronixTestSuite>
+  <TestInformation>
+    <Title>VKMark</Title>
+    <AppVersion>2017-12-26</AppVersion>
+    <Description>VKMark is a collection of Vulkan tests/benchmarks.</Description>
+    <ResultScale>VKMark Score</ResultScale>
+    <Proportion>HIB</Proportion>
+    <Executable>vkmark-run</Executable>
+    <TimesToRun>3</TimesToRun>
+  </TestInformation>
+  <TestProfile>
+    <Version>1.0.0</Version>
+    <SupportedPlatforms>Linux</SupportedPlatforms>
+    <SoftwareType>Utility</SoftwareType>
+    <TestType>Graphics</TestType>
+    <License>Free</License>
+    <Status>Verified</Status>
+    <ExternalDependencies>build-utilities, vulkan-development, meson, xorg-development</ExternalDependencies>
+    <EnvironmentSize>112</EnvironmentSize>
+    <ProjectURL>https://github.com/vkmark/vkmark</ProjectURL>
+    <Maintainer>Michael Larabel</Maintainer>
+  </TestProfile>
+</PhoronixTestSuite>

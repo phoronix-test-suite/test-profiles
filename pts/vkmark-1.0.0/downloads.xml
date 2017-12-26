@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v7.6.0-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>http://phoronix-test-suite.com/benchmark-files/vkmark-20171226.zip</URL>
+      <MD5>6f817ef488c410703c42d9527ea2f968</MD5>
+      <SHA256>64705c21d7b1964ee08c40d5a3bbb595a849243adf94148c0e95dfc6fc6c1987</SHA256>
+      <FileSize>824425</FileSize>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>
