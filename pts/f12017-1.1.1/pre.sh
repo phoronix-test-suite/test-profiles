@@ -156,11 +156,11 @@ sed -i "s/MIRRORS/$gfxconfig_mirrors/g" preferences
 sed -i "s/PARTICLES/$gfxconfig_particles/g" preferences
 sed -i "s/POSTPROCESS/$gfxconfig_postprocess/g" preferences
 sed -i "s/SCREEN_SPACE_REFLECTIONS/$gfxconfig_screen_space_reflections/g" preferences
-sed -i "s/SHADOWS/$gfxconfig_shadows/g" preferences
-sed -i "s/SKIDMARKS/$gfxconfig_skidmarks/g" preferences
-sed -i "s/SKIDMARKS_BLENDING/$gfxconfig_skidmarks_blending/g" preferences
 sed -i "s/SMOKE_SHADOWS/$gfxconfig_smoke_shadows/g" preferences
 sed -i "s/SSRT_SHADOWS/$gfxconfig_ssrt_shadows/g" preferences
+sed -i "s/SHADOWS/$gfxconfig_shadows/g" preferences
+sed -i "s/SKIDMARKS_BLENDING/$gfxconfig_skidmarks_blending/g" preferences
+sed -i "s/SKIDMARKS/$gfxconfig_skidmarks/g" preferences
 sed -i "s/TEXTURE_STREAMING/$gfxconfig_texture_streaming/g" preferences
 sed -i "s/VEHICLE_REFLECTIONS/$gfxconfig_vehicle_reflections/g" preferences
 sed -i "s/WEATHER_EFFECTS/$gfxconfig_weather_effects/g" preferences
