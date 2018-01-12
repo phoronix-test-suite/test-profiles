@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v7.6.0-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>http://cdn.geekbench.com/Geekbench-4.2.0-Linux.tar.gz</URL>
+      <FileSize>70837802</FileSize>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>

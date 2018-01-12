@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v7.6.0-->
+<PhoronixTestSuite>
+  <ResultsParser>
+    <OutputTemplate>  https://browser.geekbench.com/v4/cpu/#_RESULT_#</OutputTemplate>
+  </ResultsParser>
+</PhoronixTestSuite>
