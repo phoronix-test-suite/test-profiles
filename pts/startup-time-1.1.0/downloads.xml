@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v7.8.0m2-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>http://phoronix-test-suite.com/benchmark-files/S-master-20180121.zip</URL>
+      <MD5>195b95d30f3564b52562e44610d403a9</MD5>
+      <SHA256>536dc07405b3d9e2e697358781b5c366da6685770c265fb03c5a0d45a17d8fc3</SHA256>
+      <FileSize>24614593</FileSize>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>
