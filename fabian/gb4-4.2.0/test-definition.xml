@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v7.6.0-->
+<PhoronixTestSuite>
+  <TestInformation>
+    <Title>Geekbench 4</Title>
+    <AppVersion>4.2.0</AppVersion>
+    <Description>Geekbench 4 mide la potencia de tu sistema y te dice si tu computadora est&#xE1; lista para rugir. &#xBF;Qu&#xE9; tan fuerte es tu dispositivo m&#xF3;vil o computadora de escritorio? &#xBF;C&#xF3;mo funcionar&#xE1; cuando llegue el momento de crisis? Estas son las preguntas que Geekbench puede responder.</Description>
+    <ResultScale>Score</ResultScale>
+    <Proportion>HIB</Proportion>
+    <SubTitle>Floating Point Multicore</SubTitle>
+    <TimesToRun>1</TimesToRun>
+  </TestInformation>
+  <TestProfile>
+    <Version>4.2.0</Version>
+    <SupportedPlatforms>Linux, Windows</SupportedPlatforms>
+    <SoftwareType>Utility</SoftwareType>
+    <TestType>Processor</TestType>
+    <License>Free</License>
+    <Status>Verified</Status>
+    <EnvironmentSize>0.1</EnvironmentSize>
+    <Maintainer>Fabian Frommel</Maintainer>
+  </TestProfile>
+</PhoronixTestSuite>
