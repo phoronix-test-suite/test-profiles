@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v7.8.0m3-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>http://phoronix-test-suite.com/benchmark-files/libvpx-1.7.0.tar.gz</URL>
+      <MD5>193346f9aec0726145e51db732417cd2</MD5>
+      <SHA256>1fec931eb5c94279ad219a5b6e0202358e94a93a90cfb1603578c326abfc1238</SHA256>
+      <FileSize>2679797</FileSize>
+    </Package>
+    <Package>
+      <URL>http://download.blender.org/peach/bigbuckbunny_movies/big_buck_bunny_720p_h264.mov, https://archive.org/download/big_buck_bunny_720p_h264/big_buck_bunny_720p_h264.mov, http://www.peach.themazzone.com/big_buck_bunny_720p_h264.mov</URL>
+      <MD5>f21f99e3872446d2aa664c84f3e993c3</MD5>
+      <SHA256>45c8bafeb9a53df7f491198d2e71529701bcf1cd51805782089fac1d32869f9b</SHA256>
+      <FileSize>416751190</FileSize>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>
