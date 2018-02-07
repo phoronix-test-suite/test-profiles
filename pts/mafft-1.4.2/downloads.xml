@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v7.8.0m3-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>http://mafft.cbrc.jp/alignment/software/mafft-6.864-without-extensions-src.tgz, http://phoronix-test-suite.com/benchmark-files/mafft-6.864-without-extensions-src.tgz</URL>
+      <MD5>0c889658c2b1eb41da02e36630ae6b27</MD5>
+      <SHA256>660fdca1a61acf2910381d5b6084e2d249167d9c89937dad6c588b35d2b7d7d6</SHA256>
+      <FileSize>384472</FileSize>
+    </Package>
+    <Package>
+      <URL>http://phoronix-test-suite.com/benchmark-files/pyruvate_decarboxylase.fasta.bz2</URL>
+      <MD5>22cd5efc1199a72fbb3f19960f56010d</MD5>
+      <SHA256>0e08a3749b7196310b065a783f3cddc0a1f42876004d3f75ebe367d2ffe751bf</SHA256>
+      <FileSize>13847</FileSize>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>
