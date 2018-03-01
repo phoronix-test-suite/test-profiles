@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v8.0.0m0-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>http://brick.kernel.dk/snaps/fio-2.18.tar.bz2</URL>
+      <MD5>e224ce313f5587280cbcece06a5afa6c</MD5>
+      <SHA256>361dbefa80ac08b0974de5f0cc39da04d699b9f52b7ba574f2ab9b5260157d22</SHA256>
+      <FileSize>579818</FileSize>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>
