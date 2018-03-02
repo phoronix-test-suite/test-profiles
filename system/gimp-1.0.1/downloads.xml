@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v8.0.0m0-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>http://www.phoronix-test-suite.com/benchmark-files/pts-sample-photos-2.tar.bz2, http://www.phoronix.net/downloads/phoronix-test-suite/benchmark-files/pts-sample-photos-2.tar.bz2</URL>
+      <MD5>7ff2870cf3fa2299ea5f4e77e5a8535f</MD5>
+      <SHA256>e8597d7d5910a709985bffae490dfa9490483eb7838b351191156f027d9b5272</SHA256>
+      <FileSize>29599729</FileSize>
+    </Package>
+    <Package>
+      <URL>http://download.gimp.org/mirror/pub/gimp/v2.9/windows/gimp-2.9.8-x64-setup.exe, http://download.gimp.org/pub/gimp/v2.9/windows/gimp-2.9.8-x64-setup.exe</URL>
+      <MD5>33389c3402c02f0b702370162e2026ca</MD5>
+      <SHA256>35f15c86be961b48906f870dbf40519e8641dae2be11edf0208a18539fbcddfe</SHA256>
+      <FileSize>124699997</FileSize>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>
