@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v8.0.0m0-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>http://download.redis.io/releases/redis-3.2.1.tar.gz</URL>
+      <MD5>b311d4332326f1e6f86a461b4025636d</MD5>
+      <SHA256>df7bfb7b527d99981eba3912ae22703764eb19adda1357818188b22fdd09d5c9</SHA256>
+      <FileSize>1534696</FileSize>
+      <PlatformSpecific>Linux, BSD, MacOSX</PlatformSpecific>
+    </Package>
+    <Package>
+      <URL>http://github.com/MicrosoftArchive/redis/releases/download/win-3.2.100/Redis-x64-3.2.100.zip</URL>
+      <MD5>46440b1b71815e292d8048dab4a7a13e</MD5>
+      <SHA256>73775183186ebd1917353a8ae62303a328cedfff58164c9bf46e2b46977a9475</SHA256>
+      <FileSize>5224077</FileSize>
+      <PlatformSpecific>Windows</PlatformSpecific>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>
