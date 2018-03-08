@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v8.0.0m0-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>http://www.caselab.okstate.edu/research/e3dbm.exe</URL>
+      <MD5>5efed022e74005f83f6f44ad67f95dc0</MD5>
+      <SHA256>a4ef233d79de60d64e0aef400908ad39b6b272ba9c1150338f7857d394105543</SHA256>
+      <FileSize>700416</FileSize>
+    </Package>
+    <Package>
+      <URL>http://www.caselab.okstate.edu/research/bm2.zip</URL>
+      <MD5>3a8841c2997ea05102f639c7d3decf50</MD5>
+      <SHA256>4dfc9fb8612b11a6100488482c25eac00d096cdd600c7242307972bdd434a5fe</SHA256>
+      <FileSize>14717014</FileSize>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>
