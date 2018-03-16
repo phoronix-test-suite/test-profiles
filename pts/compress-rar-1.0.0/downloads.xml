@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v8.0.0m1-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>http://www.kernel.org/pub/linux/kernel/v4.x/linux-4.13.tar.gz, http://mirrors.mit.edu/kernel/linux/kernel/v4.x/linux-4.13.tar.gz</URL>
+      <MD5>7e0393558784f7494a50c5219eac14f1</MD5>
+      <SHA256>9511260e17e474183b9c3b2ea601d5af256dde783e14dba4031854eaa98d5089</SHA256>
+      <FileSize>155489655</FileSize>
+    </Package>
+    <Package>
+      <URL>https://www.rarlab.com/rar/rarlinux-x64-5.6.b1.tar.gz</URL>
+      <MD5>d23348a172796f7f2762be838765a521</MD5>
+      <SHA256>395064d1139b0483a1f5505d4d734023b36dd03aa967a222a0e5b2652dbe404b</SHA256>
+      <FileSize>540817</FileSize>
+      <PlatformSpecific>Linux</PlatformSpecific>
+    </Package>
+    <Package>
+      <URL>https://www.rarlab.com/rar/winrar-x64-56b1.exe</URL>
+      <MD5>052492718f143f79e52238d94cafb2d9</MD5>
+      <SHA256>8b8d21eeaa4cf2165832a0ecf1d16bde6e141c9a426e74fd8f72d94db2f2ee6c</SHA256>
+      <FileSize>3181936</FileSize>
+      <PlatformSpecific>Windows</PlatformSpecific>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>
