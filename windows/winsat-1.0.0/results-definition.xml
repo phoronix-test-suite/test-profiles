@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v8.0.0m1-->
+<PhoronixTestSuite>
+  <ResultsParser>
+    <OutputTemplate>DiskAssessment/3/PerDiskData/Zone/Statistics/Mean</OutputTemplate>
+    <ResultScale>MB/s</ResultScale>
+    <ResultProportion>HIB</ResultProportion>
+    <FileFormat>XML</FileFormat>
+  </ResultsParser>
+  <ResultsParser>
+    <OutputTemplate>SystemMemoryBandwidth/TotalBytesPerSecondMean</OutputTemplate>
+    <DivideResultBy>1000000</DivideResultBy>
+    <ResultScale>MB/s</ResultScale>
+    <ResultProportion>HIB</ResultProportion>
+    <FileFormat>XML</FileFormat>
+  </ResultsParser>
+</PhoronixTestSuite>

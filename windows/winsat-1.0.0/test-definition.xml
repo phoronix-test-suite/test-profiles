@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v8.0.0m1-->
+<PhoronixTestSuite>
+  <TestInformation>
+    <Title>WinSAT</Title>
+    <Description>WinSAT is the Windows System Assessment Tool for Microsoft Windows.</Description>
+    <TimesToRun>3</TimesToRun>
+  </TestInformation>
+  <TestProfile>
+    <Version>1.0.0</Version>
+    <SupportedPlatforms>Windows</SupportedPlatforms>
+    <SoftwareType>Benchmark</SoftwareType>
+    <TestType>System</TestType>
+    <License>Free</License>
+    <Status>Verified</Status>
+    <EnvironmentSize>53</EnvironmentSize>
+    <ProjectURL>https://msdn.microsoft.com/en-us/library/windows/desktop/bb530740(v=vs.85).aspx</ProjectURL>
+    <Maintainer>Michael Larabel</Maintainer>
+  </TestProfile>
+  <TestSettings>
+    <Option>
+      <DisplayName>Test</DisplayName>
+      <Identifier>test</Identifier>
+      <ArgumentPrefix></ArgumentPrefix>
+      <ArgumentPostfix></ArgumentPostfix>
+      <DefaultEntry>0</DefaultEntry>
+      <Menu>
+        <Entry>
+          <Name>Disk</Name>
+          <Value>disk</Value>
+          <Message></Message>
+        </Entry>
+        <Entry>
+          <Name>Memory</Name>
+          <Value>mem</Value>
+          <Message></Message>
+        </Entry>
+      </Menu>
+    </Option>
+  </TestSettings>
+</PhoronixTestSuite>
