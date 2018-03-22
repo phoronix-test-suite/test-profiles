@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v8.0.0m1-->
+<PhoronixTestSuite>
+  <TestInformation>
+    <Title>Application Start-up Time</Title>
+    <AppVersion>2.3.0</AppVersion>
+    <Description>This benchmark measures the start-up time of applications when there is some I/O in the background.</Description>
+    <Executable>startuptime-run</Executable>
+    <TimesToRun>3</TimesToRun>
+  </TestInformation>
+  <TestProfile>
+    <Version>1.2.0</Version>
+    <SupportedPlatforms>Linux</SupportedPlatforms>
+    <SoftwareType>Benchmark</SoftwareType>
+    <TestType>Disk</TestType>
+    <License>Free</License>
+    <Status>Verified</Status>
+    <RequiresRoot>TRUE</RequiresRoot>
+    <EnvironmentSize>4</EnvironmentSize>
+    <ProjectURL>https://github.com/Algodev-github/S</ProjectURL>
+    <RequiresCoreVersionMin>6921</RequiresCoreVersionMin>
+    <InternalTags>Responsiveness</InternalTags>
+    <Maintainer>Paolo Valente</Maintainer>
+    <SystemDependencies>awk, dd, fio, time, iostat, egrep</SystemDependencies>
+  </TestProfile>
+  <TestSettings>
+    <Option>
+      <DisplayName>Background I/O Mix</DisplayName>
+      <Identifier>iomix</Identifier>
+      <ArgumentPrefix></ArgumentPrefix>
+      <ArgumentPostfix></ArgumentPostfix>
+      <DefaultEntry>0</DefaultEntry>
+      <Menu>
+        <Entry>
+          <Name>Only Sequential Reads</Name>
+          <Value>r</Value>
+          <Message></Message>
+        </Entry>
+        <Entry>
+          <Name>Sequential Reads + Writes</Name>
+          <Value>rw</Value>
+          <Message></Message>
+        </Entry>
+      </Menu>
+    </Option>
+    <Option>
+      <DisplayName>Application To Start</DisplayName>
+      <Identifier>command</Identifier>
+      <ArgumentPrefix></ArgumentPrefix>
+      <ArgumentPostfix></ArgumentPostfix>
+      <DefaultEntry>0</DefaultEntry>
+      <Menu>
+        <Entry>
+          <Name>GNOME Terminal</Name>
+          <Value>gnome-terminal</Value>
+          <Message></Message>
+        </Entry>
+        <Entry>
+          <Name>xterm</Name>
+          <Value>xterm</Value>
+          <Message></Message>
+        </Entry>
+        <Entry>
+          <Name>LibreOffice Writer</Name>
+          <Value>lowriter</Value>
+          <Message></Message>
+        </Entry>
+      </Menu>
+    </Option>
+  </TestSettings>
+</PhoronixTestSuite>
