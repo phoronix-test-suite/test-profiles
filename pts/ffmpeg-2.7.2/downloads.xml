@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v8.0.0m2-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>http://ffmpeg.org/releases/ffmpeg-3.4.1.tar.bz2</URL>
+      <MD5>bbf3fcded80c33968c91bf323a744286</MD5>
+      <SHA256>f3443e20154a590ab8a9eef7bc951e8731425efc75b44ff4bee31d8a7a574a2c</SHA256>
+      <FileSize>10177055</FileSize>
+      <PlatformSpecific>Linux, BSD, Solaris, MacOSX</PlatformSpecific>
+    </Package>
+    <Package>
+      <URL>http://ffmpeg.zeranoe.com/builds/win64/static/ffmpeg-3.4.1-win64-static.zip</URL>
+      <MD5>5cb05b7ad82c3c2786131c87cfa65fc3</MD5>
+      <SHA256>c7d9f3e5db788a73c5601cf5581f7d0e26018ba697ff6e3e48990093cac740be</SHA256>
+      <FileSize>45955089</FileSize>
+      <PlatformSpecific>Windows</PlatformSpecific>
+    </Package>
+    <Package>
+      <URL>http://samples.ffmpeg.org/V-codecs/h264/HD2-h264.ts</URL>
+      <MD5>69dc5d10fdf92bdb7ea6097857508134</MD5>
+      <FileSize>303528820</FileSize>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>
