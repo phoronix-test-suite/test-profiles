@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v8.0.0m2-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>http://www.phoronix-test-suite.com/benchmark-files/stockfish-20141126.zip</URL>
+      <MD5>b34d0fe3da8e8fe696fb43a060247df7</MD5>
+      <SHA256>c9e9b81654b979ab8a15bbefb7c1108709ac3cd9e69f34f45e85a8ca40765a8a</SHA256>
+      <FileSize>163338</FileSize>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>
