@@ -60,6 +60,16 @@
           <Value>bench-sqrt</Value>
           <Message></Message>
         </Entry>
+        <Entry>
+          <Name>sin</Name>
+          <Value>bench-sin</Value>
+          <Message></Message>
+        </Entry>
+        <Entry>
+          <Name>cos</Name>
+          <Value>bench-cos</Value>
+          <Message></Message>
+        </Entry>
       </Menu>
     </Option>
   </TestSettings>
