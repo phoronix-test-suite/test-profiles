@@ -5,7 +5,7 @@
     <OutputTemplate>524288, #_RESULT_# </OutputTemplate>
     <LineHint>524288,</LineHint>
     <ResultScale>(NBody^2)/s</ResultScale>
-    <ResultProportion>LIB</ResultProportion>
+    <ResultProportion>MIB</ResultProportion>
   </ResultsParser>
 </PhoronixTestSuite>
 
