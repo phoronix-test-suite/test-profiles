@@ -3,32 +3,74 @@
 SA=`which systemd-analyze`
 echo $? > ~/install-exit-status
 
+cat > systemd-analyze.py<< EOT
+#!/usr/bin/python3
+import subprocess
+
+out, err = subprocess.Popen(["systemd-analyze"], stdout=subprocess.PIPE, stderr=subprocess.PIPE).communicate()
+alllines = out.decode("latin-1")
+lines =  alllines.split("\n")
+
+total_time =0
+kernel_time =0
+userspace_time = 0
+firmware_time = 0
+loader_time = 0
+
+def time_to_ms(time):
+    if "ms" in time:
+        return float(time.replace("ms",""))
+    if "min" in time:
+        return float(time.replace("min",""))*60000
+    if "s" in time:
+        return float(time.replace("s",""))*1000
+
+for line in lines:
+    if "(kernel)" in line:
+        count = 0
+        for item in (line.split(" ")):
+            if "kernel" in item:
+                time = (line.split(" ")[count-1])
+                kernel_time = time_to_ms(time)
+                break
+            count+=1
+    if "(userspace)" in line:
+        count = 0
+        for item in (line.split(" ")):
+            if "userspace" in item:
+                time = (line.split(" ")[count-1])
+                userspace_time = time_to_ms(time)
+                break
+            count+=1
+    if "(loader)" in line:
+        count = 0
+        for item in (line.split(" ")):
+            if "loader" in item:
+                time = (line.split(" ")[count-1])
+                loader_time = time_to_ms(time)
+                break
+            count+=1
+    if "(firmware)" in line:
+        count = 0
+        for item in (line.split(" ")):
+            if "firmware" in item:
+                time = (line.split(" ")[count-1])
+                firmware_time = time_to_ms(time)
+                break
+            count+=1
+total_time = 0
+total_time = float(kernel_time) + float(userspace_time)
+
+print("kernel_time : " + str(kernel_time))
+print("userspace_time: " + str(userspace_time))
+print("loader_time: " + str(loader_time))
+print("firmware_time: " + str(firmware_time))
+print("total_time: " + str(total_time))
+EOT
+
 cat > systemd-boot-total << EOT
 #!/bin/sh
-
-OUTPUT="\$(${SA} | sed 's/[+|=]/\n/g'|\
-sed 's/Startup finished in//'|\
-sed 's/^ //'|\
-sed 's/\(.*\)\ (\(.*\))/\2|\1/'|\
-awk -F "|" '{if (NF == 1)print "total|"\$1;else print\$1"|"\$2}'|\
-awk -F "|" '{\
-    len=split(\$2,n," ");\
-    total=0;\
-    for(i=1;i<=len;i++)\
-    {\
-        l=length(n[i]);\
-        if(n[i] ~ /min$/)\
-            total+=substr(n[i],0,l-3)*60000;\
-        else if(n[i] ~ /[0-9]s$/)\
-            total+=substr(n[i],0,l-1)*1000;\
-        else\
-            total+=substr(n[i],0,l-2)\
-    }\
-    print \$1,total;\
-}'| grep \$@ | cut -d' ' -f2)"
-
-echo \$OUTPUT > \$LOG_FILE 2>&1
-
+python systemd-analyze.py | grep \$@ | cut -d':' -f2 > \$LOG_FILE 2>&1
 EOT
 
 chmod +x systemd-boot-total
