@@ -7,7 +7,7 @@
     <Description>This benchmark tests the system memory (RAM) performance.</Description>
     <ResultScale>MB/s</ResultScale>
     <Proportion>HIB</Proportion>
-    <TimesToRun>1</TimesToRun>
+    <TimesToRun>3</TimesToRun>
   </TestInformation>
   <TestProfile>
     <Version>1.0.1</Version>
