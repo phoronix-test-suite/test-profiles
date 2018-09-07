@@ -40,7 +40,7 @@ echo ";; Example from https://www.gimp.org/tutorials/Basic_Batch/
                   (image (car (gimp-file-load RUN-NONINTERACTIVE
                                               filename filename)))
                   (drawable (car (gimp-image-get-active-layer image))))
-		
+
              (gimp-image-scale image new-width new-height)
              (gimp-file-save RUN-NONINTERACTIVE
                              image drawable filename filename)
@@ -78,8 +78,10 @@ echo ";; Example from https://www.gimp.org/tutorials/Basic_Batch/
            (set! filelist (cdr filelist)))))
 
 " > bench.scm
+mkdir .config/GIMP/2.10/scripts
 cp -f *.scm .gimp-2.8/scripts/bench.scm
 cp -f *.scm .gimp-2.9/scripts/bench.scm
+cp -f *.scm .config/GIMP/2.10/scripts/bench.scm
 
 cd ~
 echo "#!/bin/sh
