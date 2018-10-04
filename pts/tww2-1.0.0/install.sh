@@ -260,7 +260,7 @@ cat > preferences.template.xml <<- EOM
             </key>
             <key name="MacDoze">
                 <key name="Config">
-                    <value name="ExtraCommandLine" type="string">game_startup_mode benchmark_auto_quit script/benchmarks/fallen_gates/battle_benchmark.xml</value>
+                    <value name="ExtraCommandLine" type="string">game_startup_mode benchmark_auto_quit script/benchmarks/@benchmark_name@</value>
                     <value name="ExtraCommandLineEnabled" type="integer">1</value>
                 </key>
             </key>

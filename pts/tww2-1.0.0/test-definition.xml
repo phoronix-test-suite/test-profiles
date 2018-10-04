@@ -65,5 +65,20 @@ NOTES for cross-platform comparisons:
         </Entry>
       </Menu>
     </Option>
+    <Option>
+      <DisplayName>Scenario</DisplayName>
+      <Identifier>scenario</Identifier>
+      <DefaultEntry>0</DefaultEntry>
+      <Menu>
+        <Entry>
+          <Name>Fallen Gates Battle</Name>
+          <Value>fallen_gates/battle_benchmark.xml</Value>
+        </Entry>
+        <Entry>
+          <Name>Skaven Battle</Name>
+          <Value>skaven_benchmark/skaven_benchmark.xml</Value>
+        </Entry>
+      </Menu>
+    </Option>
   </TestSettings>
 </PhoronixTestSuite>

@@ -7,6 +7,7 @@ exec 2>&1
 WIDTH=$1
 HEIGHT=$2
 SETTING=$3
+SCENARIO=$4
 
 # Game preferences
 export HOME=$DEBUG_REAL_HOME
@@ -31,6 +32,10 @@ cd "$GAME_PREFS" || exit 1
 # Replace settings with those chosen
 sed -i "s/@screen_height@/$WIDTH/g"          preferences
 sed -i "s/@screen_width@/$HEIGHT/g"         preferences
+
+# Replace benchmark scenario, use commas as delimiters since this is replacing a
+# path string
+sed -i "s,@benchmark_name@,$SCENARIO,g"         preferences
 
 # Lowest
 if [ $SETTING -eq "0" ]; then
