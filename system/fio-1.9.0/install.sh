@@ -26,9 +26,13 @@ buffered=\$3
 startdelay=5
 ramp_time=5
 runtime=20
-time_based
-disk_util=0
-clat_percentiles=0
+time_based\" > test.fio
+
+if [ \"\${OPERATING_SYSTEM}\" != \"freebsd\" ]; then
+	echo \"disk_util=0\" >> test.fio
+fi
+
+echo \"clat_percentiles=0
 disable_lat=1
 disable_clat=1
 disable_slat=1
@@ -38,7 +42,7 @@ filename=fiofile
 [test]
 name=test
 bs=\$5
-stonewall\" > test.fio
+stonewall\" >> test.fio
 
 fio test.fio 2>&1 > \$LOG_FILE
 fio --version | cut -d \"-\" -f 2 > ~/pts-test-version 2>/dev/null " > fio-run
