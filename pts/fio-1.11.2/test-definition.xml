@@ -10,7 +10,7 @@
   </TestInformation>
   <TestProfile>
     <Version>1.11.2</Version>
-    <SupportedPlatforms>Linux, MacOSX, Windows</SupportedPlatforms>
+    <SupportedPlatforms>Linux, BSD, MacOSX, Windows</SupportedPlatforms>
     <SoftwareType>Benchmark</SoftwareType>
     <TestType>Disk</TestType>
     <License>Free</License>
