@@ -5,9 +5,9 @@ tar -zxvf smallpt-1.tar.gz
 
 if [ $OS_TYPE = "BSD" ]
 then
-	export CXXFLAGS="$XXCFLAGS -Wno-narrowing -L/usr/local/lib"
+	export CXXFLAGS="$XXCFLAGS  -Wno-narrowing -L/usr/local/lib"
 fi
-c++ -fopenmp $CXXFLAGS smallpt.cpp -o smallpt-renderer
+c++ -fopenmp $CXXFLAGS -O3 smallpt.cpp -o smallpt-renderer
 echo $? > ~/install-exit-status
 
 echo "#!/bin/sh
