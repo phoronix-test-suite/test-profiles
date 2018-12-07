@@ -11,7 +11,7 @@
   </TestInformation>
   <TestProfile>
     <Version>1.9.4</Version>
-    <SupportedPlatforms>Linux, MacOSX, Solaris, Windows</SupportedPlatforms>
+    <SupportedPlatforms>Linux, BSD, MacOSX, Solaris, Windows</SupportedPlatforms>
     <SoftwareType>Utility</SoftwareType>
     <TestType>Disk</TestType>
     <License>Free</License>
