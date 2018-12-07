@@ -9,7 +9,7 @@
   </TestInformation>
   <TestProfile>
     <Version>1.2.1</Version>
-    <SupportedPlatforms>Linux</SupportedPlatforms>
+    <SupportedPlatforms>Linux, BSD</SupportedPlatforms>
     <SoftwareType>Benchmark</SoftwareType>
     <TestType>System</TestType>
     <License>Free</License>
