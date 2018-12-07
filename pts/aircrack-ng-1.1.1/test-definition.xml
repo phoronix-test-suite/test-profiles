@@ -16,7 +16,7 @@
     <TestType>Processor</TestType>
     <License>Free</License>
     <Status>Verified</Status>
-    <ExternalDependencies>build-utilities, openssl-development, libtool, pkg-config</ExternalDependencies>
+    <ExternalDependencies>build-utilities, openssl-development, libtool</ExternalDependencies>
     <EnvironmentSize>25</EnvironmentSize>
     <ProjectURL>http://www.aircrack-ng.org/</ProjectURL>
     <Maintainer>Michael Larabel</Maintainer>
