@@ -27,6 +27,6 @@ echo $? > ~/install-exit-status
 cd ~
 
 echo "#!/bin/sh
-./dav1d-0.1.0/build/tools/dav1d \$@ -o output.yuv --framethreads \$NUM_CPU_CORES --tilethreads 4
+./dav1d-0.1.0/build/tools/dav1d \$@ --muxer null --framethreads \$NUM_CPU_CORES --tilethreads 4
 echo \$? > ~/test-exit-status" > dav1d
 chmod +x dav1d
