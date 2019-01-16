@@ -4,6 +4,7 @@ mkdir $HOME/lzma_
 
 tar -zxvf lzma-4.32.7.tar.gz
 cd lzma-4.32.7
+wget 'http://git.savannah.gnu.org/gitweb/?p=config.git;a=blob_plain;f=config.guess;hb=HEAD' -O config.guess
 ./configure --prefix=$HOME/lzma_
 make -j $NUM_CPU_JOBS
 echo $? > ~/install-exit-status

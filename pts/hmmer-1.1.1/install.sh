@@ -4,6 +4,7 @@ mkdir -p $HOME/hmmer_
 
 tar -zxvf hmmer-2.3.2.tar.gz
 cd hmmer-2.3.2/
+wget 'http://git.savannah.gnu.org/gitweb/?p=config.git;a=blob_plain;f=config.guess;hb=HEAD' -O config.guess
 ./configure --enable-threads --prefix=$HOME/hmmer_
 make -j $NUM_CPU_JOBS
 echo $? > ~/install-exit-status

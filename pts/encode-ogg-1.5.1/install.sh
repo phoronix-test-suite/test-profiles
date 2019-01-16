@@ -11,6 +11,7 @@ tar -zxvf libvorbis-1.3.5.tar.gz
 tar -zxvf vorbis-tools-1.4.0.tar.gz
 
 cd libogg-1.3.3/
+wget 'http://git.savannah.gnu.org/gitweb/?p=config.git;a=blob_plain;f=config.guess;hb=HEAD' -O config.guess
 ./configure --prefix=$HOME/vorbis
 make -j $NUM_CPU_JOBS
 make install
@@ -18,6 +19,7 @@ cd ..
 #rm -rf libogg-1.3.3/
 
 cd libvorbis-1.3.5/
+wget 'http://git.savannah.gnu.org/gitweb/?p=config.git;a=blob_plain;f=config.guess;hb=HEAD' -O config.guess
 ./configure --prefix=$HOME/vorbis --with-ogg-includes=$HOME/vorbis/include/ogg --with-ogg-libraries=$HOME/vorbis/lib
 make -j $NUM_CPU_JOBS
 make install
@@ -25,6 +27,7 @@ cd ..
 #rm -rf libvorbis-1.3.5/
 
 cd vorbis-tools-1.4.0/
+wget 'http://git.savannah.gnu.org/gitweb/?p=config.git;a=blob_plain;f=config.guess;hb=HEAD' -O config.guess
 ./configure --prefix=$HOME/vorbis --with-ogg-includes=$HOME/vorbis/include/ogg --with-ogg-libraries=$HOME/vorbis/lib --with-vorbis-includes=$HOME/vorbis/include/vorbis --with-vorbis-libraries=$HOME/vorbis/lib
 make -j $NUM_CPU_JOBS
 echo $? > ~/install-exit-status

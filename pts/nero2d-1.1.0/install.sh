@@ -4,6 +4,7 @@ mkdir $HOME/nero2d_
 
 tar -zxvf nero2d-2.0.2-pts1.tar.gz
 cd nero2d-2.0.2/
+wget 'http://git.savannah.gnu.org/gitweb/?p=config.git;a=blob_plain;f=config.guess;hb=HEAD' -O config.guess
 ./configure --prefix=$HOME/nero2d_ --enable-mpi
 make -j $NUM_CPU_JOBS
 echo $? > ~/install-exit-status

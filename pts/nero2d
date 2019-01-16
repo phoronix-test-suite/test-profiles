@@ -1,0 +1,3 @@
+#!/bin/sh
+mpirun ./nero2d_/bin/nero2d $@ > $LOG_FILE 2>&1
+echo $? > ~/test-exit-status
