@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v8.6.0-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>http://ultravideo.cs.tut.fi/video/Bosphorus_1920x1080_120fps_420_8bit_YUV_Y4M.7z</URL>
+      <MD5>84ae521c95aa2537e16b34bbf72f2def</MD5>
+      <SHA256>e2f60b904789a60f6d1edc194d8540d401dd882e3ee3605b9b1de8feacc72133</SHA256>
+      <FileSize>676792531</FileSize>
+    </Package>
+    <Package>
+      <URL>https://aomedia.googlesource.com/aom/+archive/add4b15580e410c00c927ee366fa65545045a5d9.tar.gz</URL>
+      <MD5>1D16604A8DA61CE28BA00C4177A3F0E9</MD5>
+      <SHA256>F134A21BE499F6BDF2D2C020E21598DEA6B05E2F17193CCFB7FA36B64ECA135E</SHA256>
+      <FileSize>2778573</FileSize>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>
