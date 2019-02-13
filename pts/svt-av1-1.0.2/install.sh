@@ -2,7 +2,7 @@
 
 7z x Bosphorus_1920x1080_120fps_420_8bit_YUV_RAW.7z
 
-unzip -o SVT-AV1-20190203.zip
+unzip -o a7263d4dff0e4446b7ddd7fdc12c8d14502d9e93.zip
 cd SVT-AV1-master/Build/linux
 ./build.sh release
 echo $? > ~/install-exit-status
