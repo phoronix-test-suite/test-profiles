@@ -10,7 +10,7 @@
       <PlatformSpecific>Linux, Solaris, BSD, MacOSX</PlatformSpecific>
     </Package>
     <Package>
-      <URL>http://indy.fulgan.com/SSL/openssl-1.0.1g-x64_86-win64.zip</URL>
+      <URL>http://indy.fulgan.com/SSL/Archive/openssl-1.0.1g-x64_86-win64.zip</URL>
       <MD5>28c7c2fcce2e78fe84aa76bdd19c44e0</MD5>
       <SHA256>d0529a3861dcab95ba2dd793f22ff4323e967788598f5bbb6b96b2ec036ccdf5</SHA256>
       <FileSize>1075268</FileSize>
