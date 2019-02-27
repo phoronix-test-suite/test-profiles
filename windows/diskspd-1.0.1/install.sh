@@ -1,8 +1,8 @@
 #!/bin/sh
 
-unzip -o Diskspd-v2.0.21a.zip
+unzip -o DiskSpd-2.0.21a.zip
 
 echo "#!/bin/sh
-cd amd64fre
+cd amd64
 ./diskspd.exe \$@ > \$LOG_FILE" > diskspd
 chmod +x diskspd
