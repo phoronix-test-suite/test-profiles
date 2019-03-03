@@ -31,20 +31,20 @@
       <ArgumentPrefix>-i </ArgumentPrefix>
       <Menu>
         <Entry>
-          <Name>Chimera 1080p 8-bit</Name>
-          <Value>chimera_8b_1080p.ivf</Value>
-        </Entry>
-        <Entry>
-          <Name>Chimera 1080p 10-bit</Name>
-          <Value>chimera_10b_1080p.ivf</Value>
-        </Entry>
-        <Entry>
           <Name>Summer Nature 1080p</Name>
           <Value>summer_nature_1080p.ivf</Value>
         </Entry>
         <Entry>
           <Name>Summer Nature 4K</Name>
           <Value>summer_nature_4k.ivf</Value>
+        </Entry>
+                <Entry>
+          <Name>Chimera 1080p 8-bit</Name>
+          <Value>chimera_8b_1080p.ivf</Value>
+        </Entry>
+        <Entry>
+          <Name>Chimera 1080p 10-bit</Name>
+          <Value>chimera_10b_1080p.ivf</Value>
         </Entry>
       </Menu>
     </Option>
