@@ -9,7 +9,7 @@ echo \$? > ~/install-exit-status
 cd ~
 
 echo "#!/bin/sh
-./openssl-1.0.1g/apps/openssl speed rsa4096 > \$LOG_FILE 2>&1
+./openssl-1.0.2q/apps/openssl speed rsa4096 > \$LOG_FILE 2>&1
 echo \$? > ~/test-exit-status" > openssl
 chmod +x openssl
 
