@@ -24,7 +24,7 @@ rm -rf ffmpeg-4.1.1
 rm -rf ffmpeg_
 
 # Build Dav1d
-tar -xf dav1d-0.2.0.tar.xz
+tar -xf dav1d-0.2.0.tar.gz
 cd dav1d-0.2.0
 meson build --buildtype release
 ninja -C build
