@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v8.6.1-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>http://gallery.technet.microsoft.com/DiskSpd-A-Robust-Storage-6ef84e62/file/199535/2/DiskSpd-2.0.21a.zip</URL>
+      <MD5>cc0bbca75c30ad36265f47c10770fc40</MD5>
+      <SHA256>d02f6be976c518d4134e62af7f518baad6c7c81f924caafbeba65bd0831ce139</SHA256>
+      <FileName>DiskSpd-2.0.21a.zip</FileName>
+      <FileSize>314920</FileSize>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>
