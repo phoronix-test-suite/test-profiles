@@ -24,8 +24,8 @@ rm -rf ffmpeg-4.1.1
 rm -rf ffmpeg_
 
 # Build Dav1d
-tar -xf dav1d-0.2.0.tar.gz
-cd dav1d-0.2.0
+tar -xf dav1d-0.2.1.tar.gz
+cd dav1d-0.2.1
 meson build --buildtype release
 ninja -C build
 echo $? > ~/install-exit-status
@@ -33,6 +33,6 @@ echo $? > ~/install-exit-status
 cd ~
 
 echo "#!/bin/sh
-./dav1d-0.2.0/build/tools/dav1d \$@ --muxer null --framethreads \$NUM_CPU_CORES --tilethreads 4 -q --filmgrain 0
+./dav1d-0.2.1/build/tools/dav1d \$@ --muxer null --framethreads \$NUM_CPU_CORES --tilethreads 4 -q --filmgrain 0
 echo \$? > ~/test-exit-status" > dav1d
 chmod +x dav1d
