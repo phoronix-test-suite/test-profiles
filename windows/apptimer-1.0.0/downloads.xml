@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v8.6.1-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>http://www.passmark.com/ftp/AppTimer.zip</URL>
+      <MD5>35d1659bcdea7b3aae16ebdc493a1c28</MD5>
+      <SHA256>62297c2a21e87c33bbd9702d50ed6fbf56467110dfa55b9b8713fe90f91b4d8e</SHA256>
+      <FileName>AppTimer.zip</FileName>
+      <FileSize>69158</FileSize>
+      <PlatformSpecific>Windows</PlatformSpecific>
+    </Package>
+    <Package>
+      <URL>http://www.blend4web.com/blender/release/Blender2.79/blender-2.79a-windows64.zip, http://download.blender.org/release/Blender2.79/blender-2.79a-windows64.zip</URL>
+      <MD5>2b6ecd66f023c1b38189528bc606e2d1</MD5>
+      <SHA256>27d30566ce891f5e1bbc3feb006efff6872bab1e3e4c5fbf7deb6eca052d8085</SHA256>
+      <FileName>blender-2.79a-windows64.zip</FileName>
+      <FileSize>115537274</FileSize>
+      <PlatformSpecific>Windows</PlatformSpecific>
+    </Package>
+    <Package>
+      <URL>http://ftp.osuosl.org/pub/tdf/libreoffice/stable/6.2.1/win/x86_64/LibreOffice_6.2.1_Win_x64.msi, http://mirror2.layerjet.com/tdf/libreoffice/stable/6.2.1/win/x86_64/LibreOffice_6.2.1_Win_x64.msi</URL>
+      <MD5>0ea023b0a7023899b41f16e62bb6a0f6</MD5>
+      <SHA256>2e873945053f7ca2be944de5027982cb76bade585a3056eb0463a0c63159b7f6</SHA256>
+      <FileName>LibreOffice_6.2.1_Win_x64.msi</FileName>
+      <FileSize>298860544</FileSize>
+      <PlatformSpecific>Windows</PlatformSpecific>
+    </Package>
+    <Package>
+      <URL>http://mirror.clarkson.edu/videolan/vlc/3.0.6/win64/vlc-3.0.6-win64.exe, http://download.videolan.org/pub/videolan/vlc/3.0.6/win64/vlc-3.0.6-win64.exe</URL>
+      <MD5>bff64f2e303176dd498d695dcc623437</MD5>
+      <SHA256>a16cf11836f258a564a30670bcc7f1315a1860367a3fff43825e1806d23af332</SHA256>
+      <FileName>vlc-3.0.6-win64.exe</FileName>
+      <FileSize>41846888</FileSize>
+      <PlatformSpecific>Windows</PlatformSpecific>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>
