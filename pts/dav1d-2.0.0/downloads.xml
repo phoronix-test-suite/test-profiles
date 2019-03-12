@@ -10,10 +10,10 @@
       <FileSize>10424065</FileSize>
     </Package>
     <Package>
-      <URL>https://code.videolan.org/videolan/dav1d/-/archive/0.2.0/dav1d-0.2.0.tar.gz</URL>
-      <MD5>b063ed711d374bfb1057c32850fabaec</MD5>
-      <SHA256>f71e1c99be3fc77ed15d98066d36e4c9e088e3b622492209c93d675da48dd9e2</SHA256>
-      <FileName>dav1d-0.2.0.tar.gz</FileName>
+      <URL>https://code.videolan.org/videolan/dav1d/-/archive/0.2.1/dav1d-0.2.1.tar.gz</URL>
+      <MD5>2ebeaa7e7bbc923f51eac6b3f96d3253</MD5>
+      <SHA256>e99186c6e3d242c1b128d342a6624b67efc3945e17e1ca00bef5ae69f53c8a10</SHA256>
+      <FileName>dav1d-0.2.1.tar.gz</FileName>
       <FileSize></FileSize>
     </Package>
     <Package>
