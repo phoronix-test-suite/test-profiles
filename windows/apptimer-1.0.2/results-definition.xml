@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v8.6.1-->
+<PhoronixTestSuite>
+  <ResultsParser>
+    <OutputTemplate>AVG: #_RESULT_#</OutputTemplate>
+    <ResultPrecision>7</ResultPrecision>
+  </ResultsParser>
+</PhoronixTestSuite>

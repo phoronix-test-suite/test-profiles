@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v8.6.1-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>http://www.passmark.com/ftp/AppTimer.zip</URL>
+      <MD5>35d1659bcdea7b3aae16ebdc493a1c28</MD5>
+      <SHA256>62297c2a21e87c33bbd9702d50ed6fbf56467110dfa55b9b8713fe90f91b4d8e</SHA256>
+      <FileName>AppTimer.zip</FileName>
+      <FileSize>69158</FileSize>
+      <PlatformSpecific>Windows</PlatformSpecific>
+    </Package>
+    <Package>
+      <URL>http://www.blend4web.com/blender/release/Blender2.79/blender-2.79a-windows64.zip, http://download.blender.org/release/Blender2.79/blender-2.79a-windows64.zip</URL>
+      <MD5>2b6ecd66f023c1b38189528bc606e2d1</MD5>
+      <SHA256>27d30566ce891f5e1bbc3feb006efff6872bab1e3e4c5fbf7deb6eca052d8085</SHA256>
+      <FileName>blender-2.79a-windows64.zip</FileName>
+      <FileSize>115537274</FileSize>
+      <PlatformSpecific>Windows</PlatformSpecific>
+    </Package>
+    <Package>
+      <URL>http://ftp.osuosl.org/pub/tdf/libreoffice/stable/6.2.1/win/x86_64/LibreOffice_6.2.1_Win_x64.msi, http://mirror2.layerjet.com/tdf/libreoffice/stable/6.2.1/win/x86_64/LibreOffice_6.2.1_Win_x64.msi</URL>
+      <MD5>0ea023b0a7023899b41f16e62bb6a0f6</MD5>
+      <SHA256>2e873945053f7ca2be944de5027982cb76bade585a3056eb0463a0c63159b7f6</SHA256>
+      <FileName>LibreOffice_6.2.1_Win_x64.msi</FileName>
+      <FileSize>298860544</FileSize>
+      <PlatformSpecific>Windows</PlatformSpecific>
+    </Package>
+    <Package>
+      <URL>http://mirror.clarkson.edu/videolan/vlc/3.0.6/win64/vlc-3.0.6-win64.zip, http://download.videolan.org/pub/videolan/vlc/3.0.6/win64/vlc-3.0.6-win64.zip</URL>
+      <MD5>ca9179744677b859f212271ea6e43166</MD5>
+      <SHA256>ff2b293dfdc392938a1bb2daa829766e73d400e6f0db331f8307a65886b8e48a</SHA256>
+      <FileName>vlc-3.0.6-win64.zip</FileName>
+      <FileSize>71673562</FileSize>
+      <PlatformSpecific>Windows</PlatformSpecific>
+    </Package>
+    <Package>
+      <URL>http://github.com/mltframework/shotcut/releases/download/v19.02.28/shotcut-win64-190228.zip</URL>
+      <MD5>63c07a30cecfd8eb6e3dfbfa971c5c37</MD5>
+      <SHA256>f4ee089f507df9c7a7ccd12d24c8fc52a224113a8eaabaf4074a89cb14ed2f09</SHA256>
+      <FileName>shotcut-win64-190228.zip</FileName>
+      <FileSize>163914628</FileSize>
+      <PlatformSpecific>Windows</PlatformSpecific>
+    </Package>
+    <Package>
+      <URL>http://go.microsoft.com/fwlink/?Linkid=850641</URL>
+      <MD5>0c453622b15d6a3804f42b4fc20a4544</MD5>
+      <SHA256>ce8ca5b0006b7d2e73bfefa9188ac59e75eb52b277893d5bd3132576cf493507</SHA256>
+      <FileName>VSCode-win32-x64-1.32.3.zip</FileName>
+      <FileSize>73546566</FileSize>
+      <PlatformSpecific>Windows</PlatformSpecific>
+    </Package>
+    <Package>
+      <URL>http://inkscape.org/gallery/item/13317/inkscape-0.92.4-x64.7z, http://fossies.org/windows/misc/inkscape-0.92.4-x64.7z</URL>
+      <MD5>538ad141d9ff9a743890389f41c4be33</MD5>
+      <SHA256>244b379ca108e0ee1770986cb7509aec114a4c611c19f72190be16e2d0a16ee0</SHA256>
+      <FileName>inkscape-0.92.4-x64.7z</FileName>
+      <FileSize>63666130</FileSize>
+      <PlatformSpecific>Windows</PlatformSpecific>
+    </Package>
+    <Package>
+      <URL>http://github.com/pencil2d/pencil/releases/download/v0.6.2/pencil2d-win64-0.6.2.zip</URL>
+      <MD5>b6728fec4e3af2f4e788608ef6007145</MD5>
+      <SHA256>da68757e7e574718655a331427cb730ea5cc68c6da2493236d0df8337fcc3c71</SHA256>
+      <FileName>pencil2d-win64-0.6.2.zip</FileName>
+      <FileSize>51608853</FileSize>
+      <PlatformSpecific>Windows</PlatformSpecific>
+    </Package>
+    <Package>
+      <URL>http://fossies.org/windows/misc/FileZilla_3.41.1_win64.zip</URL>
+      <MD5>e37c6bf937111936665cf33addbae8ee</MD5>
+      <SHA256>2d8e030a94ce7c7ad5adb2393c774f8d82b4bc57ae69a208b4efbd511778afe2</SHA256>
+      <FileName>FileZilla_3.41.1_win64.zip</FileName>
+      <FileSize>11407238</FileSize>
+      <PlatformSpecific>Windows</PlatformSpecific>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>
