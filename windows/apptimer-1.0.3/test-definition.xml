@@ -1,0 +1,104 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v8.8.0m1-->
+<PhoronixTestSuite>
+  <TestInformation>
+    <Title>AppTimer</Title>
+    <Description>AppTimer allows timing the automated start-up of various programs running on Microsoft Windows.</Description>
+    <ResultScale>Seconds</ResultScale>
+    <Proportion>LIB</Proportion>
+    <TimesToRun>5</TimesToRun>
+    <IgnoreRuns>1</IgnoreRuns>
+  </TestInformation>
+  <TestProfile>
+    <Version>1.0.3</Version>
+    <SupportedPlatforms>Windows</SupportedPlatforms>
+    <SoftwareType>Benchmark</SoftwareType>
+    <TestType>System</TestType>
+    <License>Free</License>
+    <Status>Verified</Status>
+    <ExternalDependencies>p7zip</ExternalDependencies>
+    <EnvironmentSize>1801</EnvironmentSize>
+    <ProjectURL>https://www.passmark.com/products/apptimer.htm</ProjectURL>
+    <Maintainer>Michael Larabel</Maintainer>
+  </TestProfile>
+  <TestSettings>
+    <Option>
+      <DisplayName>Time To Launch</DisplayName>
+      <Identifier>launch</Identifier>
+      <Menu>
+        <Entry>
+          <Name>File Explorer</Name>
+          <Value>C:\Windows\explorer.exe Explorer</Value>
+        </Entry>
+        <Entry>
+          <Name>Blender 2.79</Name>
+          <Value>blender-2.79a-windows64\blender.exe Blender</Value>
+        </Entry>
+        <Entry>
+          <Name>LibreOffice</Name>
+          <Value>"C:\Program Files\LibreOffice\program\soffice.exe" LibreOffice</Value>
+        </Entry>
+        <Entry>
+          <Name>VLC Media Player</Name>
+          <Value>vlc-3.0.6\vlc.exe player</Value>
+        </Entry>
+        <Entry>
+          <Name>Shotcut Video Editor</Name>
+          <Value>Shotcut\shotcut.exe Untitled</Value>
+        </Entry>
+        <Entry>
+          <Name>Visual Studio Code</Name>
+          <Value>bin\code.cmd Welcome</Value>
+        </Entry>
+        <Entry>
+          <Name>Inkscape</Name>
+          <Value>inkscape\inkscape.exe New</Value>
+        </Entry>
+        <Entry>
+          <Name>Pencil2D Animation Software</Name>
+          <Value>Pencil2D\pencil2d.exe Pencil2D</Value>
+        </Entry>
+        <Entry>
+          <Name>FileZilla</Name>
+          <Value>FileZilla-3.41.2\filezilla.exe Filezilla</Value>
+        </Entry>
+        <Entry>
+          <Name>Qt Creator</Name>
+          <Value>"C:\Qt\qtcreator-4.8.2\bin\qtcreator.exe" "Qt Creator"</Value>
+        </Entry>
+        <Entry>
+          <Name>Notepad++</Name>
+          <Value>"notepad++.exe" Notepad</Value>
+        </Entry>
+        <Entry>
+          <Name>Mozilla Firefox</Name>
+          <Value>"C:\Program Files\Mozilla Firefox\firefox.exe" Firefox</Value>
+        </Entry>
+        <Entry>
+          <Name>Google Chrome</Name>
+          <Value>"C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" Chrome</Value>
+        </Entry>
+        <Entry>
+          <Name>Dia Digram Editor</Name>
+          <Value>bin\dia.exe Dia</Value>
+        </Entry>
+        <Entry>
+          <Name>Slack</Name>
+          <Value>SlackSetup.exe Slack</Value>
+        </Entry>
+        <Entry>
+          <Name>WhatsApp</Name>
+          <Value>WhatsAppSetup.exe WhatsApp</Value>
+        </Entry>
+        <Entry>
+          <Name>7-Zip</Name>
+          <Value>"C:\Program Files\7-Zip\7zFM.exe" 7</Value>
+        </Entry>
+        <Entry>
+          <Name>Atom Editor</Name>
+          <Value>"Atom x64\atom.exe" Atom</Value>
+        </Entry>
+      </Menu>
+    </Option>
+  </TestSettings>
+</PhoronixTestSuite>
