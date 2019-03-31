@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v8.8.0m2-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <FileName>PCMark10-v1-1-1739.zip</FileName>
+      <FileSize>2631902579</FileSize>
+      <Optional>TRUE</Optional>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>

@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v8.8.0m2-->
+<PhoronixTestSuite>
+  <ResultsParser>
+    <OutputTemplate>results/result/0/PCMark10Score</OutputTemplate>
+    <ResultScale>PCMark10 Score</ResultScale>
+    <ResultProportion>HIB</ResultProportion>
+    <FileFormat>XML</FileFormat>
+  </ResultsParser>
+  <ResultsParser>
+    <OutputTemplate>results/result/0/PCMark10ExpressScore</OutputTemplate>
+    <ResultScale>Express Score</ResultScale>
+    <ResultProportion>HIB</ResultProportion>
+    <FileFormat>XML</FileFormat>
+  </ResultsParser>
+  <ResultsParser>
+    <OutputTemplate>results/result/0/PCMark10ExtendedScore</OutputTemplate>
+    <ResultScale>Extended Score</ResultScale>
+    <ResultProportion>HIB</ResultProportion>
+    <FileFormat>XML</FileFormat>
+  </ResultsParser>
+  <ResultsParser>
+    <OutputTemplate>results/result/0/ProductivityScore</OutputTemplate>
+    <ResultScale>Productivity Score</ResultScale>
+    <ResultProportion>HIB</ResultProportion>
+    <FileFormat>XML</FileFormat>
+  </ResultsParser>
+  <ResultsParser>
+    <OutputTemplate>results/result/0/EssentialsScore</OutputTemplate>
+    <ResultScale>Essentials Score</ResultScale>
+    <ResultProportion>HIB</ResultProportion>
+    <FileFormat>XML</FileFormat>
+  </ResultsParser>
+  <ResultsParser>
+    <OutputTemplate>results/result/0/DigitalContentCreationScore</OutputTemplate>
+    <ResultScale>Digital Content Creation Score</ResultScale>
+    <ResultProportion>HIB</ResultProportion>
+    <FileFormat>XML</FileFormat>
+  </ResultsParser>
+  <ResultsParser>
+    <OutputTemplate>results/result/0/GamingScore</OutputTemplate>
+    <ResultScale>Gaming Score</ResultScale>
+    <ResultProportion>HIB</ResultProportion>
+    <FileFormat>XML</FileFormat>
+  </ResultsParser>
+</PhoronixTestSuite>

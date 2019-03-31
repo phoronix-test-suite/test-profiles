@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v8.8.0m2-->
+<PhoronixTestSuite>
+  <TestInformation>
+    <Title>PCMark 10</Title>
+    <Description>This is a benchmark of PCMark 10. The test profile automates the execution of PCMark under the Phoronix Test Suite, assuming you have a valid license key for PCMark 10 PROFESSIONAL Edition due to the need for CLI access. This test will not work without a valid license key for PCMark Professional.</Description>
+    <ResultScale>Score</ResultScale>
+    <Proportion>HIB</Proportion>
+    <TimesToRun>2</TimesToRun>
+    <PreInstallMessage>You must manually activate PCMark before this benchmark will work.</PreInstallMessage>
+  </TestInformation>
+  <TestProfile>
+    <Version>1.0.0</Version>
+    <SupportedPlatforms>Windows</SupportedPlatforms>
+    <SoftwareType>Utility</SoftwareType>
+    <TestType>System</TestType>
+    <License>Retail</License>
+    <Status>Verified</Status>
+    <SupportedArchitectures>x86, x86_64</SupportedArchitectures>
+    <EnvironmentSize>104</EnvironmentSize>
+    <ProjectURL>https://benchmarks.ul.com/pcmark10</ProjectURL>
+    <Maintainer>Michael Larabel</Maintainer>
+  </TestProfile>
+  <TestSettings>
+    <Default>
+      <Arguments> </Arguments>
+    </Default>
+    <Option>
+      <DisplayName>Mode</DisplayName>
+      <Identifier>mode</Identifier>
+      <Menu>
+        <Entry>
+          <Name>PCM10 Benchmark</Name>
+          <Value>--definition=pcm10_benchmark.pcmdef</Value>
+        </Entry>
+        <Entry>
+          <Name>Express</Name>
+          <Value>--definition=pcm10_express.pcmdef</Value>
+        </Entry>
+        <Entry>
+          <Name>Extended</Name>
+          <Value>--definition=pcm10_extended.pcmdef</Value>
+        </Entry>
+      </Menu>
+    </Option>
+  </TestSettings>
+</PhoronixTestSuite>
