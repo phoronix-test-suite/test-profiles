@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v8.8.0m2-->
+<PhoronixTestSuite>
+  <ResultsParser>
+    <OutputTemplate>Transfer Rate Minimum : #_MIN_RESULT_# MB/s
+
+Transfer Rate Maximum : #_MAX_RESULT_# MB/s
+
+Transfer Rate Average : #_RESULT_# MB/s</OutputTemplate>
+    <ResultScale>MB/s</ResultScale>
+    <ResultProportion>HIB</ResultProportion>
+    <ArgumentsDescription>Transfer Rate</ArgumentsDescription>
+  </ResultsParser>
+  <ResultsParser>
+    <OutputTemplate>Access Time           : #_RESULT_# ms</OutputTemplate>
+    <ResultScale>ms</ResultScale>
+    <ResultProportion>LIB</ResultProportion>
+    <ArgumentsDescription>Access Time</ArgumentsDescription>
+  </ResultsParser>
+  <ResultsParser>
+    <OutputTemplate>Burst Rate            : #_RESULT_# MB/s</OutputTemplate>
+    <ResultScale>MB/s</ResultScale>
+    <ResultProportion>HIB</ResultProportion>
+    <ArgumentsDescription>Burst Rate</ArgumentsDescription>
+  </ResultsParser>
+  <ResultsParser>
+    <OutputTemplate>Sequential read	#_RESULT_# KB/s</OutputTemplate>
+    <LineHint>Sequential read</LineHint>
+    <ResultScale>KB/s</ResultScale>
+    <ResultProportion>HIB</ResultProportion>
+    <ArgumentsDescription>Sequential Read</ArgumentsDescription>
+  </ResultsParser>
+  <ResultsParser>
+    <OutputTemplate>Sequential write	#_RESULT_# KB/s</OutputTemplate>
+    <LineHint>Sequential write</LineHint>
+    <ResultScale>KB/s</ResultScale>
+    <ResultProportion>HIB</ResultProportion>
+    <ArgumentsDescription>Sequential Write</ArgumentsDescription>
+  </ResultsParser>
+  <ResultsParser>
+    <OutputTemplate>Random read (queue depth = 32)	#_RESULT_# IOPS</OutputTemplate>
+    <LineHint>Random read (queue depth</LineHint>
+    <ResultScale>IOPS</ResultScale>
+    <ResultProportion>HIB</ResultProportion>
+    <ArgumentsDescription>Random Read</ArgumentsDescription>
+  </ResultsParser>
+  <ResultsParser>
+    <OutputTemplate>Random write (queue depth = 32)	#_RESULT_# IOPS</OutputTemplate>
+    <LineHint>Random write (queue depth</LineHint>
+    <ResultScale>IOPS</ResultScale>
+    <ResultProportion>HIB</ResultProportion>
+    <ArgumentsDescription>Random Write</ArgumentsDescription>
+  </ResultsParser>
+</PhoronixTestSuite>

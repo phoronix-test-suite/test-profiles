@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v8.8.0m2-->
+<PhoronixTestSuite>
+  <TestInformation>
+    <Title>HD Tune Pro</Title>
+    <AppVersion>5.70</AppVersion>
+    <Description>This is a benchmark of HD Tune Pro, a Windows storage benchmark. The test profile automates the execution of HD Tune Pro under the Phoronix Test Suite, assuming you have a valid license due to the need for CLI access, otherwise the trial version imposes various restrictions.</Description>
+    <ResultScale>MB/s</ResultScale>
+    <Proportion>HIB</Proportion>
+    <TimesToRun>3</TimesToRun>
+    <PreInstallMessage>You must manually activate HD Tune Pro before this benchmark will work. You can manually install the HD Tune Pro version of your choice as long as it gets installed to C:\Program Files (x86)\HD Tune Pro.</PreInstallMessage>
+  </TestInformation>
+  <TestProfile>
+    <Version>1.0.0</Version>
+    <SupportedPlatforms>Windows</SupportedPlatforms>
+    <SoftwareType>Utility</SoftwareType>
+    <TestType>Disk</TestType>
+    <License>Retail</License>
+    <Status>Verified</Status>
+    <SupportedArchitectures>x86, x86_64</SupportedArchitectures>
+    <EnvironmentSize>10</EnvironmentSize>
+    <ProjectURL>http://www.hdtune.com/index.html</ProjectURL>
+    <Maintainer>Michael Larabel</Maintainer>
+  </TestProfile>
+  <TestSettings>
+    <Default>
+      <Arguments> </Arguments>
+    </Default>
+    <Option>
+      <DisplayName>Test</DisplayName>
+      <Identifier>Test</Identifier>
+      <Menu>
+        <Entry>
+          <Name>Benchmark</Name>
+          <Value>/FUNCTION:Benchmark</Value>
+        </Entry>
+        <Entry>
+          <Name>File Benchmark</Name>
+          <Value>/FUNCTION:FileBenchmark</Value>
+        </Entry>
+      </Menu>
+    </Option>
+  </TestSettings>
+</PhoronixTestSuite>
