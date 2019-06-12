@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v8.8.1-->
+<PhoronixTestSuite>
+  <ResultsParser>
+    <OutputTemplate>CPU Mark (Composite average) : #_RESULT_#</OutputTemplate>
+    <LineHint>CPU Mark (Composite average)</LineHint>
+    <ResultScale>CPU Mark</ResultScale>
+  </ResultsParser>
+  <ResultsParser>
+    <OutputTemplate>Disk Mark (Composite average) : #_RESULT_#</OutputTemplate>
+    <LineHint>Disk Mark (Composite average)</LineHint>
+    <ResultScale>Disk Mark</ResultScale>
+  </ResultsParser>
+  <ResultsParser>
+    <OutputTemplate>Memory Mark (Composite average) : #_RESULT_#</OutputTemplate>
+    <LineHint>Memory Mark (Composite average)</LineHint>
+    <ResultScale>Memory Mark</ResultScale>
+  </ResultsParser>
+  <ResultsParser>
+    <OutputTemplate>2D Graphics Mark (Composite average) : #_RESULT_#</OutputTemplate>
+    <LineHint>2D Graphics Mark (Composite average)</LineHint>
+    <ResultScale>2D Graphics Mark</ResultScale>
+  </ResultsParser>
+  <ResultsParser>
+    <OutputTemplate>3D Graphics Mark (Composite average) : #_RESULT_#</OutputTemplate>
+    <LineHint>3D Graphics Mark (Composite average)</LineHint>
+    <ResultScale>3D Graphics Mark</ResultScale>
+  </ResultsParser>
+</PhoronixTestSuite>
