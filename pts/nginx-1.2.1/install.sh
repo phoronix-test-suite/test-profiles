@@ -22,6 +22,23 @@ cd ../..
 cp -av httpd-2.2.17/support/ab nginx_/
 
 cd nginx-1.9.9/
+echo "
+--- src/os/unix/ngx_user.c.orig
++++ src/os/unix/ngx_user.c
+@@ -31,10 +31,6 @@ ngx_libc_crypt(ngx_pool_t *pool, u_char *key, u_char *salt, u_char **encrypted)
+     struct crypt_data   cd;
+
+     cd.initialized = 0;
+-#ifdef __GLIBC__
+-    /* work around the glibc bug */
+-    cd.current_salt[0] = ~salt[0];
+-#endif
+
+     value = crypt_r((char *) key, (char *) salt, &cd);
+" > REMOVE-WORKAROUND.patch
+
+patch -p0 < REMOVE-WORKAROUND.patch
+
 CFLAGS="-Wno-error -O3 -march=native $CFLAGS" CXXFLAGS="-Wno-error -O3 -march=native $CFLAGS" ./configure --prefix=$HOME/nginx_ --without-http_rewrite_module --without-http-cache 
 make -j $NUM_CPU_JOBS
 echo $? > ~/install-exit-status

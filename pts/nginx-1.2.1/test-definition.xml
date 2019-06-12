@@ -24,7 +24,7 @@
   </TestProfile>
   <TestSettings>
     <Default>
-      <Arguments>-n 2000000 -c 500 http://localhost:8089/test.html</Arguments>
+      <Arguments>-n 2000000 -c 500 -r http://127.0.0.1:8089/test.html</Arguments>
     </Default>
   </TestSettings>
 </PhoronixTestSuite>
