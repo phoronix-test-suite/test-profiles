@@ -3,7 +3,7 @@
 <PhoronixTestSuite>
   <TestInformation>
     <Title>Total War: Three Kindgoms</Title>
-    <AppVersion>1.0</AppVersion>
+    <AppVersion>1.0.1</AppVersion>
     <Description>Total War: Three Kingdoms on Steam.
 
 The test profile assumes you have a Steam account, have Steam installed for the system, and that you own a copy of this game. This automates the process of executing the game and using its built-in benchmark mode.
