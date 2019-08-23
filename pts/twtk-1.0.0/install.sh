@@ -132,7 +132,7 @@ cat > preferences.template.xml <<- EOM
                         <value name="PauseOnSuspend" type="integer">0</value>
                         <value name="PauseSoundOnPause" type="integer">0</value>
                         <value name="PauseTimersOnPause" type="integer">0</value>
-                        <value name="DisableAllMods" type="integer">1</value>
+
                         <value name="AddSteamCloudAlias" type="integer">1</value>
                         <value name="AllowSendCrashReports" type="integer">0</value>
                         <value name="AllowSendUsageData" type="integer">0</value>
@@ -188,7 +188,7 @@ cat > preferences.template.xml <<- EOM
                         </key>
                         <key name="SpecificationAlerts">
                             <value name="LnxCPUGovernorSubOptimal" type="integer">1</value>
-                            <value name="ModsHaveBeenDisabled_1_0_5" type="integer">1</value>
+                            <value name="ModsHaveBeenDisabled_1_0_4" type="integer">1</value>
                         </key>
                     </key>
                 </key>
