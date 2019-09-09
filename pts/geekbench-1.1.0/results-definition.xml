@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v9.0.0m3-->
+<PhoronixTestSuite>
+  <ResultsParser>
+    <OutputTemplate>  Single-Core Score             #_RESULT_#</OutputTemplate>
+    <ResultScale>Score</ResultScale>
+  </ResultsParser>
+  <ResultsParser>
+    <OutputTemplate>  Multi-Core Score             #_RESULT_#</OutputTemplate>
+    <ResultScale>Score</ResultScale>
+  </ResultsParser>
+  <ResultsParser>
+    <OutputTemplate>  Sobel                          3440        #_RESULT_# Mpixels/sec</OutputTemplate>
+    <LineHint>Sobel</LineHint>
+    <ResultScale>Mpixels/sec</ResultScale>
+    <AppendToArgumentsDescription>Sobel</AppendToArgumentsDescription>
+  </ResultsParser>
+  <ResultsParser>
+    <OutputTemplate>  Stereo Matching                5316         #_RESULT_# Gpixels/sec</OutputTemplate>
+    <LineHint>Stereo Matching</LineHint>
+    <ResultScale>Gpixels/sec</ResultScale>
+    <AppendToArgumentsDescription>Stereo Matching</AppendToArgumentsDescription>
+  </ResultsParser>
+  <ResultsParser>
+    <OutputTemplate>  Canny                          2274        #_RESULT_# Mpixels/sec</OutputTemplate>
+    <LineHint>Canny</LineHint>
+    <ResultScale>Mpixels/sec</ResultScale>
+    <AppendToArgumentsDescription>Canny</AppendToArgumentsDescription>
+  </ResultsParser>
+  <ResultsParser>
+    <OutputTemplate>  Histogram Equalization         2484        #_RESULT_# Mpixels/sec</OutputTemplate>
+    <LineHint>Histogram Equalization</LineHint>
+    <ResultScale>Mpixels/sec</ResultScale>
+    <AppendToArgumentsDescription>Histogram Equalization</AppendToArgumentsDescription>
+  </ResultsParser>
+  <ResultsParser>
+    <OutputTemplate>  Gaussian Blur                  2293        #_RESULT_# Mpixels/sec</OutputTemplate>
+    <LineHint>Gaussian Blur</LineHint>
+    <ResultScale>Mpixels/sec</ResultScale>
+    <AppendToArgumentsDescription>Gaussian Blur</AppendToArgumentsDescription>
+  </ResultsParser>
+  <ResultsParser>
+    <OutputTemplate>  Depth of Field                 7154         #_RESULT_# Mpixels/sec</OutputTemplate>
+    <LineHint>Depth of Field</LineHint>
+    <ResultScale>Mpixels/sec</ResultScale>
+    <AppendToArgumentsDescription>Depth of Field</AppendToArgumentsDescription>
+  </ResultsParser>
+</PhoronixTestSuite>
