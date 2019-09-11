@@ -3,7 +3,7 @@
 <PhoronixTestSuite>
   <TestInformation>
     <Title>SVT-HEVC</Title>
-    <AppVersion>2019-09-06</AppVersion>
+    <AppVersion>v1.4.1</AppVersion>
     <Description>This is a test of the Intel Open Visual Cloud Scalable Video Technology SVT-HEVC CPU-based multi-threaded video encoder for the HEVC / H.265 video format with a sample 1080p YUV video file.</Description>
     <ResultScale>Frames Per Second</ResultScale>
     <Proportion>HIB</Proportion>

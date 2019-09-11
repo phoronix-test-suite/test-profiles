@@ -9,10 +9,10 @@
       <FileSize>680772328</FileSize>
     </Package>
     <Package>
-      <URL>http://phoronix-test-suite.com/benchmark-files/SVT-HEVC-20190906.zip</URL>
-      <MD5></MD5>
-      <SHA256></SHA256>
-      <FileSize></FileSize>
+      <URL>https://github.com/OpenVisualCloud/SVT-HEVC/archive/1.4.1.zip</URL>
+      <MD5>4337a53a1feb4fd26248eccc4d53aedf</MD5>
+      <SHA256>6a0037d41ed976ca595827529cf9f2a498d6c6372abe6be13da88fed7087fa29</SHA256>
+      <FileSize>1340069</FileSize>
     </Package>
   </Downloads>
 </PhoronixTestSuite>
