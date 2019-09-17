@@ -33,6 +33,6 @@ echo $? > ~/install-exit-status
 cd ~
 
 echo "#!/bin/sh
-./dav1d-0.4.0/build/tools/dav1d \$@ --muxer null --framethreads \$NUM_CPU_CORES --tilethreads 4 -q --filmgrain 0
+./dav1d-0.4.0/build/tools/dav1d \$@ --muxer null --framethreads \$NUM_CPU_CORES --tilethreads 4 --filmgrain 0
 echo \$? > ~/test-exit-status" > dav1d
 chmod +x dav1d
