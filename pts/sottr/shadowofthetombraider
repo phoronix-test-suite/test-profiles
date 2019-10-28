@@ -1,0 +1,25 @@
+#!/bin/bash
+# Generated run script for Shadow of the Tomb Raider
+# Mon Oct 28 13:46:00 PDT 2019
+
+# Source the steam runtime environment
+#
+. steam-env-vars.sh
+
+# Run the game
+#
+cd "/var/data0/SOTTR/data"
+./ShadowOfTheTombRaider.sh
+
+# Grab the output (most recent xml file results line)
+#
+# NOTE: There's also a location_machine_frametimes_datetime.txt file for more detailed results
+RESULTS_DIR="/home/perflab1/.local/share/feral-interactive/Shadow of the Tomb Raider/SaveData/"
+if [ ! -d "${RESULTS_DIR}" ]; then
+    mkdir -p "${RESULTS_DIR}"
+fi
+rm "${RESULTS_DIR}/*"
+cd "${RESULTS_DIR}"
+true > "$LOG_FILE"
+FPS_VALUES=$(grep --text --no-filename FPS -R --include="*.txt" | head -3 | tr -d '\r' | paste -s )
+echo "${BENCH}: ${FPS_VALUES}" >> "${LOG_FILE}"
