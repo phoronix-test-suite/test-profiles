@@ -45,11 +45,11 @@
           <Value>--cpu-used=4 --limit=20</Value>
         </Entry>
         <Entry>
-          <Name>Speed 2 Realtime</Name>
+          <Name>Speed 2 Two-pass</Name>
           <Value>--cpu-used=2 --limit=20</Value>
         </Entry>
         <Entry>
-          <Name>Speed 0 Realtime</Name>
+          <Name>Speed 0 Two-pass</Name>
           <Value>--cpu-used=0 --limit=10</Value>
         </Entry>
       </Menu>
