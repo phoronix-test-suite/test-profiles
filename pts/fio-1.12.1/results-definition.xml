@@ -22,6 +22,14 @@
     <OutputTemplate>  write: IOPS=#_RESULT_# BW=891MiB/s (934MB/s)(17.5GiB/20006msec)</OutputTemplate>
     <LineHint>IOPS=</LineHint>
     <ResultAfterString>IOPS</ResultAfterString>
+    <StripFromResult>,</StripFromResult>
+    <ResultScale>IOPS</ResultScale>
+    <ResultProportion>HIB</ResultProportion>
+  </ResultsParser>
+  <ResultsParser>
+    <OutputTemplate>  write: IOPS=#_RESULT_# BW=891MiB/s (934MB/s)(17.5GiB/20006msec)</OutputTemplate>
+    <LineHint>IOPS=</LineHint>
+    <ResultAfterString>IOPS</ResultAfterString>
     <StripFromResult>k,</StripFromResult>
     <MultiplyResultBy>1000</MultiplyResultBy>
     <ResultScale>IOPS</ResultScale>
