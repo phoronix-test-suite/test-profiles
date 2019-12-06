@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v8.0.0m2-->
+<PhoronixTestSuite>
+  <TestInformation>
+    <Title>Numpy Benchmark</Title>
+    <Description>This is a test to obtain the general Numpy performance.</Description>
+    <ResultScale>Score</ResultScale>
+    <Proportion>HIB</Proportion>
+    <TimesToRun>1</TimesToRun>
+  </TestInformation>
+  <TestProfile>
+    <Version>1.1.0</Version>
+    <SupportedPlatforms>Linux, BSD</SupportedPlatforms>
+    <SoftwareType>Utility</SoftwareType>
+    <TestType>Processor</TestType>
+    <License>Free</License>
+    <Status>Verified</Status>
+    <ExternalDependencies>python</ExternalDependencies>
+    <EnvironmentSize>12.4</EnvironmentSize>
+    <ProjectURL>http://github.com/serge-sans-paille/</ProjectURL>
+    <Maintainer>Victor Rodriguez Bahena</Maintainer>
+  </TestProfile>
+  <TestSettings>
+    <Option>
+      <DisplayName>Python Interpreter</DisplayName>
+      <Identifier>python</Identifier>
+      <DefaultEntry>0</DefaultEntry>
+      <Menu>
+        <Entry>
+          <Name>python2</Name>
+          <Value>python2</Value>
+          <Message></Message>
+        </Entry>
+        <Entry>
+          <Name>python3</Name>
+          <Value>python3</Value>
+          <Message></Message>
+        </Entry>
+      </Menu>
+    </Option>
+  </TestSettings>
+</PhoronixTestSuite>
