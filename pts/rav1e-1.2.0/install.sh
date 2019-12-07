@@ -10,7 +10,7 @@ echo $? > ~/install-exit-status
 cd ~
 echo "#!/bin/sh
 cd rav1e-p20191201
-./target/release/rav1e ../Bosphorus_1920x1080_120fps_420_8bit_YUV.y4m --threads \$NUM_CPU_CORES --tile-rows 4 --tile-cols 4 --output /dev/null --limit 60 > log.out 2>&1
+./target/release/rav1e ../Bosphorus_1920x1080_120fps_420_8bit_YUV.y4m --threads \$NUM_CPU_CORES -tiles 4 --output /dev/null > log.out 2>&1
 echo \$? > ~/test-exit-status
 
 tr -s '\r' '\n' < log.out > \$LOG_FILE" > rav1e
