@@ -30,17 +30,17 @@
     <Menu>
       <Entry>
         <Name>Speed 9</Name>
-        <Value>-s 9 -n 80</Value>
+        <Value>-s 9 -l 80</Value>
         <Message>Fastest</Message>
       </Entry>
       <Entry>
         <Name>Speed 5</Name>
-        <Value>-s 5 -n 60</Value>
+        <Value>-s 5 -l 60</Value>
         <Message>Mid-Speed</Message>
       </Entry>
       <Entry>
         <Name>Speed 1</Name>
-        <Value>-s 1 -n 20</Value>
+        <Value>-s 1 -l 20</Value>
         <Message>Slowest</Message>
       </Entry>
     </Menu>
