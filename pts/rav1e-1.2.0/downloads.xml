@@ -10,17 +10,17 @@
       <FileSize>676792531</FileSize>
     </Package>
     <Package>
-      <URL>https://github.com/xiph/rav1e/archive/p20191201.tar.gz</URL>
-      <MD5>bc23c8a7c9f24edcd4b1373c93351965</MD5>
-      <SHA256>ed190a95830e8af3a0b377d3abf82948d8bf4ca9d752c1f4d1ce25ded743b597</SHA256>
+      <URL>https://github.com/xiph/rav1e/archive/p20191215.tar.gz</URL>
+      <MD5>da64341dcee2010993cd0d1d49dc2f12</MD5>
+      <SHA256>4d4419bff66b29e228cb2b373bcd37f74cfbc33ed834dec1ffc0ba3723330ef8</SHA256>
       <FileName>rav1e-p20191201.tar.gz</FileName>
       <FileSize>725822</FileSize>
       <PlatformSpecific>Linux</PlatformSpecific>
     </Package>
     <Package>
-      <URL>https://github.com/xiph/rav1e/releases/download/0.1.0/rav1e.exe</URL>
-      <MD5>7923527e414880afbdc92ba85550fb5b</MD5>
-      <SHA256>81bb022b99b8811501ebce6c3b035f7ea2f83100df57dd612085a7754037652c</SHA256>
+      <URL>https://github.com/xiph/rav1e/releases/download/p20191215/rav1e.exe</URL>
+      <MD5>59d354e0e6043a67c31421f464be28f5</MD5>
+      <SHA256>6c0b9cc00f16d0ba727a17d9f2202de66ea9a2fab8ff91a8627a18e67b781e81</SHA256>
       <FileName>rav1e.exe</FileName>
       <FileSize>4648960</FileSize>
       <PlatformSpecific>Windows</PlatformSpecific>
