@@ -4,10 +4,10 @@
   <TestInformation>
     <Title>rav1e</Title>
     <AppVersion>Git</AppVersion>
-    <Description>This is a simple test of the rav1e AV1 encoder run on the CPU with a sample video file.</Description>
+    <Description>Xiph rav1e is a Rust-written AV1 video encoder.</Description>
     <ResultScale>Frames Per Second</ResultScale>
     <Proportion>HIB</Proportion>
-    <SubTitle>AV1 Video Encoding</SubTitle>
+    <SubTitle>1080p To AV1 Video Encode</SubTitle>
     <TimesToRun>3</TimesToRun>
   </TestInformation>
   <TestProfile>
@@ -17,8 +17,8 @@
     <TestType>Processor</TestType>
     <License>Free</License>
     <Status>Verified</Status>
-    <ExternalDependencies>build-utilities, p7zip, cmake, perl, yasm, git</ExternalDependencies>
-    <EnvironmentSize>369</EnvironmentSize>
+    <ExternalDependencies>p7zip, rust, yasm, perl, cmake, git</ExternalDependencies>
+    <EnvironmentSize>3000</EnvironmentSize>
     <ProjectURL>https://github.com/xiph/rav1e</ProjectURL>
     <InternalTags>SMP</InternalTags>
     <Maintainer>Michael Larabel</Maintainer>
