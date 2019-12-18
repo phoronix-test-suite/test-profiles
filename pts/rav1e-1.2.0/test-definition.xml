@@ -3,7 +3,7 @@
 <PhoronixTestSuite>
   <TestInformation>
     <Title>rav1e</Title>
-    <AppVersion>p20191215</AppVersion>
+    <AppVersion>v0.2.0</AppVersion>
     <Description>Xiph rav1e is a Rust-written AV1 video encoder.</Description>
     <ResultScale>Frames Per Second</ResultScale>
     <Proportion>HIB</Proportion>
