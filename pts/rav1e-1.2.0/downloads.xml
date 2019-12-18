@@ -19,8 +19,8 @@
     </Package>
     <Package>
       <URL>https://github.com/xiph/rav1e/releases/download/v0.2.0/rav1e.exe</URL>
-      <MD5>d6a1f325f3f3208a8c2e9ec5245b5a75</MD5>
-      <SHA256>b7c3e4e269386ef667a4d98346a81f2bb567123f77ec26bfe5a0bbc8e75a7ea1</SHA256>
+      <MD5>5d5158f2c0d160bc2f60a726c6d69bcb</MD5>
+      <SHA256>219af50f35b7fa2ba5fa348cd4f64e158ce5f86b7e672356ba63020d47c8710a</SHA256>
       <FileName>rav1e.exe</FileName>
       <FileSize>4680704</FileSize>
       <PlatformSpecific>Windows</PlatformSpecific>
