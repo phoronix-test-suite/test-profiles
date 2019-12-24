@@ -17,6 +17,6 @@ rm -rf libvpx-1.8.2
 echo "#!/bin/bash
 cd vpx/bin
 THREADCOUNT=\$((\$NUM_CPU_CORES>64?64:\$NUM_CPU_CORES))
-LD_PRELOAD=../lib/libvpx.so  ./vpxenc -o /dev/null ~/Bosphorus_1920x1080_120fps_420_8bit_YUV.yuv --width=1920 --height=1080 2> \$LOG_FILE
+LD_PRELOAD=../lib/libvpx.so  ./vpxenc \$@ -o /dev/null ~/Bosphorus_1920x1080_120fps_420_8bit_YUV.yuv --width=1920 --height=1080 2> \$LOG_FILE
 echo \$? > ~/test-exit-status" > vpxenc
 chmod +x vpxenc
