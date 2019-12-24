@@ -41,8 +41,8 @@
           <Value>--cpu-used=4 --rt --limit=60</Value>
         </Entry>
         <Entry>
-          <Name>Speed 4 Two-pass</Name>
-          <Value>--cpu-used=4 --limit=20</Value>
+          <Name>Speed 5 Two-pass</Name>
+          <Value>--cpu-used=5 --limit=40</Value>
         </Entry>
         <Entry>
           <Name>Speed 2 Two-pass</Name>
