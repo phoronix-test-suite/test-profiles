@@ -1,16 +1,16 @@
 #!/bin/sh
 
-tar -xzf libvpx-1.8.1.tar.gz
+tar -xzf libvpx-1.8.2.tar.gz
 
 mkdir vpx
-cd libvpx-1.8.1
+cd libvpx-1.8.2
 
 ./configure --disable-install-docs --enable-shared --prefix=$HOME/vpx
 make -j $NUM_CPU_CORES
 echo $? > ~/install-exit-status
 make install
 cd ~
-rm -rf libvpx-1.8.1
+rm -rf libvpx-1.8.2
 
 7z x Bosphorus_1920x1080_120fps_420_8bit_YUV_RAW.7z
 
