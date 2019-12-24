@@ -23,4 +23,22 @@
     <InternalTags>SMP</InternalTags>
     <Maintainer>Michael Larabel</Maintainer>
   </TestProfile>
+  <TestSettings>
+   <Option>
+     <DisplayName>Speed</DisplayName>
+     <Identifier>cpu-used</Identifier>
+     <Menu>
+       <Entry>
+         <Name>Speed 5</Name>
+         <Value>--cpu-used=5</Value>
+         <Message>Fastest - Default</Message>
+       </Entry>
+       <Entry>
+         <Name>Speed 0</Name>
+         <Value>--cpu-used=0</Value>
+         <Message>Slowest</Message>
+       </Entry>
+     </Menu>
+   </Option>
+ </TestSettings>
 </PhoronixTestSuite>
