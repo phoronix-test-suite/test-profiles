@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v7.2.0m2-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>https://github.com/mlpack/benchmarks/archive/master.zip</URL>
+      <MD5>5c64e39100243ffeb0586efa6887195b</MD5>
+      <SHA256>10123cd85eff747230bcdb05e0b93254b2642d62370009ac3e461ddaef59b768</SHA256>
+      <FileSize>233570</FileSize>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>
