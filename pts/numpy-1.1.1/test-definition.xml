@@ -4,12 +4,12 @@
   <TestInformation>
     <Title>Numpy Benchmark</Title>
     <Description>This is a test to obtain the general Numpy performance.</Description>
-    <ResultScale>Seconds</ResultScale>
-    <Proportion>LIB</Proportion>
+    <ResultScale>Score</ResultScale>
+    <Proportion>HIB</Proportion>
     <TimesToRun>3</TimesToRun>
   </TestInformation>
   <TestProfile>
-    <Version>1.1.0</Version>
+    <Version>1.1.1</Version>
     <SupportedPlatforms>Linux, BSD</SupportedPlatforms>
     <SoftwareType>Utility</SoftwareType>
     <TestType>Processor</TestType>

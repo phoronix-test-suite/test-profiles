@@ -1,7 +1,8 @@
 <?xml version="1.0"?>
 <!--Phoronix Test Suite v9.2.1-->
 <PhoronixTestSuite>
-  <SystemMonitor>
-    <Sensor>sys.time</Sensor>
-  </SystemMonitor>
+  <ResultsParser>
+    <OutputTemplate>Geometric mean score: #_RESULT_#</OutputTemplate>
+    <ResultPrecision>2</ResultPrecision>
+  </ResultsParser>
 </PhoronixTestSuite>
