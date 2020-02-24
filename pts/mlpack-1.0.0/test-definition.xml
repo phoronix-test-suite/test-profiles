@@ -28,6 +28,19 @@
           <Name>scikit_svm</Name>
           <Value>SCIKIT_SVM</Value>
         </Entry>
+	<Entry>
+	  <Name>scikit_linearridgeregression</Name>
+	  <Value>SCIKIT_LINEARRIDGEREGRESSION</Value>
+        </Entry>
+	<Entry>
+	  <Name>scikit_qda</Name>
+	  <Value>SCIKIT_QDA</Value>
+        </Entry>
+	<Entry>
+	  <Name>scikit_ica</Name>
+	  <Value>SCIKIT_ICA</Value>
+        </Entry>
+
       </Menu>
     </Option>
   </TestSettings>
