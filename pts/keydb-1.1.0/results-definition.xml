@@ -2,7 +2,7 @@
 <!--Phoronix Test Suite v9.0.1-->
 <PhoronixTestSuite>
   <ResultsParser>
-    <OutputTemplate>#_RESULT_# requests per second</OutputTemplate>
-    <LineHint>requests per second</LineHint>
+    <OutputTemplate>Totals     #_RESULT_#     13833.49     36766.29     63.52700      6330.95 </OutputTemplate>
+    <LineHint>Totals</LineHint>
   </ResultsParser>
 </PhoronixTestSuite>

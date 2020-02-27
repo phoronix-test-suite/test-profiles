@@ -5,7 +5,7 @@
     <Title>KeyDB</Title>
     <AppVersion>5.0.2</AppVersion>
     <Description>A benchmark of KeyDB as a multi-threaded fork of the Redis server.</Description>
-    <ResultScale>Requests Per Second</ResultScale>
+    <ResultScale>Ops/sec</ResultScale>
     <Proportion>HIB</Proportion>
     <TimesToRun>3</TimesToRun>
   </TestInformation>
