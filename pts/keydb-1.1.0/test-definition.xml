@@ -23,7 +23,7 @@
   </TestProfile>
   <TestSettings>
     <Default>
-      <Arguments>-n 250000</Arguments>
+      <Arguments>--test-time 60</Arguments>
     </Default>
   </TestSettings>
 </PhoronixTestSuite>
