@@ -9,5 +9,12 @@
       <FileName>KeyDB-5.0.2.tar.gz</FileName>
       <FileSize>3016462</FileSize>
     </Package>
+    <Package>
+      <URL>https://github.com/RedisLabs/memtier_benchmark/archive/1.2.17.tar.gz</URL>
+      <MD5>08b45090c273ba1c32a174f02a55dfd6</MD5>
+      <SHA256>18526a32732173ac5f73cecfa003571079634e8d124132eaf545c46bab61e0b2</SHA256>
+      <FileName>memtier_benchmark-1.2.17.tar.gz</FileName>
+      <FileSize>76872</FileSize>
+    </Package>
   </Downloads>
 </PhoronixTestSuite>
