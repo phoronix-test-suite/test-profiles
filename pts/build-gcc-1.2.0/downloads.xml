@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v8.8.1-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>ftp://ftp.fu-berlin.de/unix/languages/gcc/releases/gcc-8.4.0/gcc-8.4.0.tar.gz, ftp://ftp.gwdg.de/pub/misc/gcc/releases/gcc-8.4.0/gcc-8.4.0.tar.gz, https://ftp.gnu.org/gnu/gcc/gcc-8.4.0/gcc-8.4.0.tar.gz</URL>
+      <MD5>732a4fd69c36c0a12ee2b43368ccf3c9</MD5>
+      <SHA256>41e8b145832fc0b2b34c798ed25fb54a881b0cee4cd581b77c7dc92722c116a8</SHA256>
+      <FileName>gcc-8.4.0.tar.gz</FileName>
+      <FileSize>114232712</FileSize>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>
