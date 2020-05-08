@@ -7,6 +7,8 @@ cd reactor-core
 git fetch origin v2.5.0.M1:tags/v2.5.0.M1
 git checkout v2.5.0.M1
 
+#Fix the urls in the build.gradle
+sed -i -e s/http:/https:/ build.gradle
 # build once to get all dependencies
 ./gradlew build
 cd ..
