@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v8.8.1-->
+<PhoronixTestSuite>
+  <TestInformation>
+    <Title>Timed Clash compilation, using GHC 8.10.1</Title>
+    <AppVersion></AppVersion>
+    <Description>Build the clash-lang Haskell to VHDL/Verilog/SystemVerilog compiler with GHC 8.10.1</Description>
+    <ResultScale>Seconds</ResultScale>
+    <Proportion>LIB</Proportion>
+    <SubTitle>Time To Compile</SubTitle>
+    <TimesToRun>3</TimesToRun>
+  </TestInformation>
+  <TestProfile>
+    <Version>1.0.0</Version>
+    <!--GHC is available on those platforms, and CLASH is platform-agnostic.-->
+    <SupportedPlatforms>Linux, macOS</SupportedPlatforms>
+    <SoftwareType>Utility</SoftwareType>
+    <TestType>Processor</TestType>
+    <License>Free</License>
+    <Status>Unverified</Status>
+    <!--The benchmark depends on the Nix package manager, both for dependencies and the benchmark itself.-->
+    <ExternalDependencies>nix</ExternalDependencies>
+    <ProjectURL>https://clash-lang.org/</ProjectURL>
+    <InternalTags>SMP</InternalTags>
+    <Maintainer>Serge Kosyrev</Maintainer>
+  </TestProfile>
+</PhoronixTestSuite>
