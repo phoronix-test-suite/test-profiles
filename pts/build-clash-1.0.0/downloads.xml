@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v9.6.1-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>http://www.phoronix-test-suite.com/benchmark-files/clash-benchmark-compilation-1.tar.xz</URL>
+      <MD5>3d10f941e08be3a6073bc742b069b7e2</MD5>
+      <SHA256>b6b18c24175f07f809a094d9d38ce98905a1318d8f52b76c670cb13fc68e7da9</SHA256>
+      <FileName>clash-benchmark-compilation-1.tar.xz</FileName>
+      <FileSize>36628</FileSize>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>
