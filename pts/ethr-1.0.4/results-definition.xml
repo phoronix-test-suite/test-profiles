@@ -33,15 +33,15 @@
     <ResultProportion>LIB</ResultProportion>
   </ResultsParser>
   <ResultsParser>
-    <OutputTemplate>  HTTP     008-009 sec   #_RESULT_#</OutputTemplate>
-    <LineHint>HTTP</LineHint>
+    <OutputTemplate>  HTTP     008-009 sec   #_RESULT_#M</OutputTemplate>
+    <LineHint>M</LineHint>
     <StripFromResult>M</StripFromResult>
     <MultiMatch>AVERAGE</MultiMatch>
     <ResultScale>Mbits/sec</ResultScale>
   </ResultsParser>
   <ResultsParser>
-    <OutputTemplate>  HTTP     008-009 sec   #_RESULT_#</OutputTemplate>
-    <LineHint>HTTP</LineHint>
+    <OutputTemplate>  HTTP     008-009 sec   #_RESULT_#G</OutputTemplate>
+    <LineHint>G</LineHint>
     <StripFromResult>G</StripFromResult>
     <MultiMatch>AVERAGE</MultiMatch>
     <MultiplyResultBy>1000</MultiplyResultBy>
