@@ -18,13 +18,6 @@
       <PlatformSpecific>Linux</PlatformSpecific>
     </Package>
     <Package>
-      <URL>https://github.com/AOMediaCodec/SVT-AV1/releases/download/v0.8.5/SvtAv1Enclib.zip</URL>
-      <SHA256>907cdb3b44b5adddd2b4f801382ef5a53ad13bbd3dd50345cd3380bf250c1ebe</SHA256>
-      <FileName>SvtAv1Enclib-0.8.5.zip</FileName>
-      <FileSize>2861880</FileSize>
-      <PlatformSpecific>Windows</PlatformSpecific>
-    </Package>
-    <Package>
       <URL>https://github.com/AOMediaCodec/SVT-AV1/releases/download/v0.8.5/SvtAv1EncApp.zip</URL>
       <SHA256>543dccbe5afe7caac304338e203eacf866616a0e223115612f04ea80fcc1f29b</SHA256>
       <FileName>SvtAv1EncApp-0.8.5.zip</FileName>
