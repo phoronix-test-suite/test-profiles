@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v10.0.0m2-->
+<PhoronixTestSuite>
+  <TestInformation>
+    <Title>NCNN</Title>
+    <AppVersion>20200916</AppVersion>
+    <Description>NCNN is a high performance neural network inference framework optimized for mobile and other platforms developed by Tencent.</Description>
+    <ResultScale>ms</ResultScale>
+    <Proportion>LIB</Proportion>
+    <TimesToRun>3</TimesToRun>
+  </TestInformation>
+  <TestProfile>
+    <Version>1.0.1</Version>
+    <SupportedPlatforms>Linux</SupportedPlatforms>
+    <SoftwareType>Scientific</SoftwareType>
+    <TestType>System</TestType>
+    <License>Free</License>
+    <Status>Verified</Status>
+    <ExternalDependencies>cmake, build-utilities, protobuf, opencv</ExternalDependencies>
+    <EnvironmentSize>2700</EnvironmentSize>
+    <ProjectURL>https://github.com/Tencent/ncnn</ProjectURL>
+    <Maintainer>Michael Larabel</Maintainer>
+  </TestProfile>
+  <TestSettings>
+    <Option>
+      <DisplayName>Target</DisplayName>
+      <Identifier>target</Identifier>
+      <Menu>
+        <Entry>
+          <Name>CPU</Name>
+          <Value>-1</Value>
+        </Entry>
+      </Menu>
+    </Option>
+  </TestSettings>
+</PhoronixTestSuite>
