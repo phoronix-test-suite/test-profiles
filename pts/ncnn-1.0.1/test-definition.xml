@@ -16,7 +16,7 @@
     <TestType>System</TestType>
     <License>Free</License>
     <Status>Verified</Status>
-    <ExternalDependencies>cmake, build-utilities, protobuf, opencv</ExternalDependencies>
+    <ExternalDependencies>cmake, build-utilities</ExternalDependencies>
     <EnvironmentSize>2700</EnvironmentSize>
     <ProjectURL>https://github.com/Tencent/ncnn</ProjectURL>
     <Maintainer>Michael Larabel</Maintainer>
