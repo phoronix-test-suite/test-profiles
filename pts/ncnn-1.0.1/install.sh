@@ -3,25 +3,11 @@
 tar -xf ncnn-20200916.tar.gz
 cd ncnn-20200916
 
-# Workaround for build issues with current release
-echo "cmake_minimum_required(VERSION 3.1) # for CMAKE_CXX_STANDARD
-set(CMAKE_CXX_STANDARD 11)
-
-add_subdirectory(caffe)
-add_subdirectory(mxnet)
-add_subdirectory(onnx)
-add_subdirectory(darknet)
-add_subdirectory(quantize)
-" > tools/CMakeLists.txt
-
-echo "" > tools/caffe/CMakeLists.txt
-echo "" > tools/onnx/CMakeLists.txt
-
 mkdir build
 cd build
 
 # Vulkan build currently not enabled due to hitting seg fault...
-cmake ..
+cmake -DNCNN_BUILD_TOOLS=OFF -DNCNN_BUILD_EXAMPLES=OFF ..
 make -j $NUM_CPU_CORES
 # sometimes parallel build seems to fail, so do another make in case
 make
