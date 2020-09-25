@@ -6,7 +6,7 @@ cd ncnn-20200916
 mkdir build
 cd build
 
-cmake -DNCNN_VULKAN=ON -DNCNN_BUILD_TOOLS=OFF -DNCNN_BUILD_EXAMPLES=OFF .. 
+cmake -DNCNN_VULKAN=ON -DNCNN_BUILD_TOOLS=OFF -DNCNN_BUILD_EXAMPLES=OFF ..
 # try to build cpu-only test on system without vulkan development files
 is_cmake_ok=$?
 if [ $is_cmake_ok -ne 0 ]; then
