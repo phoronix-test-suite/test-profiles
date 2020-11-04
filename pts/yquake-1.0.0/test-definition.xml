@@ -1,0 +1,157 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v10.0.1-->
+<PhoronixTestSuite>
+  <TestInformation>
+    <Title>yquake</Title>
+    <AppVersion>7.45</AppVersion>
+    <Description>yQuake2 Render Benchmark</Description>
+    <Description>This is a test of Yamagi Quake II. Yamagi Quake II is an enhanced client for id Software's Quake II with focus on offline and coop gameplay. </Description>
+    <ResultScale>Frames Per Second</ResultScale>
+    <Proportion>HIB</Proportion>
+    <ResultQuantifier>AVG</ResultQuantifier>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <SubTitle>Quake2 render tests</SubTitle>
+    <Executable>yquake2</Executable>
+    <TimesToRun>3</TimesToRun>
+  </TestInformation>
+  <TestProfile>
+    <Version>1.0.0</Version>
+    <SupportedPlatforms>Linux</SupportedPlatforms>
+    <SoftwareType>Game</SoftwareType>
+    <TestType>Graphics</TestType>
+    <License>Free</License>
+    <Status>Verified</Status>
+    <ExternalDependencies>sdl2-development</ExternalDependencies>
+    <RequiresRoot>FALSE</RequiresRoot>
+    <RequiresRootInstall>FALSE</RequiresRootInstall>
+    <RequiresDisplay>TRUE</RequiresDisplay>
+    <RequiresNetwork>FALSE</RequiresNetwork>
+    <RequiresInternet>FALSE</RequiresInternet>
+    <EnvironmentSize>64</EnvironmentSize>
+    <ProjectURL>https://github.com/yquake2/yquake2</ProjectURL>
+    <Maintainer>Denis Pauk</Maintainer>
+    <AllowResultsSharing>TRUE</AllowResultsSharing>
+    <AutoSaveResults>FALSE</AutoSaveResults>
+    <RemoveInstallDirectoryOnReinstall>TRUE</RemoveInstallDirectoryOnReinstall>
+  </TestProfile>
+  <TestSettings>
+    <Default>
+      <AllowCacheShare>FALSE</AllowCacheShare>
+      <Arguments>+exec pts.cfg +set vid_fullscreen 0 +set com_speeds 1</Arguments>
+    </Default>
+    <Option>
+      <DisplayName>Resolution</DisplayName>
+      <Identifier>resolution</Identifier>
+      <ArgumentPrefix></ArgumentPrefix>
+      <ArgumentPostfix></ArgumentPostfix>
+      <DefaultEntry>0</DefaultEntry>
+      <Menu>
+        <Entry>
+          <Name>Soft: 320 x 240</Name>
+          <Value>+set vid_renderer soft +set r_mode 0</Value>
+          <Message></Message>
+        </Entry>
+        <Entry>
+          <Name>Soft: 640 x 480</Name>
+          <Value>+set vid_renderer soft +set r_mode 4</Value>
+          <Message></Message>
+        </Entry>
+        <Entry>
+          <Name>Soft: 800 x 600</Name>
+          <Value>+set vid_renderer soft +set r_mode 6</Value>
+          <Message></Message>
+        </Entry>
+        <Entry>
+          <Name>Soft: 1024 x 768</Name>
+          <Value>+set vid_renderer soft +set r_mode 10</Value>
+          <Message></Message>
+        </Entry>
+        <Entry>
+          <Name>Soft: 1920 x 1080</Name>
+          <Value>+set vid_renderer soft +set r_mode 21</Value>
+          <Message></Message>
+        </Entry>
+        <Entry>
+          <Name>Soft: 2560 x 1440</Name>
+          <Value>+set vid_renderer soft +set r_mode 25</Value>
+          <Message></Message>
+        </Entry>
+        <Entry>
+          <Name>Soft: 3840 x 2160</Name>
+          <Value>+set vid_renderer soft +set r_mode 29</Value>
+          <Message></Message>
+        </Entry>
+        <Entry>
+          <Name>GL1: 320 x 240</Name>
+          <Value>+set vid_renderer gl1 +set r_mode 0</Value>
+          <Message></Message>
+        </Entry>
+        <Entry>
+          <Name>GL1: 640 x 480</Name>
+          <Value>+set vid_renderer gl1 +set r_mode 4</Value>
+          <Message></Message>
+        </Entry>
+        <Entry>
+          <Name>GL1: 800 x 600</Name>
+          <Value>+set vid_renderer gl1 +set r_mode 6</Value>
+          <Message></Message>
+        </Entry>
+        <Entry>
+          <Name>GL1: 1024 x 768</Name>
+          <Value>+set vid_renderer gl1 +set r_mode 10</Value>
+          <Message></Message>
+        </Entry>
+        <Entry>
+          <Name>GL1: 1920 x 1080</Name>
+          <Value>+set vid_renderer gl1 +set r_mode 21</Value>
+          <Message></Message>
+        </Entry>
+        <Entry>
+          <Name>GL1: 2560 x 1440</Name>
+          <Value>+set vid_renderer gl1 +set r_mode 25</Value>
+          <Message></Message>
+        </Entry>
+        <Entry>
+          <Name>GL1: 3840 x 2160</Name>
+          <Value>+set vid_renderer gl1 +set r_mode 29</Value>
+          <Message></Message>
+        </Entry>
+        <Entry>
+          <Name>GL3: 320 x 240</Name>
+          <Value>+set vid_renderer gl3 +set r_mode 0</Value>
+          <Message></Message>
+        </Entry>
+        <Entry>
+          <Name>GL3: 640 x 480</Name>
+          <Value>+set vid_renderer gl3 +set r_mode 4</Value>
+          <Message></Message>
+        </Entry>
+        <Entry>
+          <Name>GL3: 800 x 600</Name>
+          <Value>+set vid_renderer gl3 +set r_mode 6</Value>
+          <Message></Message>
+        </Entry>
+        <Entry>
+          <Name>GL3: 1024 x 768</Name>
+          <Value>+set vid_renderer gl3 +set r_mode 10</Value>
+          <Message></Message>
+        </Entry>
+        <Entry>
+          <Name>GL3: 1920 x 1080</Name>
+          <Value>+set vid_renderer gl3 +set r_mode 21</Value>
+          <Message></Message>
+        </Entry>
+        <Entry>
+          <Name>GL3: 2560 x 1440</Name>
+          <Value>+set vid_renderer gl3 +set r_mode 25</Value>
+          <Message></Message>
+        </Entry>
+        <Entry>
+          <Name>GL3: 3840 x 2160</Name>
+          <Value>+set vid_renderer gl3 +set r_mode 29</Value>
+          <Message></Message>
+        </Entry>
+      </Menu>
+    </Option>
+  </TestSettings>
+</PhoronixTestSuite>
