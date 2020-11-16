@@ -11,6 +11,8 @@
 ## which will cache the full set of benchmark dependencies,
 ## which should take under one gigabyte.
 
+set -xe
+
 tar -xf clash-benchmark-compilation-2.tar.xz
 
 curl -L https://nixos.org/nix/install | sh
@@ -28,8 +30,10 @@ options=(
   --cores      \$NUM_CPU_CORES
 )
 
-./bench/bench.sh "\${options[@]}" measure 2>&1
-echo \$? > ~/test-exit-status
+{ ./bench/bench.sh "\${options[@]}" measure 2>&1
+  echo \$? > ~/test-exit-status
+} | tee test.log
+
 EOF
 
 chmod +x build-clash
