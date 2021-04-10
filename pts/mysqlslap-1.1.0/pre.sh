@@ -3,7 +3,7 @@
 # START SERVER
 cd $HOME/mysql_
 if [ "$(whoami)" == "root" ] ; then
-    $HOME/mysql_/bin/mysqld_safe --user=root --no-defaults --datadir=$HOME/mysql_/.data &
+    $HOME/mysql_/bin/mysqld_safe --no-defaults --user=root --datadir=$HOME/mysql_/.data &
 else
     $HOME/mysql_/bin/mysqld_safe --no-defaults --datadir=$HOME/mysql_/.data &
 fi
