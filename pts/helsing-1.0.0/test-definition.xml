@@ -11,7 +11,7 @@
   </TestInformation>
   <TestProfile>
     <Version>1.0.1</Version>
-    <SupportedPlatforms>Linux,BSD,MacOSX,Solaris</SupportedPlatforms>
+    <SupportedPlatforms>Linux, BSD, MacOSX, Solaris</SupportedPlatforms>
     <SoftwareType>Utility</SoftwareType>
     <TestType>Processor</TestType>
     <License>Free</License>
