@@ -1,5 +1,5 @@
 #!/bin/sh
-tar -zxvf helsing-1.0-beta2.tar.gz
+tar -xf helsing-1.0-beta2.tar.gz
 
 cd helsing-1.0-beta2/helsing/
 sed "s|^#define THREADS .*|#define THREADS $NUM_CPU_CORES|g" configuration.h > tmp
@@ -24,4 +24,3 @@ echo "#!/bin/sh
 ./helsing-1.0-beta/helsing/helsing \$@ > \$LOG_FILE 2>&1
 echo \$? > ~/test-exit-status" > ~/helsing
 chmod +x ~/helsing
-
