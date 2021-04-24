@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v10.4.0m1-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>https://github.com/nihui/vkpeak/releases/download/20210424/vkpeak-20210424-ubuntu.zip</URL>
+      <MD5>vkpeak-20210424-ubuntu.zip</MD5>
+      <SHA256>ecc4dc0c4cf892bebb2bade9775f93ff8c640a0e401396287b37919247d6b7f8</SHA256>
+      <FileName>vkpeak-20210424-ubuntu.zip</FileName>
+      <FileSize>840922</FileSize>
+      <PlatformSpecific>Linux</PlatformSpecific>
+    </Package>
+    <Package>
+      <URL>https://github.com/nihui/vkpeak/releases/download/20210424/vkpeak-20210424-windows.zip</URL>
+      <MD5>f5329cac90d51d2c1cdb6c078f3cb919</MD5>
+      <SHA256>a11fbc1a8c0b3a2743074c3043e427646282513d05da9f7946f42ea37a7a78fa</SHA256>
+      <FileName>vkpeak-20210424-windows.zip</FileName>
+      <FileSize>525464</FileSize>
+      <PlatformSpecific>Windows</PlatformSpecific>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>
