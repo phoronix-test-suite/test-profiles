@@ -3,11 +3,11 @@
 <PhoronixTestSuite>
   <Downloads>
     <Package>
-      <URL>https://github.com/plerros/helsing/archive/refs/tags/1.1-beta.tar.gz</URL>
-      <MD5>e1cc0e75143e29d9763ad1df25862c72</MD5>
-      <SHA256>12c1868fe077ce5c8a18e05149a8b98c95744a3dcaeee092a0e4eec8809a63b1</SHA256>
-      <FileName>helsing-1.1-beta.tar.gz</FileName>
-      <FileSize>14700</FileSize>
+      <URL>https://github.com/plerros/helsing/archive/refs/tags/1.1-beta2.tar.gz</URL>
+      <MD5>226c01605114ca6f8a45473a5ec56016</MD5>
+      <SHA256>8532eb8499de1368bb69700dbbb58f4cfac947c52028553fe4109bc15d051717</SHA256>
+      <FileName>helsing-1.1-beta2.tar.gz</FileName>
+      <FileSize>14500</FileSize>
     </Package>
   </Downloads>
 </PhoronixTestSuite>

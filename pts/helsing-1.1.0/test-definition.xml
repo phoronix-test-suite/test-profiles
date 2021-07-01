@@ -3,7 +3,7 @@
 <PhoronixTestSuite>
   <TestInformation>
     <Title>Helsing</Title>
-    <AppVersion>1.1-beta</AppVersion>
+    <AppVersion>1.1-beta2</AppVersion>
     <Description>Helsing is an open-source POSIX vampire number generator. This test profile measures the time it takes to generate vampire numbers between varying numbers of digits.</Description>
     <ResultScale>Seconds</ResultScale>
     <Proportion>LIB</Proportion>

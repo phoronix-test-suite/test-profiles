@@ -1,5 +1,5 @@
 #!/bin/sh
-helsing_version='helsing-1.1-beta'
+helsing_version='helsing-1.1-beta2'
 tar -xf $helsing_version.tar.gz
 
 cd $helsing_version/helsing/
