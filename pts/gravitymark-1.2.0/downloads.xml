@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v10.4.0-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>https://tellusim.com/download/GravityMark_1.2.run</URL>
+      <MD5>04c498c760ab438b756b0ae3c9a199ee</MD5>
+      <SHA256>ce235e2a3667d72e62b88f1307884a6dbf9d10b82962ea5203631fb5b75637d6</SHA256>
+      <FileName>GravityMark_1.2.run</FileName>
+      <FileSize>187132909</FileSize>
+      <PlatformSpecific>Linux</PlatformSpecific>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>
