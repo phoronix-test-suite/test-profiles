@@ -25,7 +25,7 @@
   </TestProfile>
   <TestSettings>
     <Default>
-      <Arguments>+exec pts.cfg +set vid_fullscreen 0</Arguments>
+      <Arguments>+exec pts.cfg +set vid_fullscreen 0 +set r_retexturing 2 +set r_msaa_samples 8 +set r_anisotropic 16</Arguments>
     </Default>
     <Option>
       <DisplayName>Renderer</DisplayName>
