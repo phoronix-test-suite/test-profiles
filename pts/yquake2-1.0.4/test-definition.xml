@@ -65,6 +65,10 @@
           <Name>3840 x 2160</Name>
           <Value>+set r_mode 29</Value>
         </Entry>
+        <Entry>
+          <Name>5120 x 2880</Name>
+          <Value>+set r_mode 31</Value>
+        </Entry>
       </Menu>
     </Option>
   </TestSettings>
