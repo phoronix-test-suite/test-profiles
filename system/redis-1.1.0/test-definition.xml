@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v6.4.0m1-->
+<PhoronixTestSuite>
+  <TestInformation>
+    <Title>Redis Memtier and Redis Benchmark</Title>
+    <Executable>redis</Executable>
+  </TestInformation>
+  <TestProfile>
+    <Version>1.1.0</Version>
+    <SupportedPlatforms>Linux</SupportedPlatforms>
+    <!--ExternalDependencies>redis,autoconf,automake,make,gcc-c++,pcre-devel,zlib-devel,libmemcached-devel,libevent,libevent-devel</ExternalDependencies-->
+    <ExternalDependencies>build-utilities,pre,zlib-development,libevent</ExternalDependencies>
+  </TestProfile>
+  <TestSettings>
+    <Option>
+      <DisplayName>Test</DisplayName>
+      <Identifier>test</Identifier>
+      <DefaultEntry>0</DefaultEntry>
+      <Menu>
+        <Entry>
+          <Name>GET</Name>
+          <Value>memtier 0:1</Value>
+          <Message>All GET</Message>
+        </Entry>
+        <Entry>
+          <Name>SET</Name>
+          <Value>memtier 1:0</Value>
+          <Message>ALL SET</Message>
+        </Entry>
+        <Entry>
+          <Name>MIX</Name>
+          <Value>memtier 1:10</Value>
+          <Message>SET/GET=1/10</Message>
+        </Entry>
+        <Entry>
+          <Name>LPUSH and LPOP: lpush</Name>
+          <Value>redis-benchmark lpush,lpop lpush</Value>
+          <Message>lpush and lpop operation</Message>
+        </Entry>
+        <Entry>
+          <Name>LPUSH and LPOP: lpop</Name>
+          <Value>redis-benchmark lpush,lpop lpop</Value>
+          <Message>lpush and lpop operation</Message>
+        </Entry>
+      </Menu>
+    </Option>
+  </TestSettings>
+</PhoronixTestSuite>
