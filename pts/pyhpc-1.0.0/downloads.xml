@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v10.6.1-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>https://github.com/dionhaefner/pyhpc-benchmarks/archive/refs/tags/v2.1.tar.gz</URL>
+      <MD5>400071da6d2524de239be14e7756e504</MD5>
+      <SHA256>aa297a8e49bf257b8d68cd194f863bace5d6bddc0b531dcf629e2799b22a8405</SHA256>
+      <FileName>pyhpc-benchmarks-2.1.tar.gz</FileName>
+      <FileSize>204935</FileSize>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>
