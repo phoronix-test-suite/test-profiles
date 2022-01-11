@@ -55,16 +55,16 @@ HDRSplitScreen=0
 HDRSplitScreenNITS=100.000000
 
 [Quality]
-PointLights=Off
-Glare=Off
-TerrainDetailObjLevel=Off
-ShadingSamples=4
-TerrainShadingSamples=4
-ShadowQuality=Low
+PointLights=High
+Glare=High
+TerrainDetailObjLevel=High
+ShadingSamples=16
+TerrainShadingSamples=12
+ShadowQuality=High
 MaxMotionBlurFrameTime=0
 MotionBlurInterframeTime=0
-MSAASamples=1
-MipsToRemove=2
+MSAASamples=4
+MipsToRemove=0
 RenderResolution=\$1,\$2
 HalfResTerrain=1
 
