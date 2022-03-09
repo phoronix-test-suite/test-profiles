@@ -14,7 +14,7 @@
     <TestType>System</TestType>
     <License>Free</License>
     <Status>Verified</Status>
-    <ExternalDependencies>build-utilities, libevent, pcre, openssl-development, libtool</ExternalDependencies>
+    <ExternalDependencies>build-utilities, libevent, pcre, openssl-development, libtool, pkg-config</ExternalDependencies>
     <EnvironmentSize>64</EnvironmentSize>
     <ProjectURL>https://github.com/RedisLabs/memtier_benchmark</ProjectURL>
     <Maintainer>Michael Larabel</Maintainer>
