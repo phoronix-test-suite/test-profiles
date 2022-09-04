@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v10.8.4-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>https://tellusim.com/download/GravityMark_1.70.run</URL>
+      <MD5>78b00177d4416d8bf6c41ac6e3467c48</MD5>
+      <SHA256>ed38377cbc8e5c93d784cb529b2a3e533d87998c967f7602f73a4e3568358402</SHA256>
+      <FileName>GravityMark_1.70.run</FileName>
+      <FileSize>190382397</FileSize>
+      <PlatformSpecific>Linux</PlatformSpecific>
+    </Package>
+    <Package>
+      <URL>https://tellusim.com/download/GravityMark_1.70.msi</URL>
+      <MD5>e8daed6319dbdfe6ff76340504f5dd4f</MD5>
+      <SHA256>39def8e1fec1550eba9f8fc8bb4ebcdf931019292657b35f4a5787c7013eed4b</SHA256>
+      <FileName>GravityMark_1.70.msi</FileName>
+      <FileSize>219312128</FileSize>
+      <PlatformSpecific>Windows</PlatformSpecific>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>
