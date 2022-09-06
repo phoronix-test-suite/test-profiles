@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v10.8.4-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>https://github.com/facebook/rocksdb/archive/refs/tags/v7.5.3.tar.gz</URL>
+      <MD5>5195c23691906f557aaa1827291196fd</MD5>
+      <SHA256>c9f8cb3f14622a9bb2ead81093720d0660784352f7f53f44a990dc850a0caca1</SHA256>
+      <FileName>rocksdb-7.5.3.tar.gz</FileName>
+      <FileSize>9746112</FileSize>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>
