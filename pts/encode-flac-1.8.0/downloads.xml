@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v10.8.4-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>https://github.com/xiph/flac/releases/download/1.4.0/flac-1.4.0.tar.xz</URL>
+      <MD5>f3c395e936156c3a63add169dec629a5</MD5>
+      <SHA256>af41c0733c93c237c3e52f64dd87e3b0d9af38259f1c7d11e8cbf583c48c2506</SHA256>
+      <FileName>flac-1.4.0.tar.xz</FileName>
+      <FileSize>783372</FileSize>
+      <PlatformSpecific>Linux, MacOSX, BSD, Solaris</PlatformSpecific>
+    </Package>
+    <Package>
+      <URL>https://github.com/xiph/flac/releases/download/1.4.0/flac-1.4.0-win.zip</URL>
+      <MD5>c0c68d4cfe020f0d500d924595350b19</MD5>
+      <SHA256>7727dcd101117152e65373515a278c7f90a437d14227476a1598f1d8556d5cce</SHA256>
+      <FileName>flac-1.4.0-win.zip</FileName>
+      <FileSize>1111905</FileSize>
+      <PlatformSpecific>Windows</PlatformSpecific>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>
