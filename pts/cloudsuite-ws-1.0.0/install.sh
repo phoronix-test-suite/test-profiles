@@ -9,10 +9,10 @@ else
 	exit
 fi
 
-docker pull cloudsuite/web-serving:db_server
-docker pull cloudsuite/web-serving:memcached_server
-docker pull cloudsuite/web-serving:web_server
-docker pull cloudsuite/web-serving:faban_client
+docker pull cloudsuite3/web-serving:db_server
+docker pull cloudsuite3/web-serving:memcached_server
+docker pull cloudsuite3/web-serving:web_server
+docker pull cloudsuite3/web-serving:faban_client
 echo $? > ~/install-exit-status
 
 docker network create search_network
@@ -21,12 +21,12 @@ echo "#!/bin/bash
 export HOME=\$DEBUG_REAL_HOME 
 
 # Start master and slaves
-docker run -dt --net=host --name=mysql_server cloudsuite/web-serving:db_server 127.0.0.1
-docker run -dt --net=host --name=memcache_server cloudsuite/web-serving:memcached_server
-docker run -dt --net=host --name=web_server cloudsuite/web-serving:web_server /etc/bootstrap.sh 127.0.0.1 127.0.0.1 80
+docker run -dt --net=host --name=mysql_server cloudsuite3/web-serving:db_server 127.0.0.1
+docker run -dt --net=host --name=memcache_server cloudsuite3/web-serving:memcached_server
+docker run -dt --net=host --name=web_server cloudsuite3/web-serving:web_server /etc/bootstrap.sh 127.0.0.1 127.0.0.1 80
 
 # Run data analytics benchmark
-docker run --net=host --name=faban_client cloudsuite/web-serving:faban_client 127.0.0.1 7 \$@ | tr '<' ' ' | tr '>' ' ' > \$LOG_FILE 2>&1
+docker run --net=host --name=faban_client cloudsuite3/web-serving:faban_client 127.0.0.1 7 \$@ | tr '<' ' ' | tr '>' ' ' > \$LOG_FILE 2>&1
 echo \$? > ~/test-exit-status
 
 # Stop them
