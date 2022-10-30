@@ -91,6 +91,7 @@ cd ~
 tar -xf HammerDB-4.0-Linux.tar.gz
 
 echo "#!/bin/sh
+export LD_LIBRARY_PATH=$HOME/pg_/lib/:$LD_LIBRARY_PATH
 PGDATA=\$HOME/pg_/data/db/
 PGPORT=7777
 export PGDATA
