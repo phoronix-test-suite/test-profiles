@@ -7,7 +7,7 @@ tar -xf golang-benchmarks-121017.tar.gz -C $TESTDIR
 cd $TESTDIR
 mv go-benchmark-04122017/x x
 cd ~
-GOBIN=$PWD go install golang.org/x/benchmarks/...
+GOBIN=$PWD go install golang.org/x/benchmarks/...@latest
 
 cd ~
 echo "#!/bin/sh
