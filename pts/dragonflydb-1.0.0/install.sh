@@ -25,6 +25,6 @@ SERVER_PID=\$!
 sleep 6
 
 cd ~/memtier_benchmark-1.4.0/
-./memtier_benchmark --hide-histogram \$@ > \$LOG_FILE
+./memtier_benchmark -s 127.0.0.1 --hide-histogram \$@ > \$LOG_FILE
 kill \$SERVER_PID" > dragonflydb
 chmod +x dragonflydb
