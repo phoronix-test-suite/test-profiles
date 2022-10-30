@@ -18,7 +18,7 @@ then
      STREAM_ARRAY_SIZE=$SIZE_BASED_ON_L3
 fi
 
-cc stream.c -DSTREAM_ARRAY_SIZE=$STREAM_ARRAY_SIZE -DNTIMES=100 $CFLAGS -fopenmp -o stream-bin
+cc stream.c -DSTREAM_ARRAY_SIZE=$STREAM_ARRAY_SIZE -DNTIMES=100 -mcmodel=medium $CFLAGS -fopenmp -o stream-bin
 echo $? > ~/install-exit-status
 
 echo "#!/bin/sh
