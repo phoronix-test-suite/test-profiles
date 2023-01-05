@@ -1,5 +1,14 @@
 #!/bin/sh
 
+if /cygdrive/c/windows/system32/reg.exe query "HKEY_CURRENT_USER\Software\Valve\Steam" /v SteamPath
+then
+    STEAMPATH=`/cygdrive/c/windows/system32/reg.exe query "HKEY_CURRENT_USER\Software\Valve\Steam" /v SteamPath | awk '$1 ~ "SteamPath" && $2 ~ "REG_SZ" { print(substr($3, 1, length($3)-1)) }'`
+else
+    echo "ERROR: Steam is not found on the system! This test profile needs to find Steam configuration data in the Windows Registry."
+	echo 2 > ~/install-exit-status
+    exit
+fi
+
 steam steam://install/730
 
 unzip -o csgo-demo-10.zip
@@ -14,3 +23,4 @@ cat csgo/log.log* > \$LOG_FILE
 cat csgo/SourceBench* >> \$LOG_FILE
 cat csgo/UNKNOWN >> \$LOG_FILE" > csgo
 chmod +x csgo
+echo 0 > ~/install-exit-status
