@@ -9,13 +9,13 @@ else
     exit
 fi
 
-steam steam://install/730
+/cygdrive/${STEAMPATH:0:1}/${STEAMPATH:3}/steam.exe "steam://install/730"
 
 unzip -o csgo-demo-10.zip
-mv pts10.dem "C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo"
+mv pts10.dem "${STEAMPATH}/steamapps/common/Counter-Strike Global Offensive/csgo"
 
 echo "#!/bin/sh
-cd \"C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\"
+cd \"${STEAMPATH}/steamapps/common/Counter-Strike Global Offensive\"
 rm -rf csgo/SourceBench*
 rm -f UNKNOWN
 ./csgo.exe -game csgo \$@ +con_logfile log.log
