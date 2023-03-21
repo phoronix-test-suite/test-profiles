@@ -3,7 +3,7 @@
 <PhoronixTestSuite>
   <TestInformation>
     <Title>Stress-NG</Title>
-    <AppVersion>0.15.04</AppVersion>
+    <AppVersion>0.15.06</AppVersion>
     <Description>Stress-NG is a Linux stress tool developed by Colin Ian King.</Description>
     <TimesToRun>3</TimesToRun>
   </TestInformation>
@@ -71,7 +71,7 @@
         </Entry>
         <Entry>
           <Name>Socket Activity</Name>
-          <Value>--sock -1 --no-rand-seed</Value>
+          <Value>--sock -1 --no-rand-seed --sock-zerocopy</Value>
         </Entry>
         <Entry>
           <Name>Context Switching</Name>
