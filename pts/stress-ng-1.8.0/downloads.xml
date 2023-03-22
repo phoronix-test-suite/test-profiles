@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v10.8.4-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>https://github.com/ColinIanKing/stress-ng/archive/refs/tags/V0.15.06.tar.gz</URL>
+      <MD5>f8c385d8684d7d4feb80bc5492b95c6b</MD5>
+      <SHA256>c38cefcf0a83f6c65aed7c36e57a9a1ee8373418ef71cf089a75b0661dcd4623</SHA256>
+      <FileName>stress-ng-0.15.06.tar.gz</FileName>
+      <FileSize>3813785</FileSize>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>
