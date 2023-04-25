@@ -3,7 +3,12 @@
 rm -rf src
 rm -rf .cache
 export GOPATH=$HOME
-tar -xf influxdb-1.8.2_linux_amd64.tar.gz
+if [ $OS_ARCH = "aarch64" ]
+then
+	tar -xf influxdb-1.8.2_linux_arm64.tar.gz
+else
+	tar -xf influxdb-1.8.2_linux_amd64.tar.gz
+fi
 go get github.com/influxdata/inch/cmd/inch
 if [ $? -ne 0 ]
 then
