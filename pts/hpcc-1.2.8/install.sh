@@ -1,5 +1,8 @@
 #!/bin/sh
 
+readonly install_error_MPI_NOT_FOUND=100  # Install Error: Unable to find an MPI toolchain to use. 
+readonly install_error_LA_NOT_FOUND=200   # Install Error: Unable to find a linear algebra toolchain to use.
+
 tar -zxvf hpcc-1.5.0.tar.gz
 cd hpcc-1.5.0
 
@@ -80,6 +83,9 @@ then
 	MPI_LIBS=/usr/lib64/mpich2/lib/libmpich.so
 	MPI_CC=/usr/bin/mpicc
 	MPI_VERSION=`$MPI_CC -v 2>&1 | grep "MPICH2 version"`
+else
+	echo $install_error_MPI_NOT_FOUND > ~/install-exit-status
+	exit $install_error_MPI_NOT_FOUND
 fi
 
 # Find Linear Algebra Package To Use
@@ -129,6 +135,9 @@ then
 	LA_INCLUDE=/usr/include/${OS_ARCH}-linux-gnu/
 	LA_LIBS="-L$LA_PATH -lblas"
 	LA_VERSION="OpenBLAS"
+else
+	echo $install_error_LA_NOT_FOUND > ~/install-exit-status
+	exit $install_error_LA_NOT_FOUND
 fi
 
 if [ ! "X$MPI_VERSION" = "X" ]
