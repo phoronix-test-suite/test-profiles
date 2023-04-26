@@ -123,18 +123,18 @@ then
 	LA_INCLUDE=/usr/include
 	LA_LIBS="-L$LA_PATH -lblas"
 	LA_VERSION="ATLAS"
-elif [ -d /usr/lib/x86_64-linux-gnu/atlas ]
+elif [ -d /usr/lib/${OS_ARCH}-linux-gnu/atlas ]
 then
 	# ATLAS on Ubuntu
-	LA_PATH=/usr/lib/x86_64-linux-gnu/atlas
-	LA_INCLUDE=/usr/include/x86_64-linux-gnu/
+	LA_PATH=/usr/lib/${OS_ARCH}-linux-gnu/atlas
+	LA_INCLUDE=/usr/include/${OS_ARCH}-linux-gnu/
 	LA_LIBS="-L$LA_PATH -lblas"
 	LA_VERSION="ATLAS"
-elif [ -d /usr/lib/x86_64-linux-gnu/blas ]
+elif [ -d /usr/lib/${OS_ARCH}-linux-gnu/blas ]
 then
 	# OpenBLAS on Ubuntu
-	LA_PATH=/usr/lib/x86_64-linux-gnu/blas
-	LA_INCLUDE=/usr/include/x86_64-linux-gnu/
+	LA_PATH=/usr/lib/${OS_ARCH}-linux-gnu/blas
+	LA_INCLUDE=/usr/include/${OS_ARCH}-linux-gnu/
 	LA_LIBS="-L$LA_PATH -lblas"
 	LA_VERSION="OpenBLAS"
 fi
