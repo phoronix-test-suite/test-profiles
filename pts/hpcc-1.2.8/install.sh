@@ -16,28 +16,20 @@ then
 	MPI_LIBS=/usr/lib/openmpi/lib/libmpi.so
 	MPI_CC=/usr/bin/mpicc.openmpi
 	MPI_VERSION=`$MPI_CC -showme:version 2>&1 | grep MPI | cut -d "(" -f1  | cut -d ":" -f2`
-elif [ -d /usr/lib/x86_64-linux-gnu/openmpi/ ] && [ -d /usr/include/openmpi/ ]
+elif [ -d /usr/lib/${OS_ARCH}-linux-gnu/openmpi/ ] && [ -d /usr/include/openmpi/ ]
 then
         # OpenMPI On Debian
-        MPI_PATH=/usr/lib/x86_64-linux-gnu/openmpi
+        MPI_PATH=/usr/lib/${OS_ARCH}-linux-gnu/openmpi
         MPI_INCLUDE=/usr/include/openmpi/
-        MPI_LIBS=/usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so
+        MPI_LIBS=/usr/lib/${OS_ARCH}-linux-gnu/openmpi/lib/libmpi.so
         MPI_CC=/usr/bin/mpicc
         MPI_VERSION=`$MPI_CC -showme:version 2>&1 | grep MPI | cut -d "(" -f1  | cut -d ":" -f2`
-elif [ -d /usr/lib/x86_64-linux-gnu/openmpi/ ] && [ -d /usr/lib/x86_64-linux-gnu/openmpi/include/ ]
+elif [ -d /usr/lib/${OS_ARCH}-linux-gnu/openmpi/ ] && [ -d /usr/lib/${OS_ARCH}-linux-gnu/openmpi/include/ ]
 then
         # OpenMPI On Newer Ubuntu
-        MPI_PATH=/usr/lib/x86_64-linux-gnu/openmpi
-        MPI_INCLUDE=/usr/lib/x86_64-linux-gnu/openmpi/include/
-        MPI_LIBS=/usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so
-        MPI_CC=/usr/bin/mpicc
-        MPI_VERSION=`$MPI_CC -showme:version 2>&1 | grep MPI | cut -d "(" -f1  | cut -d ":" -f2`
-elif [ -d /usr/lib/aarch64-linux-gnu/openmpi/ ] && [ -d /usr/lib/aarch64-linux-gnu/openmpi/include/ ]
-then
-        # OpenMPI On Newer Ubuntu AArch64
-        MPI_PATH=/usr/lib/aarch64-linux-gnu/openmpi
-        MPI_INCLUDE=/usr/lib/aarch64-linux-gnu/openmpi/include/
-        MPI_LIBS=/usr/lib/aarch64-linux-gnu/openmpi/lib/libmpi.so
+        MPI_PATH=/usr/lib/${OS_ARCH}-linux-gnu/openmpi
+        MPI_INCLUDE=/usr/lib/${OS_ARCH}-linux-gnu/openmpi/include/
+        MPI_LIBS=/usr/lib/${OS_ARCH}-linux-gnu/openmpi/lib/libmpi.so
         MPI_CC=/usr/bin/mpicc
         MPI_VERSION=`$MPI_CC -showme:version 2>&1 | grep MPI | cut -d "(" -f1  | cut -d ":" -f2`
 elif [ -d /usr/lib64/openmpi ] && [ -x /usr/bin/mpicc ]
@@ -52,7 +44,7 @@ elif [ -d /usr/lib64/openmpi ] && [ -x /usr/lib64/openmpi/bin/mpicc ]
 then
 	# OpenMPI On RHEL
 	MPI_PATH=/usr/lib64/openmpi
-	MPI_INCLUDE=/usr/include/openmpi-x86_64/
+	MPI_INCLUDE=/usr/include/openmpi-${OS_ARCH}/
 	MPI_LIBS=/usr/lib64/openmpi/lib/libmpi.so
 	MPI_CC=/usr/lib64/openmpi/bin/mpicc
 	MPI_VERSION=`$MPI_CC -showme:version 2>&1 | grep MPI | cut -d "(" -f1  | cut -d ":" -f2`
@@ -80,11 +72,11 @@ then
 	MPI_LIBS=/usr/lib/mpich2/lib/libmpich.so
 	MPI_CC=/usr/bin/mpicc.mpich2
 	MPI_VERSION=`$MPI_CC -v 2>&1 | grep "MPICH2 version"`
-elif [ -d /usr/include/mpich2-x86_64 ]
+elif [ -d /usr/include/mpich2-${OS_ARCH} ]
 then
 	# MPICH2
-	MPI_PATH=/usr/include/mpich2-x86_64
-	MPI_INCLUDE=/usr/include/mpich2-x86_64
+	MPI_PATH=/usr/include/mpich2-${OS_ARCH}
+	MPI_INCLUDE=/usr/include/mpich2-${OS_ARCH}
 	MPI_LIBS=/usr/lib64/mpich2/lib/libmpich.so
 	MPI_CC=/usr/bin/mpicc
 	MPI_VERSION=`$MPI_CC -v 2>&1 | grep "MPICH2 version"`
