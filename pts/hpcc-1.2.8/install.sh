@@ -1,7 +1,7 @@
 #!/bin/sh
 
 readonly install_error_MPI_NOT_FOUND=1000  # Install Error: Unable to find an MPI toolchain to use. 
-readonly install_error_LA_NOT_FOUND=2000   # Install Error: Unable to find a linear algebra toolchain to use.
+readonly install_error_LA_NOT_FOUND=1001   # Install Error: Unable to find a linear algebra toolchain to use.
 readonly errno_ENOENT=2			   # No such file or directory. See also: errno(3).
 
 tar -zxvf hpcc-1.5.0.tar.gz
