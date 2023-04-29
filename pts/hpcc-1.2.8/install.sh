@@ -85,6 +85,7 @@ then
 	MPI_CC=/usr/bin/mpicc
 	MPI_VERSION=`$MPI_CC -v 2>&1 | grep "MPICH2 version"`
 else
+	echo "Error: MPI not found."
 	echo $install_error_MPI_NOT_FOUND > ~/install-exit-status
 	exit $errno_ENOENT
 fi
@@ -137,6 +138,7 @@ then
 	LA_LIBS="-L$LA_PATH -lblas"
 	LA_VERSION="OpenBLAS"
 else
+	echo "Error: A linear algebra package could not be found."
 	echo $install_error_LA_NOT_FOUND > ~/install-exit-status
 	exit $errno_ENOENT
 fi
