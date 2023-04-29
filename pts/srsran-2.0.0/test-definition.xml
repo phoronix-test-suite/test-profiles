@@ -21,7 +21,7 @@
     <ProjectURL>https://srs.io/</ProjectURL>
     <RepositoryURL>https://github.com/srsran/srsRAN_Project</RepositoryURL>
     <Maintainer>Michael Larabel</Maintainer>
-    <SystemDependencies>libbladeRF.h, mbedtls/aes.h, libmbedtls.so, libboost_program_options.so, /usr/include/libconfig.h++, libconfig++.so, netinet/sctp.h, libsctp.so, yaml-cpp/yaml.h</SystemDependencies>
+    <SystemDependencies>libbladeRF.h, mbedtls/aes.h, libmbedtls.so, libboost_program_options.so, /usr/include/libconfig.h++, libconfig++.so, netinet/sctp.h, libsctp.so, yaml-cpp/yaml.h, libgtest.a, gtest/gtest.h</SystemDependencies>
   </TestProfile>
   <TestSettings>
     <Option>
