@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v10.8.4-->
+<PhoronixTestSuite>
+  <ResultsParser>
+    <OutputTemplate>   bw (  MiB/s): min= #_MIN_RESULT_# max= #_MAX_RESULT_# per=100.00%, avg #_RESULT_# stdev= 4.52, samples=480</OutputTemplate>
+    <LineHint>bw (</LineHint>
+    <ResultAfterString>avg</ResultAfterString>
+    <StripFromResult>,</StripFromResult>
+    <ResultScale>MiB/s</ResultScale>
+    <ResultProportion>HIB</ResultProportion>
+    <TurnCharsToSpace>=</TurnCharsToSpace>
+  </ResultsParser>
+  <ResultsParser>
+    <OutputTemplate>   iops        : min= #_MIN_RESULT_# max= #_MAX_RESULT_# avg #_RESULT_# stdev=1156.23, samples=480</OutputTemplate>
+    <LineBeforeHint>bw (</LineBeforeHint>
+    <ResultAfterString>avg</ResultAfterString>
+    <StripFromResult>,</StripFromResult>
+    <ResultScale>IOPS</ResultScale>
+    <ResultProportion>HIB</ResultProportion>
+    <ResultPrecision>0</ResultPrecision>
+    <TurnCharsToSpace>=</TurnCharsToSpace>
+  </ResultsParser>
+</PhoronixTestSuite>
