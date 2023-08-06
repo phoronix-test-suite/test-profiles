@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v10.8.5-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>https://dlcdn.apache.org/iotdb/1.1.2/apache-iotdb-1.1.2-all-bin.zip</URL>
+      <MD5>d556f3ee396e069eabe1a6f2d756594d</MD5>
+      <SHA256>6de7a060f309a04274b81830711b57a24c22410c7cdaf110ee2623b19126c82f</SHA256>
+      <FileName>apache-iotdb-1.1.2-all-bin.zip</FileName>
+      <FileSize>86272444</FileSize>
+      <ArchitectureSpecific>x86_64</ArchitectureSpecific>
+    </Package>
+    <Package>
+      <URL>https://github.com/thulab/iot-benchmark/releases/download/2023-06-30-5869dd02-java8/benchmark-iotdb-1.1-java8.zip</URL>
+      <MD5>788fcfacfa78542f4fcf049070d22234</MD5>
+      <SHA256>49d0222233aa5180f9d77a51d4213425f8c73a0aa5dbb51270b28f61f0e363c7</SHA256>
+      <FileName>benchmark-iotdb-1.1-java8.zip</FileName>
+      <FileSize>48716446</FileSize>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>
