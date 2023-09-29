@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v10.8.4-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>http://www.phoronix-test-suite.com/benchmark-files/openvino-2023.1.tar.xz</URL>
+      <MD5>95ca0ea225a1b767df84b083d2935337</MD5>
+      <SHA256>ac14a826367872a36cecedd3a69f32c6597ba4437593f4aecf4a7a0b807b74eb</SHA256>
+      <FileName>openvino-2023.1.tar.xz</FileName>
+      <FileSize>177384852</FileSize>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>
