@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v10.0.1-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>https://download.finalfantasyxiv.com/ys8glaimvmykn88p/ffxiv-endwalker-bench.zip</URL>
+      <FileName>ffxiv-endwalker-bench.zip</FileName>
+      <FileSize>2376241167</FileSize>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>
