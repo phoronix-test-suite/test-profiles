@@ -3,11 +3,11 @@
 <PhoronixTestSuite>
   <Downloads>
     <Package>
-      <URL>https://github.com/srsran/srsRAN/archive/refs/tags/release_21_10.tar.gz</URL>
-      <MD5>a821f513aed2d880ae0e446a9d1cf362</MD5>
-      <SHA256>0ffc77af3822700111dac2998c15885b45ee36463065f34577d90708411c31e5</SHA256>
-      <FileName>srsRAN-release_21_10.tar.gz</FileName>
-      <FileSize>14603401</FileSize>
+      <URL>https://github.com/srsran/srsRAN_4G/archive/refs/tags/release_21_10.tar.gz</URL>
+      <MD5>1a8bb6bfd4b198c3717d3a660f99ed34</MD5>
+      <SHA256>4314595d2f00d8ba289c540a0aa71aa7e366f619f39a5bd7e3b1479f5c45cdf2</SHA256>
+      <FileName>srsRAN_4G-release_21_10.tar.gz</FileName>
+      <FileSize>14603096</FileSize>
     </Package>
   </Downloads>
 </PhoronixTestSuite>
