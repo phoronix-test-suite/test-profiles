@@ -11,7 +11,7 @@ echo "#!/bin/sh
 cd CloverLeaf_OpenMP-master/
 rm -f clover.out
 cp -f InputDecks/clover_bm.in clover.in
-OMP_NUM_THREADS=\$NUM_CPU_CORES ./clover_leaf \$@
+OMP_NUM_THREADS=\$NUM_CPU_CORES GOMP_SPINCOUNT=7000 OMP_WAIT_POLICY=active ./clover_leaf \$@
 cat clover.out > \$LOG_FILE
 echo \$? > ~/test-exit-status" > cloverleaf
 chmod +x cloverleaf
