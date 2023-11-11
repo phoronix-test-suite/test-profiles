@@ -21,7 +21,7 @@
     <ProjectURL>https://www.rabbitmq.com/</ProjectURL>
     <RepositoryURL>https://github.com/rabbitmq/rabbitmq-server</RepositoryURL>
     <Maintainer>Michael Larabel</Maintainer>
-    <SystemDependencies>erl</SystemDependencies>
+    <SystemDependencies>inets.beam</SystemDependencies>
   </TestProfile>
   <TestSettings>
     <Option>
