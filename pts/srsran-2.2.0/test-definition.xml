@@ -3,14 +3,14 @@
 <PhoronixTestSuite>
   <TestInformation>
     <Title>srsRAN Project</Title>
-    <AppVersion>23.5</AppVersion>
+    <AppVersion>23.10.1</AppVersion>
     <Description>srsRAN Project is a complete ORAN-native 5G RAN solution created by Software Radio Systems (SRS). The srsRAN Project radio suite was formerly known as srsLTE and can be used for building your own software-defined radio (SDR) 4G/5G mobile network.</Description>
     <ResultScale>Mb/s</ResultScale>
     <Proportion>HIB</Proportion>
     <TimesToRun>3</TimesToRun>
   </TestInformation>
   <TestProfile>
-    <Version>2.1.0</Version>
+    <Version>2.2.0</Version>
     <SupportedPlatforms>Linux, MacOSX</SupportedPlatforms>
     <SoftwareType>Utility</SoftwareType>
     <TestType>Processor</TestType>
@@ -30,15 +30,19 @@
       <Menu>
         <Entry>
           <Name>PUSCH Processor Benchmark, Throughput Total</Name>
-          <Value>tests/benchmarks/phy/upper/channel_processors/pusch_processor_benchmark -m throughput_total -R 100 -P pusch_scs15_50MHz_256qam_max</Value>
+          <Value>tests/benchmarks/phy/upper/channel_processors/pusch_processor_benchmark -m throughput_total -R 100 -B 10 -P pusch_scs30_100MHz_256qam_max</Value>
         </Entry>
         <Entry>
           <Name>PUSCH Processor Benchmark, Throughput Thread</Name>
-          <Value>tests/benchmarks/phy/upper/channel_processors/pusch_processor_benchmark -m throughput_thread -R 100 -P pusch_scs15_50MHz_256qam_max -T 1</Value>
+          <Value>tests/benchmarks/phy/upper/channel_processors/pusch_processor_benchmark -m throughput_thread -R 100 -B 10 -T 1 -t 0 -P pusch_scs30_100MHz_256qam_max</Value>
         </Entry>
         <Entry>
-          <Name>Downlink Processor Benchmark</Name>
-          <Value>tests/benchmarks/phy/upper/downlink_processor_benchmark -R 50000 -P pdsch_scs15_50MHz_256qam_max</Value>
+          <Name>PDSCH Processor Benchmark, Throughput Total</Name>
+          <Value>tests/benchmarks/phy/upper/pdsch_processor_benchmark -m throughput_total -R 100 -B 10 -P 4port_4layer_scs30_100MHz_256qam</Value>
+        </Entry>
+        <Entry>
+          <Name>PDSCH Processor Benchmark, Throughput Thread</Name>
+          <Value>tests/benchmarks/phy/upper/pdsch_processor_benchmark -m throughput_thread -R 100 -B 10 -T 1 -P 4port_4layer_scs30_100MHz_256qam</Value>
         </Entry>
       </Menu>
     </Option>
