@@ -2,7 +2,7 @@
 tar -xf aircrack-ng-1.7.tar.gz
 cd aircrack-ng-1.7
 export CFLAGS="-O3 -fcommon $CFLAGS"
-export CXXFLAGS="-O3 -fcommon $CXFLAGS"
+export CXXFLAGS="-O3 -fcommon $CXXFLAGS"
 if [ "$OS_TYPE" = "BSD" ]
 then
 	if [ -e /usr/local/lib/libcrypto.so ]
