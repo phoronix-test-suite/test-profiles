@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v10.8.4-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>https://github.com/srsran/srsRAN_Project/archive/bcf941b34faba5e14b4d614772fa45068721afdf.zip</URL>
+      <MD5>50047d7cd5d3ac24e8d43b290d618d15</MD5>
+      <SHA256>81ff0edef9b561e570920c221cb5be550cfc08d8f75e6a648c72abfbba63be06</SHA256>
+      <FileName>srsRAN_Project-bcf941b34faba5e14b4d614772fa45068721afdf.zip</FileName>
+      <FileSize>8986217</FileSize>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>
