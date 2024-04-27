@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v10.8.5-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>https://github.com/jtsiomb/c-ray/releases/download/v2.0/c-ray-2.0.tar.gz</URL>
+      <MD5>7b0987bc6a0952011ecfc16d573bf57f</MD5>
+      <SHA256>76c1e5f3b1fa49c450cf96d587c14d7ec7d139b7b672633b0f49259119358ad9</SHA256>
+      <FileName>c-ray-2.0.tar.gz</FileName>
+      <FileSize>39630</FileSize>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>
