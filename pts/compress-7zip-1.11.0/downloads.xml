@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v10.8.5-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>https://www.7-zip.org/a/7z2405-src.tar.xz</URL>
+      <MD5>adacd680fb0fe2e21d89d7fbe6777ea9</MD5>
+      <SHA256>63f341cf80b8d287c6e945519b3da0fa75553c85572a471b7fa6e68f9a90b790</SHA256>
+      <FileName>7z2405-src.tar.xz</FileName>
+      <FileSize>1486772</FileSize>
+      <PlatformSpecific>Linux, BSD, Solaris, MacOSX</PlatformSpecific>
+    </Package>
+    <Package>
+      <URL>https://www.7-zip.org/a/7z2405-extra.7z</URL>
+      <MD5>623e58e43f3fdea7a0cb00c20b1f35f2</MD5>
+      <SHA256>b3eeeb6398f99af14e5177cb3073a3e12b4aef1c393b1dc0d8c5b3711ceaa545</SHA256>
+      <FileName>7z2405-extra.7z</FileName>
+      <FileSize>1578652</FileSize>
+      <PlatformSpecific>Windows</PlatformSpecific>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>
