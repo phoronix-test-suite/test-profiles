@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v10.8.5-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.9.tar.xz</URL>
+      <MD5>b9828ed78dae306e3d90643cd5cdb8f1</MD5>
+      <SHA256>24fa01fb989c7a3e28453f117799168713766e119c5381dac30115f18f268149</SHA256>
+      <FileName>linux-6.9.tar.xz</FileName>
+      <FileSize>144034416</FileSize>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>
