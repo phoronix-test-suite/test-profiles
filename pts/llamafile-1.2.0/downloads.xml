@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v10.8.5-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>https://huggingface.co/Mozilla/Mistral-7B-Instruct-v0.2-llamafile/resolve/772507f9981f04bca0b745027b9a9cf585cb490c/mistral-7b-instruct-v0.2.Q5_K_M.llamafile?download=true</URL>
+      <MD5>991dd4c8a4ca30740854b9dc82286ae1</MD5>
+      <SHA256>f68c1e37d4d2100b9acbf5ccf806461ab6c8e47c351fb69133eb8aa545b06883</SHA256>
+      <FileName>mistral-7b-instruct-v0.2.Q5_K_M.llamafile.86</FileName>
+      <FileSize>5166938210</FileSize>
+      <Optional>TRUE</Optional>
+    </Package>
+    <Package>
+      <URL>https://huggingface.co/Mozilla/llava-v1.5-7b-llamafile/resolve/16d41be6ec04c0eb5397bebf49c0736ad263df2c/llava-v1.5-7b-q4.llamafile?download=true</URL>
+      <MD5>c88dde794dcbe349a12c88c93cd8cec7</MD5>
+      <SHA256>044090e12df362c3ff72151dc22f6be086af694f3f64dc3db6f61f89256175b8</SHA256>
+      <FileName>llava-v1.6-mistral-7b.Q8_0.llamafile.86</FileName>
+      <FileSize>8064350537</FileSize>
+      <Optional>TRUE</Optional>
+    </Package>
+    <Package>
+      <URL>https://huggingface.co/Mozilla/WizardCoder-Python-34B-V1.0-llamafile/resolve/f7bf923573f2d667551d098bb36822571f2b6c11/wizardcoder-python-34b-v1.0.Q6_K.llamafile?download=true</URL>
+      <MD5>4a07ecb839f534f95d7acc25f33f7f01</MD5>
+      <SHA256>97480e6106fdc337ae23e0c7d6d842be260ffb35e0b76d75d3f02e5341294e5a</SHA256>
+      <FileName>wizardcoder-python-34b-v1.0.Q6_K.llamafile.86</FileName>
+      <FileSize>27708232181</FileSize>
+      <Optional>TRUE</Optional>
+    </Package>
+    <Package>
+      <URL>https://huggingface.co/Mozilla/Meta-Llama-3-8B-Instruct-llamafile/resolve/f8eb0593953dbfff22f9eb61a151be1147caf263/Meta-Llama-3-8B-Instruct.F16.llamafile?download=true</URL>
+      <MD5>6191ce33888e6d48ef9b54b66e6d6b2f</MD5>
+      <SHA256>5773b73e471ab1a4f31bde1fcf7ce18963427eca197a6658a260412bbe7b0dfe</SHA256>
+      <FileName>Meta-Llama-3-8B-Instruct.F16.llamafile.86</FileName>
+      <FileSize>16104503597</FileSize>
+      <Optional>TRUE</Optional>
+    </Package>
+    <Package>
+      <URL>https://huggingface.co/Mozilla/TinyLlama-1.1B-Chat-v1.0-llamafile/resolve/2c0dd78a401477ae7f9f8dd03786880aedfe07f0/TinyLlama-1.1B-Chat-v1.0.BF16.llamafile?download=true</URL>
+      <MD5>3a10c549990cd3cdf0320b04cfdd1381</MD5>
+      <SHA256>255395ca614b39877fa4daede7d7ecb989f3172d8058f76ddf5f24e7139b38c4</SHA256>
+      <FileName>TinyLlama-1.1B-Chat-v1.0.BF16.llamafile.86</FileName>
+      <FileSize>2236495966</FileSize>
+      <Optional>TRUE</Optional>
+    </Package>
+    <Package>
+      <URL>http://www.phoronix-test-suite.com/benchmark-files/pts-sample-photos-2.tar.bz2, http://www.phoronix.net/downloads/phoronix-test-suite/benchmark-files/pts-sample-photos-2.tar.bz2</URL>
+      <MD5>7ff2870cf3fa2299ea5f4e77e5a8535f</MD5>
+      <SHA256>e8597d7d5910a709985bffae490dfa9490483eb7838b351191156f027d9b5272</SHA256>
+      <FileName>pts-sample-photos-2.tar.bz2</FileName>
+      <FileSize>29599729</FileSize>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>
