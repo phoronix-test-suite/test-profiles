@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v10.8.5-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>https://github.com/ggerganov/llama.cpp/archive/refs/tags/b3067.tar.gz</URL>
+      <MD5>951dd9ce10456799db6ad24d0d5b65bd</MD5>
+      <SHA256>440319d7ace91c6ea009fb37f723150a6be7cadbb27110f86744896e278fbb86</SHA256>
+      <FileName>llama.cpp-b3067.tar.gz</FileName>
+      <FileSize>20214347</FileSize>
+    </Package>
+    <Package>
+      <URL>https://huggingface.co/lmstudio-community/Meta-Llama-3-8B-Instruct-GGUF/resolve/0910a3e69201d274d4fd68e89448114cd78e4c82/Meta-Llama-3-8B-Instruct-Q8_0.gguf?download=true</URL>
+      <MD5>75bb6264a938d98d9a0b3af9dced2985</MD5>
+      <SHA256>4514087a6e21a05906121ebbe22e5f8610eab5e5db561d3a1be20c7fe43167c8</SHA256>
+      <FileName>Meta-Llama-3-8B-Instruct-Q8_0.gguf</FileName>
+      <FileSize>8540770496</FileSize>
+      <Optional>TRUE</Optional>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>
