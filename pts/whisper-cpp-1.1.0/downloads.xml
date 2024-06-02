@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v10.8.5-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>https://www.americanrhetoric.com/mp3clipsXE/stateoftheunion/barackobamasou2016ARXE.mp3</URL>
+      <MD5>3cee1505285266185a34cea8afdc737c</MD5>
+      <SHA256>d50aedbfd662037af9b86cfd5fe44a3f71dea9c552f5362acb8e93fb737f8101</SHA256>
+      <FileName>barackobamasou2016ARXE.mp3</FileName>
+      <FileSize>84602208</FileSize>
+    </Package>
+    <Package>
+      <URL>https://github.com/ggerganov/whisper.cpp/archive/refs/tags/v1.6.2.tar.gz</URL>
+      <MD5>aa746e62a9faf77222d9ebd9636bedbb</MD5>
+      <SHA256>da7988072022acc3cfa61b370b3c51baad017f1900c3dc4e68cb276499f66894</SHA256>
+      <FileName>whisper.cpp-1.6.2.tar.gz</FileName>
+      <FileSize>5088298</FileSize>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>
