@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v10.8.5-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>https://github.com/lballabio/QuantLib/archive/68d2675fc80424a86e96697b68bf4dcbcc7dde4c.zip</URL>
+      <MD5>9628ecb2047c24141f461f97a5b44716</MD5>
+      <SHA256>c9319b21cefa17677a2d9d66f23ca371b4f78698ea027888e9a83e38293dc050</SHA256>
+      <FileName>QuantLib-68d2675fc80424a86e96697b68bf4dcbcc7dde4c.zip</FileName>
+      <FileSize>10910965</FileSize>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>
