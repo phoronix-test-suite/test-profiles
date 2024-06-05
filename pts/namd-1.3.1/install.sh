@@ -12,5 +12,5 @@ then
 else
 	cd NAMD_3.0b6_Linux-x86_64-multicore
 fi
-./namd3 +p\$NUM_CPU_CORES +setcpuaffinity \$@ > \$LOG_FILE 2>&1" > namd
+./namd3 +p\$NUM_CPU_CORES +setcpuaffinity +maffinity +CmiSleepOnIdle \$@ > \$LOG_FILE 2>&1" > namd
 chmod +x namd
