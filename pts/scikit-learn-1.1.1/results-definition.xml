@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v9.2.1-->
+<PhoronixTestSuite>
+  <ResultsParser>
+    <OutputTemplate>real #_RESULT_#</OutputTemplate>
+    <MatchToTestArguments>RANDOM_PROJECTIONS</MatchToTestArguments>
+  </ResultsParser>
+  <ResultsParser>
+    <OutputTemplate>Final result: #_RESULT_#s</OutputTemplate>
+    <MatchToTestArguments>SGD_REGRESSION</MatchToTestArguments>
+    <StripFromResult>s</StripFromResult>
+  </ResultsParser>
+
+</PhoronixTestSuite>
