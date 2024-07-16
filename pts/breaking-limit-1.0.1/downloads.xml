@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v10.8.5-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <FileName>amd64_ubuntu20_amd64_launcher_breakinglimit_corporate_1.0.0.tar.gz</FileName>
+      <PlatformSpecific>Linux</PlatformSpecific>
+    </Package>
+    <Package>
+      <FileName>x64_windows_x64_launcher_breakinglimit_corporate_1.0.0.zip</FileName>
+      <PlatformSpecific>Windows</PlatformSpecific>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>
