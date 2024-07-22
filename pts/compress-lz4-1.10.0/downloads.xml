@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v10.8.5-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>http://wanos.co/assets/silesia.tar</URL>
+      <MD5>860ad8e1581f5bbc977d8ead770eefb1</MD5>
+      <SHA256>ea122ed051dc7a6c58d2bb56bb05b34d9f1537c4dc9e71519142e2ca8cd6338d</SHA256>
+      <FileName>silesia.tar</FileName>
+      <FileSize>211948544</FileSize>
+    </Package>
+    <Package>
+      <URL>https://github.com/lz4/lz4/archive/refs/tags/v1.10.0.tar.gz</URL>
+      <MD5>dead9f5f1966d9ae56e1e32761e4e675</MD5>
+      <SHA256>537512904744b35e232912055ccf8ec66d768639ff3abe5788d90d792ec5f48b</SHA256>
+      <FileName>lz4-1.10.0.tar.gz</FileName>
+      <FileSize>387114</FileSize>
+    </Package>
+    <Package>
+      <URL>https://github.com/lz4/lz4/releases/download/v1.10.0/lz4_win64_v1_10_0.zip</URL>
+      <MD5>a3d5dec8e9fdb7ee4d3637151fcb476f</MD5>
+      <SHA256>637b3a63cbc40490f8b4fbcb0e4ef097702f108e69d834dbdf176801c7a8fd08</SHA256>
+      <FileName>lz4_win64_v1_10_0.zip</FileName>
+      <FileSize>470715</FileSize>
+      <PlatformSpecific>Windows</PlatformSpecific>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>
