@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v10.8.5-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>https://archive.apache.org/dist/httpd/httpd-2.4.62.tar.bz2, http://ftp.lfs-matrix.net/pub/blfs/conglomeration/httpd/httpd-2.4.62.tar.bz2</URL>
+      <MD5>cded7afa23c13c4854008d95a69ce016</MD5>
+      <SHA256>674188e7bf44ced82da8db522da946849e22080d73d16c93f7f4df89e25729ec</SHA256>
+      <FileName>httpd-2.4.62.tar.bz2</FileName>
+      <FileSize>7521661</FileSize>
+      <PlatformSpecific>Linux, Solaris, BSD, MacOSX</PlatformSpecific>
+    </Package>
+    <Package>
+      <URL>http://www.phoronix-test-suite.com/benchmark-files/apache-ab-test-files-1.tar.gz</URL>
+      <MD5>ca0c5bf0dd482a2847c68a52c0759942</MD5>
+      <FileName>apache-ab-test-files-1.tar.gz</FileName>
+      <FileSize>6008</FileSize>
+    </Package>
+    <Package>
+      <URL>https://archive.apache.org/dist/apr/apr-1.7.4.tar.bz2</URL>
+      <MD5>f8a62f3984898ba0ea8b6f26b851cb99</MD5>
+      <SHA256>fc648de983f3a2a6c9e78dea1f180639bd2fad6c06d556d4367a701fe5c35577</SHA256>
+      <FileName>apr-1.7.4.tar.bz2</FileName>
+      <FileSize>894526</FileSize>
+      <PlatformSpecific>Linux, Solaris, BSD, MacOSX</PlatformSpecific>
+    </Package>
+    <Package>
+      <URL>https://downloads.apache.org/apr/apr-util-1.6.3.tar.bz2, http://apache.cs.utah.edu//apr/apr-util-1.6.3.tar.bz2</URL>
+      <MD5>b6e8c9b31d938fe5797ceb0d1ff2eb69</MD5>
+      <SHA256>a41076e3710746326c3945042994ad9a4fcac0ce0277dd8fea076fec3c9772b5</SHA256>
+      <FileName>apr-util-1.6.3.tar.bz2</FileName>
+      <FileSize>432692</FileSize>
+      <PlatformSpecific>Linux, Solaris, BSD, MacOSX</PlatformSpecific>
+    </Package>
+    <Package>
+      <URL>https://download.joedog.org/siege/siege-4.1.5.tar.gz</URL>
+      <MD5>84504c5107480ea4b4d952c910e1e32d</MD5>
+      <SHA256>076df9fcdb7f63c46d6f661acc2ccc8405937ae9cae490ab8a9d78a9d2e7b8cb</SHA256>
+      <FileName>siege-4.1.5.tar.gz</FileName>
+      <FileSize>528530</FileSize>
+      <PlatformSpecific>Linux, Solaris, BSD, MacOSX</PlatformSpecific>
+    </Package>
+    <Package>
+      <URL>https://raw.githubusercontent.com/apurvanandan1997/pts-test-profiles-patches/master/apache-siege-1.0.4/INCLUDE-SIGNAL-HEADER.patch</URL>
+      <MD5>0d3415820c82fbebbfe571c339d0badd</MD5>
+      <SHA256>67dcc5efaf079e9725a4350c3f760b69ca7a37dd04766ab92b005976e064f70b</SHA256>
+      <FileName>INCLUDE-SIGNAL-HEADER.patch</FileName>
+      <FileSize>260</FileSize>
+      <PlatformSpecific>BSD</PlatformSpecific>
+      <Optional>TRUE</Optional>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>
