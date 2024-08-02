@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v10.8.5-->
+<PhoronixTestSuite>
+  <TestInformation>
+    <Title>POV-Ray</Title>
+    <Description>This is a test of POV-Ray, the Persistence of Vision Raytracer. POV-Ray is used to create 3D graphics using ray-tracing. This system/povray test profile relies on the OS provided POV-Ray (povray) package as opposed to the existing pts/povray test profile that builds the same version of POV-Ray from the upstream source code.</Description>
+    <ResultScale>Seconds</ResultScale>
+    <Proportion>LIB</Proportion>
+    <SubTitle>Trace Time</SubTitle>
+    <TimesToRun>3</TimesToRun>
+  </TestInformation>
+  <TestProfile>
+    <Version>1.0.0</Version>
+    <SupportedPlatforms>Linux</SupportedPlatforms>
+    <SoftwareType>Utility</SoftwareType>
+    <TestType>Processor</TestType>
+    <License>Free</License>
+    <Status>Verified</Status>
+    <EnvironmentSize>172</EnvironmentSize>
+    <ProjectURL>http://www.povray.org/</ProjectURL>
+    <InternalTags>SMP</InternalTags>
+    <Maintainer>Michael Larabel</Maintainer>
+    <SystemDependencies>povray</SystemDependencies>
+  </TestProfile>
+</PhoronixTestSuite>
