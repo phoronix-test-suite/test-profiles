@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v10.0.1-->
+<PhoronixTestSuite>
+  <ResultsParser>
+    <ResultScale>Score</ResultScale>
+    <ResultProportion>HIB</ResultProportion>
+    <OutputTemplate>SCORE=#_RESULT_#</OutputTemplate>
+  </ResultsParser>
+  <ResultsParser>
+    <ResultScale>Frames Per Second</ResultScale>
+    <ResultProportion>HIB</ResultProportion>
+    <OutputTemplate>SCORE_FPSAVERAGE=#_RESULT_#</OutputTemplate>
+  </ResultsParser>
+</PhoronixTestSuite>
