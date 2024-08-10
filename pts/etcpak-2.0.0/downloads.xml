@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v10.8.5-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>http://phoronix-test-suite.com/benchmark-files/game_textures_1.tar.xz</URL>
+      <MD5>c3366280058343d55330445e9fc46895</MD5>
+      <SHA256>74d9a3f0772d6b5c15396d0bcdb9b9b6b39343b7aa3f3e132420b1319f7a4927</SHA256>
+      <FileName>game_textures_1.tar.xz</FileName>
+      <FileSize>75007432</FileSize>
+    </Package>
+    <Package>
+      <URL>https://github.com/wolfpld/etcpak/archive/refs/tags/2.0.tar.gz</URL>
+      <MD5>fa18ae314c39e4a60c00e9bae4f918e6</MD5>
+      <SHA256>dc7a1b23a039594b3d0e9d00581a7d3d2ef4b6656ad532f7ed2b844bd9b4ba39</SHA256>
+      <FileName>etcpak-2.0.tar.gz</FileName>
+      <FileSize>2450489</FileSize>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>
