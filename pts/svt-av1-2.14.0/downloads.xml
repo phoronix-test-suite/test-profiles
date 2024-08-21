@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v10.8.5-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>http://ultravideo.cs.tut.fi/video/Bosphorus_1920x1080_120fps_420_8bit_YUV_RAW.7z</URL>
+      <MD5>db7c7ff09acd5d7820cc4d1eb0939cf9</MD5>
+      <SHA256>e73a54088e88e6465f578625d185933e85c3209ab7105deb755a8b8918b78cab</SHA256>
+      <FileName>Bosphorus_1920x1080_120fps_420_8bit_YUV_RAW.7z</FileName>
+      <FileSize>680772328</FileSize>
+    </Package>
+    <Package>
+      <URL>http://ultravideo.cs.tut.fi/video/Bosphorus_3840x2160_120fps_420_8bit_YUV_Y4M.7z</URL>
+      <MD5>815ca5830c8ea2f95545429817b96b1f</MD5>
+      <SHA256>d0fcb7d8cfc6e51c47ce8b427dab41ce38300c4b1a51a1903ddd5d86067c4c79</SHA256>
+      <FileName>Bosphorus_3840x2160_120fps_420_8bit_YUV_Y4M.7z</FileName>
+      <FileSize>2804470345</FileSize>
+    </Package>
+    <Package>
+      <URL>http://ultravideo.fi/video/Beauty_3840x2160_120fps_420_10bit_YUV_RAW.7z</URL>
+      <MD5>aaa6e843994711900046c9e29b72646d</MD5>
+      <SHA256>7e179e05c5899f3bc0df928266d7285161fe25017150bd4e4e64f3907485e23b</SHA256>
+      <FileName>Beauty_3840x2160_120fps_420_10bit_YUV_RAW.7z</FileName>
+      <FileSize>4276411197</FileSize>
+    </Package>
+    <Package>
+      <URL>http://gitlab.com/AOMediaCodec/SVT-AV1/-/archive/v2.2.0/SVT-AV1-v2.2.0.tar.bz2</URL>
+      <MD5>9ebc6ca66bfc8a097fbd964c08e63278</MD5>
+      <SHA256>9ebeda4602f9a3f851670e1a1cf922e05f44eef0d8f582f78c53e544c575e978</SHA256>
+      <FileName>SVT-AV1-v2.2.0.tar.bz2</FileName>
+      <FileSize>11793980</FileSize>
+      <PlatformSpecific>Linux</PlatformSpecific>
+    </Package>
+    <Package>
+      <URL>http://www.phoronix-test-suite.com/benchmark-files/SVT-AV1-v2.2.0-win64.zip</URL>
+      <MD5>51c0ecbe25b9f6b1e708bb0b3e2cedea</MD5>
+      <SHA256>b0f780ff871c87f7537fa9276e73fa0c95e94d578f6a1fdad8fc69f72a71953e</SHA256>
+      <FileName>SVT-AV1-v2.2.0-win64.zip</FileName>
+      <FileSize>10662209</FileSize>
+      <PlatformSpecific>Windows</PlatformSpecific>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>
