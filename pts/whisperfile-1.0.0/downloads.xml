@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v10.8.5-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>https://www.americanrhetoric.com/mp3clipsXE/stateoftheunion/barackobamasou2016ARXE.mp3</URL>
+      <MD5>3cee1505285266185a34cea8afdc737c</MD5>
+      <SHA256>d50aedbfd662037af9b86cfd5fe44a3f71dea9c552f5362acb8e93fb737f8101</SHA256>
+      <FileName>barackobamasou2016ARXE.mp3</FileName>
+      <FileSize>84602208</FileSize>
+    </Package>
+    <Package>
+      <URL>https://huggingface.co/Mozilla/whisperfile/resolve/8812a7707415a589222bf911b1d95332e5d19b34/whisper-small.llamafile?download=true</URL>
+      <MD5>55f15d1fc489259bb4b650977b364df0</MD5>
+      <SHA256>cfcea29124bf0d095e70ec627cc0087b783f66b3b7a289d60427b005e91c940b</SHA256>
+      <FileName>whisper-small-20aug24.llamafile</FileName>
+      <FileSize>725027405</FileSize>
+    </Package>
+    <Package>
+      <URL>https://huggingface.co/Mozilla/whisperfile/resolve/8812a7707415a589222bf911b1d95332e5d19b34/whisper-medium.llamafile?download=true</URL>
+      <MD5>f8cc5b2c3e82db13f50aca207813af52</MD5>
+      <SHA256>dbdd357b1f14b5b1793b8e5ddb9d1c7ec06f72c722c0cb881b61d9fc2fe5293c</SHA256>
+      <FileName>whisper-medium-20aug24.llamafile</FileName>
+      <FileSize>1771178575</FileSize>
+    </Package>
+    <Package>
+      <URL>https://huggingface.co/Mozilla/whisperfile/resolve/8812a7707415a589222bf911b1d95332e5d19b34/whisper-tiny.llamafile?download=true</URL>
+      <MD5>d42503451cd605ff6b4e3066dce4546d</MD5>
+      <SHA256>0b5baa9b0cb30954bd1afe685f79428101ba87b073868ad9fc7b792ed5b85817</SHA256>
+      <FileName>whisper-tiny-20aug24.llamafile</FileName>
+      <FileSize>315099723</FileSize>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>

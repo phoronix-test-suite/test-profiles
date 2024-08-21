@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v10.8.5-->
+<PhoronixTestSuite>
+  <TestInformation>
+    <Title>Whisperfile</Title>
+    <AppVersion>20Aug24</AppVersion>
+    <Description>Whisperfile is developed by Mozilla and uses the OpenAI Whisper model and Whisper.cpp to provide local speech/audio to text translation. Whisperfile can also translate non-English audio to English during the conversion process.</Description>
+    <ResultScale>Seconds</ResultScale>
+    <Proportion>LIB</Proportion>
+    <TimesToRun>3</TimesToRun>
+  </TestInformation>
+  <TestProfile>
+    <Version>1.0.0</Version>
+    <SupportedPlatforms>Linux, Windows, BSD</SupportedPlatforms>
+    <SoftwareType>Utility</SoftwareType>
+    <TestType>System</TestType>
+    <License>Free</License>
+    <EnvironmentSize>2800</EnvironmentSize>
+    <ProjectURL>https://huggingface.co/Mozilla/whisperfile/</ProjectURL>
+    <RepositoryURL>https://huggingface.co/Mozilla/whisperfile</RepositoryURL>
+    <Maintainer>Michael Larabel</Maintainer>
+  </TestProfile>
+  <TestSettings>
+    <Option>
+      <DisplayName>Model Size</DisplayName>
+      <Identifier>model</Identifier>
+      <Menu>
+        <Entry>
+          <Name>Tiny</Name>
+          <Value>tiny</Value>
+        </Entry>
+        <Entry>
+          <Name>Small</Name>
+          <Value>small</Value>
+        </Entry>
+        <Entry>
+          <Name>Medium</Name>
+          <Value>medium</Value>
+        </Entry>
+      </Menu>
+    </Option>
+  </TestSettings>
+</PhoronixTestSuite>
