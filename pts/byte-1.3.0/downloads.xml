@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v10.8.5-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>https://github.com/kdlucas/byte-unixbench/archive/a07fcc03264915c624f0e4818993c5b4df3fa703.zip</URL>
+      <MD5>4fdb39f23c8d8e5fab4c543693f3f1c1</MD5>
+      <SHA256>83075f7baaa93859f1e690fe5760c4847a8bd0a71ed7066b394bd116b974c7e6</SHA256>
+      <FileName>byte-unixbench-a07fcc03264915c624f0e4818993c5b4df3fa703.zip</FileName>
+      <FileSize>175270</FileSize>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>
