@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v10.8.5-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>https://github.com/official-stockfish/Stockfish/archive/refs/tags/sf_17.tar.gz</URL>
+      <MD5>6ba5dbbff959448682b0b73a79655179</MD5>
+      <SHA256>8f9b52285c3348c065b7cb58410626df16d7416a2e60a3b04f3ec7c038e67ad1</SHA256>
+      <FileName>Stockfish-sf_17.tar.gz</FileName>
+      <FileSize>204647</FileSize>
+    </Package>
+    <Package>
+      <URL>https://github.com/official-stockfish/Stockfish/releases/download/sf_17/stockfish-windows-x86-64-avx2.zip</URL>
+      <MD5>7fec641084bf175584a60aba24e04ec6</MD5>
+      <SHA256>918ef7568b23d5f1a22ec188eefe7a2b19aa2fc81f132bafc60c58669c1b7d12</SHA256>
+      <FileName>stockfish-17-windows-x86-64-avx2.zip</FileName>
+      <FileSize>65412642</FileSize>
+      <PlatformSpecific>Windows</PlatformSpecific>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>
