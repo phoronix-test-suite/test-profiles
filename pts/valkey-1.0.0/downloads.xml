@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v10.8.5-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>https://github.com/valkey-io/valkey/archive/refs/tags/8.0.0.tar.gz</URL>
+      <MD5>247d9fbe1920946f267715b7580aa0ba</MD5>
+      <SHA256>f87fef2ba81ae4bce891b874fba58cfde2d19370a3bcac20f0e17498b33c33c0</SHA256>
+      <FileName>valkey-8.0.0.tar.gz</FileName>
+      <FileSize>3624237</FileSize>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>
