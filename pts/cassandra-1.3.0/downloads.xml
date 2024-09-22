@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v10.8.5-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>https://dlcdn.apache.org/cassandra/5.0.0/apache-cassandra-5.0.0-bin.tar.gz, http://archive.apache.org/dist/cassandra/5.0.0/apache-cassandra-5.0.0-bin.tar.gz</URL>
+      <MD5>1f7ab111089f84835cc7a928cf5b23fa</MD5>
+      <SHA256>bda1e57004cc964ec403f9b8c941cda9d4bb1225f786f2b1cd7dde3c71033465</SHA256>
+      <FileName>apache-cassandra-5.0.0-bin.tar.gz</FileName>
+      <FileSize>70292348</FileSize>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>
