@@ -107,6 +107,43 @@ EOT
 	patch -p1 < 328fe3b56a8753f6f700aac2b2df84dda5ce93a3.patch
 fi
 
+# https://github.com/HewlettPackard/netperf/commit/c6a2e17fe35f0e68823451fedfdf5b1dbecddbe3.patch
+cat > c6a2e17fe35f0e68823451fedfdf5b1dbecddbe3.patch <<EOT
+From c6a2e17fe35f0e68823451fedfdf5b1dbecddbe3 Mon Sep 17 00:00:00 2001
+From: Khem Raj <raj.khem@gmail.com>
+Date: Wed, 12 Aug 2020 09:57:23 -0700
+Subject: [PATCH] nettest_omni: Remove duplicate variable definitions
+
+These defines are already defined in nettest_bsd.c and exported by
+nettest_bsd.h this should fix build with -fno-common
+
+Signed-off-by: Khem Raj <raj.khem@gmail.com>
+---
+ src/nettest_omni.c | 8 --------
+ 1 file changed, 8 deletions(-)
+
+diff --git a/src/nettest_omni.c b/src/nettest_omni.c
+index 852eeb1..862088a 100644
+--- a/src/nettest_omni.c
++++ b/src/nettest_omni.c
+@@ -458,14 +458,6 @@ static int client_port_max = 65535;
+
+  /* different options for the sockets                          */
+
+-int
+-  loc_nodelay,         /* don't/do use NODELAY locally         */
+-  rem_nodelay,         /* don't/do use NODELAY remotely        */
+-  loc_sndavoid,                /* avoid send copies locally            */
+-  loc_rcvavoid,                /* avoid recv copies locally            */
+-  rem_sndavoid,                /* avoid send copies remotely           */
+-  rem_rcvavoid;        /* avoid recv_copies remotely           */
+-
+ extern int
+   loc_tcpcork,
+   rem_tcpcork,
+EOT
+patch -p1 < c6a2e17fe35f0e68823451fedfdf5b1dbecddbe3.patch
+
 ./configure CFLAGS="$CFLAGS"
 make -j $NUM_CPU_CORES
 echo $? > ~/install-exit-status
