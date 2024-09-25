@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v10.8.4-->
+<PhoronixTestSuite>
+  <ResultsParser>
+    <OutputTemplate>The geomean time is #_RESULT_# ms</OutputTemplate>
+    <LineHint>The geomean time is</LineHint>
+    <StripFromResult>is</StripFromResult>
+  </ResultsParser>
+</PhoronixTestSuite>
