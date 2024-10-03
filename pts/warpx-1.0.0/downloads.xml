@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v10.8.5-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>https://github.com/ECP-WarpX/WarpX/archive/refs/tags/24.10.tar.gz</URL>
+      <MD5>ddf7b845fbaec219f91492c88a479c63</MD5>
+      <SHA256>1fe3a86bf820a2ecef853cdcd9427fba4e0cb1efb05326da7dc9dbf94551202f</SHA256>
+      <FileName>WarpX-24.10.tar.gz</FileName>
+      <FileSize>6083618</FileSize>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>
