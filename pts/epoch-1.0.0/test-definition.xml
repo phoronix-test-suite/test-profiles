@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v10.8.5-->
+<PhoronixTestSuite>
+  <TestInformation>
+    <Title>Epoch</Title>
+    <AppVersion>4.19.4</AppVersion>
+    <Description>Epoch is a particle-in-cell (PIC) code for plasma physics simulations.</Description>
+    <ResultScale>Seconds</ResultScale>
+    <Proportion>LIB</Proportion>
+    <TimesToRun>3</TimesToRun>
+  </TestInformation>
+  <TestProfile>
+    <Version>1.0.0</Version>
+    <SupportedPlatforms>Linux</SupportedPlatforms>
+    <SoftwareType>Scientific</SoftwareType>
+    <TestType>Processor</TestType>
+    <License>Free</License>
+    <Status>Verified</Status>
+    <ExternalDependencies>fortran-compiler, openmpi-development, build-utilities</ExternalDependencies>
+    <EnvironmentSize>95</EnvironmentSize>
+    <ProjectURL>https://epochpic.github.io/</ProjectURL>
+    <RepositoryURL>https://github.com/Warwick-Plasma/epoch</RepositoryURL>
+    <Maintainer>Michael Larabel</Maintainer>
+  </TestProfile>
+  <TestSettings>
+    <Option>
+      <DisplayName>Epoch3D Deck</DisplayName>
+      <Identifier>deck</Identifier>
+      <Menu>
+        <Entry>
+          <Name>Cone</Name>
+          <Value>cone</Value>
+          <Message>Small input, runs the fastest.</Message>
+        </Entry>
+      </Menu>
+    </Option>
+  </TestSettings>
+</PhoronixTestSuite>

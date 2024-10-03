@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v10.8.5-->
+<PhoronixTestSuite>
+  <ResultsParser>
+    <OutputTemplate> Final runtime of core = #_RESULT_# seconds</OutputTemplate>
+  </ResultsParser>
+</PhoronixTestSuite>

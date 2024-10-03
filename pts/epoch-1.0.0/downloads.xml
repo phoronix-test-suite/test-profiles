@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v10.8.5-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>https://github.com/Warwick-Plasma/epoch/releases/download/v4.19.4/epoch-4.19.4.tar.gz</URL>
+      <MD5>5a6ee44e4ce09794a84b5fdd0ab8f2b0</MD5>
+      <SHA256>c9f6e7bdcaf987e47c12542a877c6c8fb20ae156777ce8ebdd1cd43045e2a3bd</SHA256>
+      <FileName>epoch-4.19.4.tar.gz</FileName>
+      <FileSize>19045070</FileSize>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>
