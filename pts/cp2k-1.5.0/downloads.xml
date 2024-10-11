@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v10.8.5-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>https://github.com/cp2k/cp2k/releases/download/v2024.3/cp2k-2024.3.tar.bz2</URL>
+      <MD5>23e0f1165d63c2807afa456785189e5a</MD5>
+      <SHA256>a6eeee773b6b1fb417def576e4049a89a08a0ed5feffcd7f0b33c7d7b48f19ba</SHA256>
+      <FileName>cp2k-2024.3.tar.bz2</FileName>
+      <FileSize>72987117</FileSize>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>
