@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v10.8.5-->
+<PhoronixTestSuite>
+  <ResultsParser>
+    <OutputTemplate>FP32MobileNetV1/real_time                    #_RESULT_# us         1422 us         7966 cpufreq=5.46597G</OutputTemplate>
+    <LineHint>FP32MobileNetV1</LineHint>
+    <ArgumentsDescription>Model: FP32MobileNetV1</ArgumentsDescription>
+  </ResultsParser>
+  <ResultsParser>
+    <OutputTemplate>FP32MobileNetV2/real_time               #_RESULT_# us         1694 us         6390 cpufreq=5.48528G</OutputTemplate>
+    <LineHint>FP32MobileNetV2</LineHint>
+    <ArgumentsDescription>Model: FP32MobileNetV2</ArgumentsDescription>
+  </ResultsParser>
+  <ResultsParser>
+    <OutputTemplate>FP32MobileNetV3Large/real_time                #_RESULT_# us          867 us        12836 cpufreq=5.52173G</OutputTemplate>
+    <LineHint>FP32MobileNetV3Large</LineHint>
+    <ArgumentsDescription>Model: FP32MobileNetV3Large</ArgumentsDescription>
+  </ResultsParser>
+  <ResultsParser>
+    <OutputTemplate>FP32MobileNetV3Small/real_time                    #_RESULT_# us         1422 us         7966 cpufreq=5.46597G</OutputTemplate>
+    <LineHint>FP32MobileNetV3Small</LineHint>
+    <ArgumentsDescription>Model: FP32MobileNetV3Small</ArgumentsDescription>
+  </ResultsParser>
+  <ResultsParser>
+    <OutputTemplate>FP16MobileNetV1/real_time               #_RESULT_# us         1694 us         6390 cpufreq=5.48528G</OutputTemplate>
+    <LineHint>FP16MobileNetV1</LineHint>
+    <ArgumentsDescription>Model: FP16MobileNetV1</ArgumentsDescription>
+  </ResultsParser>
+  <ResultsParser>
+    <OutputTemplate>FP16MobileNetV2/real_time                #_RESULT_# us          867 us        12836 cpufreq=5.52173G</OutputTemplate>
+    <LineHint>FP16MobileNetV2</LineHint>
+    <ArgumentsDescription>Model: FP16MobileNetV2</ArgumentsDescription>
+  </ResultsParser>
+  <ResultsParser>
+    <OutputTemplate>FP16MobileNetV3Large/real_time                    #_RESULT_# us         1422 us         7966 cpufreq=5.46597G</OutputTemplate>
+    <LineHint>FP16MobileNetV3Large</LineHint>
+    <ArgumentsDescription>Model: FP16MobileNetV3Large</ArgumentsDescription>
+  </ResultsParser>
+  <ResultsParser>
+    <OutputTemplate>FP16MobileNetV3Small/real_time               #_RESULT_# us         1694 us         6390 cpufreq=5.48528G</OutputTemplate>
+    <LineHint>FP16MobileNetV3Small</LineHint>
+    <ArgumentsDescription>Model: FP16MobileNetV3Small</ArgumentsDescription>
+  </ResultsParser>
+  <ResultsParser>
+    <OutputTemplate>QS8MobileNetV2/real_time                #_RESULT_# us          867 us        12836 cpufreq=5.52173G</OutputTemplate>
+    <LineHint>QS8MobileNetV2</LineHint>
+    <ArgumentsDescription>Model: QS8MobileNetV2</ArgumentsDescription>
+  </ResultsParser>
+</PhoronixTestSuite>

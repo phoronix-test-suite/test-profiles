@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v10.8.5-->
+<PhoronixTestSuite>
+  <TestInformation>
+    <Title>XNNPACK</Title>
+    <AppVersion>b7b048</AppVersion>
+    <Description>XNNPACK is a Google library for high efficiency floating-point neural network inference operators across mobile / server / web use. XNNPACK is used by machine learning frameworks like TensorFlow, PyTorch, ONNX Runtime, MediaPipe, and others. This test profile uses XNNPACK with its bench-models benchmark and testing all available CPU threads.</Description>
+    <ResultScale>us</ResultScale>
+    <Proportion>LIB</Proportion>
+    <TimesToRun>3</TimesToRun>
+  </TestInformation>
+  <TestProfile>
+    <Version>1.1.0</Version>
+    <SupportedPlatforms>Linux</SupportedPlatforms>
+    <SoftwareType>Scientific</SoftwareType>
+    <TestType>System</TestType>
+    <License>Free</License>
+    <Status>Verified</Status>
+    <ExternalDependencies>cmake, build-utilities</ExternalDependencies>
+    <EnvironmentSize>6200</EnvironmentSize>
+    <ProjectURL>https://github.com/google/XNNPACK/</ProjectURL>
+    <RepositoryURL>https://github.com/google/XNNPACK</RepositoryURL>
+    <Maintainer>Michael Larabel</Maintainer>
+  </TestProfile>
+</PhoronixTestSuite>

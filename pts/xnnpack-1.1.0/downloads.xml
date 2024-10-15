@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v10.8.5-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>https://github.com/google/XNNPACK/archive/b7b0486488393c645cefd464648da85c664380e3.zip</URL>
+      <MD5>4f6d9dbe8bd2832fc86744c46b8d2d05</MD5>
+      <SHA256>0c6a84ace20c47b0ea9b0acac3d7b7c820933d946ce4f8819f84bdc5ec8689b9</SHA256>
+      <FileName>XNNPACK-b7b0486488393c645cefd464648da85c664380e3.zip</FileName>
+      <FileSize>24385687</FileSize>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>
