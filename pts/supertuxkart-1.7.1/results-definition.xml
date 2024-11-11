@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v10.8.5-->
+<PhoronixTestSuite>
+  <ResultsParser>
+    <OutputTemplate>#_RESULT_#  16  17 </OutputTemplate>
+    <LineBeforeHint>Steady FPS, Mostly stable FPS, Typical FPS,</LineBeforeHint>
+    <AppendToArgumentsDescription>Steady FPS</AppendToArgumentsDescription>
+    <TurnCharsToSpace>,</TurnCharsToSpace>
+    <DeleteOutputAfter>Graphics parameters</DeleteOutputAfter>
+  </ResultsParser>
+  <ResultsParser>
+    <OutputTemplate>12  #_RESULT_#  17 </OutputTemplate>
+    <LineBeforeHint>Steady FPS, Mostly stable FPS, Typical FPS,</LineBeforeHint>
+    <AppendToArgumentsDescription>Mostly Stable FPS</AppendToArgumentsDescription>
+    <TurnCharsToSpace>,</TurnCharsToSpace>
+    <DeleteOutputAfter>Graphics parameters</DeleteOutputAfter>
+  </ResultsParser>
+</PhoronixTestSuite>
