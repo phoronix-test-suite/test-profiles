@@ -1,0 +1,85 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v10.0.1-->
+<PhoronixTestSuite>
+  <TestInformation>
+    <Title>FFXIV Endwalker Benchmark</Title>
+    <AppVersion>1.0</AppVersion>
+    <Description>
+      This test calculates the score from the FFXIV Endwalker Benchmark, released in 2021.
+
+      Technically a Windows-only benchmark, but also runs at near-native performance under Linux with wine+dxvk (e.g., with the USE_WINE config)
+    </Description>
+    <ResultScale>Score</ResultScale>
+    <Proportion>HIB</Proportion>
+    <TimesToRun>3</TimesToRun>
+  </TestInformation>
+  <TestProfile>
+    <Version>1.0.0</Version>
+    <SupportedPlatforms>Windows</SupportedPlatforms>
+    <SoftwareType>Game</SoftwareType>
+    <TestType>Graphics</TestType>
+    <License>Non-Free</License>
+    <Status>Verified</Status>
+    <SupportedArchitectures>x86_64</SupportedArchitectures>
+    <RequiresDisplay>TRUE</RequiresDisplay>
+    <EnvironmentSize>5100</EnvironmentSize>
+    <ProjectURL>https://jp.finalfantasyxiv.com/benchmark/download/</ProjectURL>
+    <Maintainer>Michael Larabel</Maintainer>
+  </TestProfile>
+  <TestSettings>
+    <Option>
+      <DisplayName>Resolution</DisplayName>
+      <Identifier>auto-resolution</Identifier>
+      <Menu>
+        <Entry>
+          <Name>$VIDEO_WIDTH x $VIDEO_HEIGHT</Name>
+          <Value>-w $VIDEO_WIDTH -h $VIDEO_HEIGHT</Value>
+        </Entry>
+      </Menu>
+    </Option>
+    <Option>
+      <DisplayName>Mode</DisplayName>
+      <Identifier>mode</Identifier>
+      <Menu>
+        <Entry>
+          <Name>Full Screen</Name>
+          <Value>-m fullscreen</Value>
+        </Entry>
+        <Entry>
+          <Name>Windowed</Name>
+          <Value>-m windowed</Value>
+        </Entry>
+        <Entry>
+          <Name>Borderless Windowed</Name>
+          <Value>-m borderless</Value>
+        </Entry>
+      </Menu>
+    </Option>
+    <Option>
+      <DisplayName>Quality</DisplayName>
+      <Identifier>quality</Identifier>
+      <Menu>
+        <Entry>
+          <Name>Maximum</Name>
+          <Value>-q maximum</Value>
+        </Entry>
+        <Entry>
+          <Name>High Desktop</Name>
+          <Value>-q high-desktop</Value>
+        </Entry>
+        <Entry>
+          <Name>High Laptop</Name>
+          <Value>-q high-laptop</Value>
+        </Entry>
+        <Entry>
+          <Name>Standard Desktop</Name>
+          <Value>-q standard-desktop</Value>
+        </Entry>
+        <Entry>
+          <Name>Standard Laptop</Name>
+          <Value>-q standard-laptop</Value>
+        </Entry>
+      </Menu>
+    </Option>
+  </TestSettings>
+</PhoronixTestSuite>
