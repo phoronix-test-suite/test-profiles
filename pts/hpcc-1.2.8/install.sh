@@ -1,5 +1,9 @@
 #!/bin/sh
 
+readonly install_error_MPI_NOT_FOUND=1000  # Install Error: Unable to find an MPI toolchain to use. 
+readonly install_error_LA_NOT_FOUND=1001   # Install Error: Unable to find a linear algebra toolchain to use.
+readonly errno_ENOENT=2			   # No such file or directory. See also: errno(3).
+
 tar -zxvf hpcc-1.5.0.tar.gz
 cd hpcc-1.5.0
 
@@ -16,28 +20,20 @@ then
 	MPI_LIBS=/usr/lib/openmpi/lib/libmpi.so
 	MPI_CC=/usr/bin/mpicc.openmpi
 	MPI_VERSION=`$MPI_CC -showme:version 2>&1 | grep MPI | cut -d "(" -f1  | cut -d ":" -f2`
-elif [ -d /usr/lib/x86_64-linux-gnu/openmpi/ ] && [ -d /usr/include/openmpi/ ]
+elif [ -d /usr/lib/${OS_ARCH}-linux-gnu/openmpi/ ] && [ -d /usr/include/openmpi/ ]
 then
         # OpenMPI On Debian
-        MPI_PATH=/usr/lib/x86_64-linux-gnu/openmpi
+        MPI_PATH=/usr/lib/${OS_ARCH}-linux-gnu/openmpi
         MPI_INCLUDE=/usr/include/openmpi/
-        MPI_LIBS=/usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so
+        MPI_LIBS=/usr/lib/${OS_ARCH}-linux-gnu/openmpi/lib/libmpi.so
         MPI_CC=/usr/bin/mpicc
         MPI_VERSION=`$MPI_CC -showme:version 2>&1 | grep MPI | cut -d "(" -f1  | cut -d ":" -f2`
-elif [ -d /usr/lib/x86_64-linux-gnu/openmpi/ ] && [ -d /usr/lib/x86_64-linux-gnu/openmpi/include/ ]
+elif [ -d /usr/lib/${OS_ARCH}-linux-gnu/openmpi/ ] && [ -d /usr/lib/${OS_ARCH}-linux-gnu/openmpi/include/ ]
 then
         # OpenMPI On Newer Ubuntu
-        MPI_PATH=/usr/lib/x86_64-linux-gnu/openmpi
-        MPI_INCLUDE=/usr/lib/x86_64-linux-gnu/openmpi/include/
-        MPI_LIBS=/usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so
-        MPI_CC=/usr/bin/mpicc
-        MPI_VERSION=`$MPI_CC -showme:version 2>&1 | grep MPI | cut -d "(" -f1  | cut -d ":" -f2`
-elif [ -d /usr/lib/aarch64-linux-gnu/openmpi/ ] && [ -d /usr/lib/aarch64-linux-gnu/openmpi/include/ ]
-then
-        # OpenMPI On Newer Ubuntu AArch64
-        MPI_PATH=/usr/lib/aarch64-linux-gnu/openmpi
-        MPI_INCLUDE=/usr/lib/aarch64-linux-gnu/openmpi/include/
-        MPI_LIBS=/usr/lib/aarch64-linux-gnu/openmpi/lib/libmpi.so
+        MPI_PATH=/usr/lib/${OS_ARCH}-linux-gnu/openmpi
+        MPI_INCLUDE=/usr/lib/${OS_ARCH}-linux-gnu/openmpi/include/
+        MPI_LIBS=/usr/lib/${OS_ARCH}-linux-gnu/openmpi/lib/libmpi.so
         MPI_CC=/usr/bin/mpicc
         MPI_VERSION=`$MPI_CC -showme:version 2>&1 | grep MPI | cut -d "(" -f1  | cut -d ":" -f2`
 elif [ -d /usr/lib64/openmpi ] && [ -x /usr/bin/mpicc ]
@@ -52,7 +48,7 @@ elif [ -d /usr/lib64/openmpi ] && [ -x /usr/lib64/openmpi/bin/mpicc ]
 then
 	# OpenMPI On RHEL
 	MPI_PATH=/usr/lib64/openmpi
-	MPI_INCLUDE=/usr/include/openmpi-x86_64/
+	MPI_INCLUDE=/usr/include/openmpi-${OS_ARCH}/
 	MPI_LIBS=/usr/lib64/openmpi/lib/libmpi.so
 	MPI_CC=/usr/lib64/openmpi/bin/mpicc
 	MPI_VERSION=`$MPI_CC -showme:version 2>&1 | grep MPI | cut -d "(" -f1  | cut -d ":" -f2`
@@ -80,14 +76,18 @@ then
 	MPI_LIBS=/usr/lib/mpich2/lib/libmpich.so
 	MPI_CC=/usr/bin/mpicc.mpich2
 	MPI_VERSION=`$MPI_CC -v 2>&1 | grep "MPICH2 version"`
-elif [ -d /usr/include/mpich2-x86_64 ]
+elif [ -d /usr/include/mpich2-${OS_ARCH} ]
 then
 	# MPICH2
-	MPI_PATH=/usr/include/mpich2-x86_64
-	MPI_INCLUDE=/usr/include/mpich2-x86_64
+	MPI_PATH=/usr/include/mpich2-${OS_ARCH}
+	MPI_INCLUDE=/usr/include/mpich2-${OS_ARCH}
 	MPI_LIBS=/usr/lib64/mpich2/lib/libmpich.so
 	MPI_CC=/usr/bin/mpicc
 	MPI_VERSION=`$MPI_CC -v 2>&1 | grep "MPICH2 version"`
+else
+	echo "Error: MPI not found."
+	echo $install_error_MPI_NOT_FOUND > ~/install-exit-status
+	exit $errno_ENOENT
 fi
 
 # Find Linear Algebra Package To Use
@@ -123,20 +123,24 @@ then
 	LA_INCLUDE=/usr/include
 	LA_LIBS="-L$LA_PATH -lblas"
 	LA_VERSION="ATLAS"
-elif [ -d /usr/lib/x86_64-linux-gnu/atlas ]
+elif [ -d /usr/lib/${OS_ARCH}-linux-gnu/atlas ]
 then
 	# ATLAS on Ubuntu
-	LA_PATH=/usr/lib/x86_64-linux-gnu/atlas
-	LA_INCLUDE=/usr/include/x86_64-linux-gnu/
+	LA_PATH=/usr/lib/${OS_ARCH}-linux-gnu/atlas
+	LA_INCLUDE=/usr/include/${OS_ARCH}-linux-gnu/
 	LA_LIBS="-L$LA_PATH -lblas"
 	LA_VERSION="ATLAS"
-elif [ -d /usr/lib/x86_64-linux-gnu/blas ]
+elif [ -d /usr/lib/${OS_ARCH}-linux-gnu/blas ]
 then
 	# OpenBLAS on Ubuntu
-	LA_PATH=/usr/lib/x86_64-linux-gnu/blas
-	LA_INCLUDE=/usr/include/x86_64-linux-gnu/
+	LA_PATH=/usr/lib/${OS_ARCH}-linux-gnu/blas
+	LA_INCLUDE=/usr/include/${OS_ARCH}-linux-gnu/
 	LA_LIBS="-L$LA_PATH -lblas"
 	LA_VERSION="OpenBLAS"
+else
+	echo "Error: A linear algebra package could not be found."
+	echo $install_error_LA_NOT_FOUND > ~/install-exit-status
+	exit $errno_ENOENT
 fi
 
 if [ ! "X$MPI_VERSION" = "X" ]
