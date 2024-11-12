@@ -1,7 +1,7 @@
 #!/bin/sh
 
-tar -xf srsRAN-release_21_10.tar.gz
-cd srsRAN-release_21_10
+tar -xf srsRAN_4G-release_21_10.tar.gz
+cd srsRAN_4G-release_21_10
 mkdir build
 cd build
 cmake -DENABLE_GUI=OFF ..
@@ -10,7 +10,7 @@ echo $? > ~/install-exit-status
 
 cd ~
 echo "#!/bin/sh
-cd srsRAN-release_21_10/build/
+cd srsRAN_4G-release_21_10/build/
 ./\$@ 2>&1  | sed 's/Rx@/ /' > \$LOG_FILE
 echo \$? > ~/test-exit-status" > srsran
 chmod +x srsran
