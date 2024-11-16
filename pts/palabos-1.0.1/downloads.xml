@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v10.8.5-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>https://gitlab.com/unigespc/palabos/-/archive/1f0b171dfacfa1aeb943c3a3318e52b0c25ed842/palabos-1f0b171dfacfa1aeb943c3a3318e52b0c25ed842.tar.gz</URL>
+      <MD5>90ce7ecd4c68b2e6a29a454ac1ea8baa</MD5>
+      <SHA256>0ca9f37d67b086133438ee79a35e8f146b4bf4741298034484b0e4fee61f0b63</SHA256>
+      <FileName>palabos-1f0b171dfacfa1aeb943c3a3318e52b0c25ed842.tar.gz</FileName>
+      <FileSize>15740630</FileSize>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>
