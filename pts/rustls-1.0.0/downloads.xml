@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v10.8.5-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>https://github.com/rustls/rustls/archive/refs/tags/v/0.23.17.tar.gz</URL>
+      <MD5>52b4a811114efb07f62716946aa62bec</MD5>
+      <SHA256>6b4518cbc42010ca76e36f54ba81bfee0801a372495b20b8d5d791b990f1a289</SHA256>
+      <FileName>rustls-v-0.23.17.tar.gz</FileName>
+      <FileSize>3509318</FileSize>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>

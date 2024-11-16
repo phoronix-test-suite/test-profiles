@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v10.8.5-->
+<PhoronixTestSuite>
+  <TestInformation>
+    <Title>Rustls</Title>
+    <AppVersion>0.23.17</AppVersion>
+    <Description>Rustls is a modern TLS library written in the Rust programming language. This test profile makes use of the built-in, multi-threaded Rustls benchmark.</Description>
+    <ResultScale>handshakes/s</ResultScale>
+    <Proportion>HIB</Proportion>
+    <TimesToRun>3</TimesToRun>
+  </TestInformation>
+  <TestProfile>
+    <Version>1.0.0</Version>
+    <SupportedPlatforms>Linux, BSD, MacOSX</SupportedPlatforms>
+    <SoftwareType>Utility</SoftwareType>
+    <TestType>Processor</TestType>
+    <License>Free</License>
+    <ExternalDependencies>build-utilities, rust, curl</ExternalDependencies>
+    <EnvironmentSize>896</EnvironmentSize>
+    <ProjectURL>https://docs.rs/rustls/latest/rustls/</ProjectURL>
+    <RepositoryURL>https://github.com/rustls/rustls</RepositoryURL>
+    <Maintainer>Michael Larabel</Maintainer>
+    <SystemDependencies>cargo</SystemDependencies>
+  </TestProfile>
+  <TestSettings>
+    <Option>
+      <DisplayName>Benchmark</DisplayName>
+      <Identifier>benchmark</Identifier>
+      <Menu>
+        <Entry>
+          <Name>handshake</Name>
+          <Value>--multiplier 100 handshake</Value>
+          <Message>Full handshake speed</Message>
+        </Entry>
+        <Entry>
+          <Name>handshake-ticket</Name>
+          <Value>--multiplier 300 handshake-ticket</Value>
+          <Message>Stateless resumed handshake speed</Message>
+        </Entry>
+        <Entry>
+          <Name>handshake-resume</Name>
+          <Value>--multiplier 300 handshake-resume</Value>
+          <Message>Stateful resumed handshake speed</Message>
+        </Entry>
+      </Menu>
+    </Option>
+    <Option>
+      <DisplayName>Suite</DisplayName>
+      <Identifier>suite</Identifier>
+      <Menu>
+        <Entry>
+          <Name>TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256</Name>
+          <Value>TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256</Value>
+        </Entry>
+        <Entry>
+          <Name>TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384</Name>
+          <Value>TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384</Value>
+        </Entry>
+        <Entry>
+          <Name>TLS13_CHACHA20_POLY1305_SHA256</Name>
+          <Value>TLS13_CHACHA20_POLY1305_SHA256</Value>
+        </Entry>
+        <Entry>
+          <Name>TLS13_AES_256_GCM_SHA384</Name>
+          <Value>TLS13_AES_256_GCM_SHA384</Value>
+          <Message>More time consuming than the other options.</Message>
+        </Entry>
+      </Menu>
+    </Option>
+  </TestSettings>
+</PhoronixTestSuite>

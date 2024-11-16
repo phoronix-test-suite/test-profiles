@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v10.8.5-->
+<PhoronixTestSuite>
+  <ResultsParser>
+    <OutputTemplate>handshakes	TLSv1_2	Rsa2048	TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256	server	server-auth	sessionid	threads	24	157758.59	158619.84	157556.41	157879.57	158456.61	158112.92	157041.66	157345.22	157854.82	158228.77	158864.33	157792.08	157896.88	157844.23	158410.66	157540.78	156867.08	156430.39	158914.80	157494.65	157637.78	158227.54	158912.94	158398.68	total	#_RESULT_# per-thread	157920.30	handshakes/s</OutputTemplate>
+    <LineHint>server</LineHint>
+    <ResultAfterString>total</ResultAfterString>
+    <TurnCharsToSpace>  </TurnCharsToSpace>
+  </ResultsParser>
+</PhoronixTestSuite>
