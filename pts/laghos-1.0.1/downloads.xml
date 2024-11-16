@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v10.8.5-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>https://github.com/hypre-space/hypre/archive/refs/tags/v2.32.0.tar.gz</URL>
+      <MD5>321557481d18242a771096999a253ad8</MD5>
+      <SHA256>2277b6f01de4a7d0b01cfe12615255d9640eaa02268565a7ce1a769beab25fa1</SHA256>
+      <FileName>hypre-2.32.0.tar.gz</FileName>
+      <FileSize>7512442</FileSize>
+    </Package>
+    <Package>
+      <URL>https://github.com/mfem/tpls/raw/gh-pages/metis-4.0.3.tar.gz</URL>
+      <MD5>d3848b454532ef18dc83e4fb160d1e10</MD5>
+      <SHA256>5efa35de80703c1b2c4d0de080fafbcf4e0d363a21149a1ad2f96e0144841a55</SHA256>
+      <FileName>metis-4.0.3.tar.gz</FileName>
+      <FileSize>522624</FileSize>
+    </Package>
+    <Package>
+      <URL>https://github.com/mfem/mfem/archive/refs/tags/v4.7.tar.gz</URL>
+      <MD5>ba7009722dabf48f66b4f48097e59c36</MD5>
+      <SHA256>731bc2665c13d4099f9c9c946eb83ab07cd2e78a9575d4fa62a96cdb40d6ba0f</SHA256>
+      <FileName>mfem-4.7.tar.gz</FileName>
+      <FileSize>3808224</FileSize>
+    </Package>
+    <Package>
+      <URL>https://github.com/CEED/Laghos/archive/refs/tags/v3.1.tar.gz</URL>
+      <MD5>5c2cc3c9fb68985cd9d6fa2c36721f21</MD5>
+      <SHA256>49b65edcbf9732c7f6c228958620e18980c43ad8381315a8ba9957ecb7534cd5</SHA256>
+      <FileName>Laghos-3.1.tar.gz</FileName>
+      <FileSize>667182</FileSize>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>
