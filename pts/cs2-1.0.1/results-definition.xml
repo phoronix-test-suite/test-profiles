@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v10.8.5-->
+<PhoronixTestSuite>
+  <ResultsParser>
+    <OutputTemplate>Tue Nov 12 00:23:10 2024,pts29.dem,, #_RESULT_#, 12.4, 79.1,  5.6,  7.2,  9.1, 10652,800,600,RGBA8888,RENDER_SYSTEM_DLL_VULKAN,110,AMD Radeon RX 580 Series (RADV POLARIS10),0x1002,0x67df,enabled,3,2,"/home/user/.steam/debian-installation/steamapps/common/Counter-Strike Global Offensive/game/bin/linuxsteamrt64/cs2" "/home/user/.steam/debian-installation/steamapps/common/Counter-Strike Global Offensive/game/bin/linuxsteamrt64/cs2" -steam +cl_showfps 1 +timedemoquit pts29 +fps_max 0 -autoconfig_level 3 -high -novid -fullscreen -vulkan -w 800 -h 600,</OutputTemplate>
+    <LineHint>.dem</LineHint>
+    <FileFormat>CSV</FileFormat>
+  </ResultsParser>
+</PhoronixTestSuite>
